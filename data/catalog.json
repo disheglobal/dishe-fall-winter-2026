@@ -1,0 +1,454 @@
+{
+  "products": [
+    {
+      "id": "C5779101_BLUE",
+      "code": "C5779101",
+      "color": "BLUE",
+      "title": "The Balloon Jacket",
+      "size": "S M L XL",
+      "price": "94",
+      "category": "JACKET",
+      "image": "assets/products/C5779101_BLUE.jpg"
+    },
+    {
+      "id": "C5786102_BLUE",
+      "code": "C5786102",
+      "color": "BLUE",
+      "title": "The Merry Fit Jacket",
+      "size": "S M L XL",
+      "price": "74",
+      "category": "JACKET",
+      "image": "assets/products/C5786102_BLUE.jpg"
+    },
+    {
+      "id": "C5787101_BLUE",
+      "code": "C5787101",
+      "color": "BLUE",
+      "title": "The Luna Fit Over Jacket",
+      "size": "S M L XL",
+      "price": "74",
+      "category": "JACKET",
+      "image": "assets/products/C5787101_BLUE.jpg"
+    },
+    {
+      "id": "C5787102_BLUE",
+      "code": "C5787102",
+      "color": "BLUE",
+      "title": "The Luna Fit Over Jacket",
+      "size": "S M L XL",
+      "price": "82",
+      "category": "JACKET",
+      "image": "assets/products/C5787102_BLUE.jpg"
+    },
+    {
+      "id": "C5790101_001",
+      "code": "C5790101",
+      "color": "001",
+      "title": "The Jacket",
+      "size": "S M L XL",
+      "price": "74",
+      "category": "JACKET",
+      "image": "assets/products/C5790101_001.jpg"
+    },
+    {
+      "id": "C5790101_019",
+      "code": "C5790101",
+      "color": "019",
+      "title": "The Jacket",
+      "size": "S M L XL",
+      "price": "74",
+      "category": "JACKET",
+      "image": "assets/products/C5790101_019.jpg"
+    },
+    {
+      "id": "C5790101_028",
+      "code": "C5790101",
+      "color": "028",
+      "title": "The Jacket",
+      "size": "S M L XL",
+      "price": "74",
+      "category": "JACKET",
+      "image": "assets/products/C5790101_028.jpg"
+    },
+    {
+      "id": "C5794101_001",
+      "code": "C5794101",
+      "color": "001",
+      "title": "The Darla Jacket",
+      "size": "S M L XL",
+      "price": "69",
+      "category": "JACKET",
+      "image": "assets/products/C5794101_001.jpg"
+    },
+    {
+      "id": "CT00379101_BEIGE",
+      "code": "CT00379101",
+      "color": "BEIGE",
+      "title": "The Knitwear",
+      "size": "S M L XL",
+      "price": "34",
+      "category": "KNITWEAR",
+      "image": "assets/products/CT00379101_BEIGE.jpg"
+    },
+    {
+      "id": "CT00379101_BLACK",
+      "code": "CT00379101",
+      "color": "BLACK",
+      "title": "The Knitwear",
+      "size": "S M L XL",
+      "price": "34",
+      "category": "KNITWEAR",
+      "image": "assets/products/CT00379101_BLACK.jpg"
+    },
+    {
+      "id": "CT00379101_BLUE",
+      "code": "CT00379101",
+      "color": "BLUE",
+      "title": "The Knitwear",
+      "size": "S M L XL",
+      "price": "34",
+      "category": "KNITWEAR",
+      "image": "assets/products/CT00379101_BLUE.jpg"
+    },
+    {
+      "id": "CT00379101_ECRU",
+      "code": "CT00379101",
+      "color": "ECRU",
+      "title": "The Knitwear",
+      "size": "S M L XL",
+      "price": "34",
+      "category": "KNITWEAR",
+      "image": "assets/products/CT00379101_ECRU.jpg"
+    },
+    {
+      "id": "CT00379101_POWDER",
+      "code": "CT00379101",
+      "color": "POWDER",
+      "title": "The Knitwear",
+      "size": "S M L XL",
+      "price": "34",
+      "category": "KNITWEAR",
+      "image": "assets/products/CT00379101_POWDER.jpg"
+    },
+    {
+      "id": "CT00381101_BEIGE",
+      "code": "CT00381101",
+      "color": "BEIGE",
+      "title": "The Knitwear",
+      "size": "S M L XL",
+      "price": "36",
+      "category": "KNITWEAR",
+      "image": "assets/products/CT00381101_BEIGE.jpg"
+    },
+    {
+      "id": "CT00381101_BLACK",
+      "code": "CT00381101",
+      "color": "BLACK",
+      "title": "The Knitwear",
+      "size": "S M L XL",
+      "price": "36",
+      "category": "KNITWEAR",
+      "image": "assets/products/CT00381101_BLACK.jpg"
+    },
+    {
+      "id": "CT00381101_BLUE",
+      "code": "CT00381101",
+      "color": "BLUE",
+      "title": "The Knitwear",
+      "size": "S M L XL",
+      "price": "36",
+      "category": "KNITWEAR",
+      "image": "assets/products/CT00381101_BLUE.jpg"
+    },
+    {
+      "id": "CT00381101_ECRU",
+      "code": "CT00381101",
+      "color": "ECRU",
+      "title": "The Knitwear",
+      "size": "S M L XL",
+      "price": "36",
+      "category": "KNITWEAR",
+      "image": "assets/products/CT00381101_ECRU.jpg"
+    },
+    {
+      "id": "CT00381101_POWDER",
+      "code": "CT00381101",
+      "color": "POWDER",
+      "title": "The Knitwear",
+      "size": "S M L XL",
+      "price": "36",
+      "category": "KNITWEAR",
+      "image": "assets/products/CT00381101_POWDER.jpg"
+    },
+    {
+      "id": "CT00550101_BLACK",
+      "code": "CT00550101",
+      "color": "BLACK",
+      "title": "The Knitwear",
+      "size": "S M L XL",
+      "price": "38",
+      "category": "KNITWEAR",
+      "image": "assets/products/CT00550101_BLACK.jpg"
+    },
+    {
+      "id": "CT00550101_BURGUNDY",
+      "code": "CT00550101",
+      "color": "BURGUNDY",
+      "title": "The Knitwear",
+      "size": "S M L XL",
+      "price": "38",
+      "category": "KNITWEAR",
+      "image": "assets/products/CT00550101_BURGUNDY.jpg"
+    },
+    {
+      "id": "CT00550101_ECRU",
+      "code": "CT00550101",
+      "color": "ECRU",
+      "title": "The Knitwear",
+      "size": "S M L XL",
+      "price": "38",
+      "category": "KNITWEAR",
+      "image": "assets/products/CT00550101_ECRU.jpg"
+    },
+    {
+      "id": "CT00550101_TERRACOT",
+      "code": "CT00550101",
+      "color": "TERRACOT",
+      "title": "The Knitwear",
+      "size": "S M L XL",
+      "price": "38",
+      "category": "KNITWEAR",
+      "image": "assets/products/CT00550101_TERRACOT.jpg"
+    },
+    {
+      "id": "CT00551101_BURGUNDY",
+      "code": "CT00551101",
+      "color": "BURGUNDY",
+      "title": "The Knitwear",
+      "size": "S M L XL",
+      "price": "37",
+      "category": "KNITWEAR",
+      "image": "assets/products/CT00551101_BURGUNDY.jpg"
+    },
+    {
+      "id": "CT00551101_TERRACOT",
+      "code": "CT00551101",
+      "color": "TERRACOT",
+      "title": "The Knitwear",
+      "size": "S M L XL",
+      "price": "37",
+      "category": "KNITWEAR",
+      "image": "assets/products/CT00551101_TERRACOT.jpg"
+    },
+    {
+      "id": "C396101_001",
+      "code": "C396101",
+      "color": "001",
+      "title": "The Lulu Style Pant",
+      "size": "26 27 28 29 30",
+      "price": "59",
+      "category": "PANTS",
+      "image": "assets/products/C396101_001.jpg"
+    },
+    {
+      "id": "C403101_BLUE",
+      "code": "C403101",
+      "color": "BLUE",
+      "title": "The Megan Barrel Style Pant",
+      "size": "26 27 28 29 30",
+      "price": "56",
+      "category": "PANTS",
+      "image": "assets/products/C403101_BLUE.jpg"
+    },
+    {
+      "id": "C410101_001",
+      "code": "C410101",
+      "color": "001",
+      "title": "The Frida Style Pant",
+      "size": "26 27 28 29 30",
+      "price": "54",
+      "category": "PANTS",
+      "image": "assets/products/C410101_001.jpg"
+    },
+    {
+      "id": "C410101_BLUE",
+      "code": "C410101",
+      "color": "BLUE",
+      "title": "The Frida Style Pant",
+      "size": "26 27 28 29 30",
+      "price": "54",
+      "category": "PANTS",
+      "image": "assets/products/C410101_BLUE.jpg"
+    },
+    {
+      "id": "C416101_001",
+      "code": "C416101",
+      "color": "001",
+      "title": "The Anna Style Pant",
+      "size": "26 27 28 29 30",
+      "price": "56",
+      "category": "PANTS",
+      "image": "assets/products/C416101_001.jpg"
+    },
+    {
+      "id": "C417101_BLUE",
+      "code": "C417101",
+      "color": "BLUE",
+      "title": "The Barrel Style Pant",
+      "size": "26 27 28 29 30",
+      "price": "59",
+      "category": "PANTS",
+      "image": "assets/products/C417101_BLUE.jpg"
+    },
+    {
+      "id": "C420101_BLUE",
+      "code": "C420101",
+      "color": "BLUE",
+      "title": "The Ruby Barrell Style Pant",
+      "size": "26 27 28 29 30",
+      "price": "58",
+      "category": "PANTS",
+      "image": "assets/products/C420101_BLUE.jpg"
+    },
+    {
+      "id": "C421102_BLUE",
+      "code": "C421102",
+      "color": "BLUE",
+      "title": "The Merry Baloon Style Pant",
+      "size": "26 27 28 29 30",
+      "price": "56",
+      "category": "PANTS",
+      "image": "assets/products/C421102_BLUE.jpg"
+    },
+    {
+      "id": "C423101_001",
+      "code": "C423101",
+      "color": "001",
+      "title": "The Olivia Style Pant",
+      "size": "26 27 28 29 30",
+      "price": "56",
+      "category": "PANTS",
+      "image": "assets/products/C423101_001.jpg"
+    },
+    {
+      "id": "C428101_BLACK",
+      "code": "C428101",
+      "color": "BLACK",
+      "title": "The Frida Style Pant",
+      "size": "26 27 28 29 30",
+      "price": "54",
+      "category": "PANTS",
+      "image": "assets/products/C428101_BLACK.jpg"
+    },
+    {
+      "id": "C428101_GREEN",
+      "code": "C428101",
+      "color": "GREEN",
+      "title": "The Frida Style Pant",
+      "size": "26 27 28 29 30",
+      "price": "54",
+      "category": "PANTS",
+      "image": "assets/products/C428101_GREEN.jpg"
+    },
+    {
+      "id": "C428101_ORANGE",
+      "code": "C428101",
+      "color": "ORANGE",
+      "title": "The Frida Style Pant",
+      "size": "26 27 28 29 30",
+      "price": "54",
+      "category": "PANTS",
+      "image": "assets/products/C428101_ORANGE.jpg"
+    },
+    {
+      "id": "C430101_001",
+      "code": "C430101",
+      "color": "001",
+      "title": "The Frida Style Pant",
+      "size": "26 27 28 29 30",
+      "price": "56",
+      "category": "PANTS",
+      "image": "assets/products/C430101_001.jpg"
+    },
+    {
+      "id": "C430101_019",
+      "code": "C430101",
+      "color": "019",
+      "title": "The Frida Style Pant",
+      "size": "26 27 28 29 30",
+      "price": "56",
+      "category": "PANTS",
+      "image": "assets/products/C430101_019.jpg"
+    },
+    {
+      "id": "C430101_028",
+      "code": "C430101",
+      "color": "028",
+      "title": "The Frida Style Pant",
+      "size": "26 27 28 29 30",
+      "price": "56",
+      "category": "PANTS",
+      "image": "assets/products/C430101_028.jpg"
+    },
+    {
+      "id": "C430101_BROWN",
+      "code": "C430101",
+      "color": "BROWN",
+      "title": "The Frida Style Pant",
+      "size": "26 27 28 29 30",
+      "price": "56",
+      "category": "PANTS",
+      "image": "assets/products/C430101_BROWN.jpg"
+    },
+    {
+      "id": "C446101_028",
+      "code": "C446101",
+      "color": "028",
+      "title": "The Wide Leg Emy Style Pant",
+      "size": "26 27 28 29 30",
+      "price": "54",
+      "category": "PANTS",
+      "image": "assets/products/C446101_028.jpg"
+    },
+    {
+      "id": "C446101_BROWN",
+      "code": "C446101",
+      "color": "BROWN",
+      "title": "The Wide Leg Emy Style Pant",
+      "size": "26 27 28 29 30",
+      "price": "54",
+      "category": "PANTS",
+      "image": "assets/products/C446101_BROWN.jpg"
+    },
+    {
+      "id": "C446101_GREEN",
+      "code": "C446101",
+      "color": "GREEN",
+      "title": "The Wide Leg Emy Style Pant",
+      "size": "26 27 28 29 30",
+      "price": "54",
+      "category": "PANTS",
+      "image": "assets/products/C446101_GREEN.jpg"
+    },
+    {
+      "id": "C469101_BLACK",
+      "code": "C469101",
+      "color": "BLACK",
+      "title": "The Ski̇nny Pant",
+      "size": "26 27 28 29 30",
+      "price": "55",
+      "category": "PANTS",
+      "image": "assets/products/C469101_BLACK.jpg"
+    },
+    {
+      "id": "C3621101_001",
+      "code": "C3621101",
+      "color": "001",
+      "title": "The Skirt",
+      "size": "36 38 40 42",
+      "price": "51",
+      "category": "SKIRT",
+      "image": "assets/products/C3621101_001.jpg"
+    }
+  ]
+}
