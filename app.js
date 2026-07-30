@@ -45,20 +45,22 @@ async function home(){
 }
 
 async function openCategory(cat){
-  const products=db.products.filter(p=>p.category===cat);
-  const category=MENU_ITEMS.find(item=>item[0]===cat);
-  const coverEn=category?.[1]||cat;
-  const coverRu=category?.[2]||'';
-  const hasEnd=await exists('assets/END.jpg');
   const slides=[];
+  const returnButtons=MENU_ITEMS.map(item=>menuButton(...item)).join('');
+  let startIndex=1;
 
-  slides.push(`<article class="slide cover"><div class="cover-stage"><img src="assets/menu.jpg?v=${ASSET_VERSION}" alt="${coverEn}"><div class="cover-copy"><img class="cover-logo" src="assets/dishe-logo.png?v=${ASSET_VERSION}" alt="D.SHE"><div class="cover-new-season">NEW SEASON</div><div class="cover-season">FALL / WINTER 2026</div><div class="cover-title">${coverEn}</div>${coverRu?`<div class="cover-subtitle">${coverRu}</div>`:''}<div class="cover-divider"><span></span><svg class="cover-diamond" viewBox="0 0 64 48" aria-hidden="true"><path d="M12 5h40l9 13-29 27L3 18 12 5Z"/><path d="m12 5 8 13 12-13 12 13 8-13M3 18h58M20 18l12 27 12-27"/></svg><span></span></div><div class="cover-swipe" aria-hidden="true">${clickIcon()}</div></div></div></article>`);
+  slides.push(`<article class="slide menu-return-slide"><div class="menu-stage"><img class="menu-image" src="assets/menu.jpg?v=${ASSET_VERSION}" alt="D.SHE categories"><header class="brand-hero"><img class="brand-logo" src="assets/dishe-logo.png?v=${ASSET_VERSION}" alt="D.SHE"><div class="season-kicker"><span></span><b>NEW SEASON</b><span></span></div><div class="season-title">FALL / WINTER 2026</div></header><div class="menu-buttons">${returnButtons}</div></div></article>`);
 
-  products.forEach(p=>slides.push(`<article class="slide product-slide"><div class="product-stage"><img src="${p.image}?v=${ASSET_VERSION}" alt="${p.title||p.code}">${categoriesButton()}</div></article>`));
+  MENU_ITEMS.forEach(([key,en,ru])=>{
+    if(key===cat)startIndex=slides.length;
+    slides.push(`<article class="slide cover" data-category="${key}"><div class="cover-stage"><img src="assets/menu.jpg?v=${ASSET_VERSION}" alt="${en}"><div class="cover-copy"><img class="cover-logo" src="assets/dishe-logo.png?v=${ASSET_VERSION}" alt="D.SHE"><div class="cover-new-season">NEW SEASON</div><div class="cover-season">FALL / WINTER 2026</div><div class="cover-title">${en}</div>${ru?`<div class="cover-subtitle">${ru}</div>`:''}<div class="cover-divider"><span></span><svg class="cover-diamond" viewBox="0 0 64 48" aria-hidden="true"><path d="M12 5h40l9 13-29 27L3 18 12 5Z"/><path d="m12 5 8 13 12-13 12 13 8-13M3 18h58M20 18l12 27 12-27"/></svg><span></span></div><div class="cover-swipe" aria-hidden="true">${clickIcon()}</div></div></div></article>`);
 
-  if(hasEnd){
-    slides.push(`<article class="slide end-slide"><div class="product-stage"><img src="assets/END.jpg?v=${ASSET_VERSION}" alt="End">${categoriesButton()}</div></article>`);
-  }
+    db.products
+      .filter(p=>p.category===key)
+      .forEach(p=>slides.push(`<article class="slide product-slide"><div class="product-stage"><img src="${p.image}?v=${ASSET_VERSION}" alt="${p.title||p.code}">${categoriesButton()}</div></article>`));
+  });
+
+  slides.push(`<article class="slide final-contact-slide"><div class="cover-stage"><img src="assets/menu.jpg?v=${ASSET_VERSION}" alt="D.SHE Contact Us"><div class="cover-copy end-copy"><img class="cover-logo" src="assets/dishe-logo.png?v=${ASSET_VERSION}" alt="D.SHE"><div class="cover-new-season">NEW SEASON</div><div class="cover-season">FALL / WINTER 2026</div><div class="cover-divider"><span></span><svg class="cover-diamond" viewBox="0 0 64 48" aria-hidden="true"><path d="M12 5h40l9 13-29 27L3 18 12 5Z"/><path d="m12 5 8 13 12-13 12 13 8-13M3 18h58M20 18l12 27 12-27"/></svg><span></span></div><button class="contact-button" type="button"><span class="lux-copy"><span class="lux-en">CONTACT US</span><span class="lux-ru">СВЯЖИТЕСЬ С НАМИ</span></span>${clickIcon()}</button></div></div></article>`);
 
   app.innerHTML=`<section class="screen viewer"><div class="slides">${slides.join('')}</div><div class="hint"></div></section>`;
 
@@ -68,26 +70,21 @@ async function openCategory(cat){
     home();
   }));
 
+  document.querySelectorAll('.menu-return-slide .menu-category').forEach(b=>b.addEventListener('click',e=>{
+    e.preventDefault();
+    openCategory(b.dataset.c);
+  }));
+
   const el=document.querySelector('.slides');
-  const coverStage=document.querySelector('.cover-stage');
-  let touchStartX=0;
-  let touchStartY=0;
+  const showSelectedCover=()=>{el.scrollLeft=startIndex*el.clientWidth};
+  showSelectedCover();
+  requestAnimationFrame(showSelectedCover);
 
-  coverStage?.addEventListener('touchstart',e=>{
-    const touch=e.changedTouches[0];
-    touchStartX=touch.clientX;
-    touchStartY=touch.clientY;
-  },{passive:true});
-
-  coverStage?.addEventListener('touchend',e=>{
-    const touch=e.changedTouches[0];
-    const dx=touch.clientX-touchStartX;
-    const dy=touch.clientY-touchStartY;
-    if(Math.abs(dx)<55||Math.abs(dx)<=Math.abs(dy))return;
-    if(dx>0){
-      home();
-    }else if(el.children.length>1){
-      el.scrollTo({left:el.clientWidth,behavior:'smooth'});
-    }
+  let returnTimer;
+  el.addEventListener('scroll',()=>{
+    clearTimeout(returnTimer);
+    returnTimer=setTimeout(()=>{
+      if(el.scrollLeft<el.clientWidth*.12)home();
+    },120);
   },{passive:true});
 }

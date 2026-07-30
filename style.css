@@ -160,8 +160,15 @@ button{font-family:inherit}
 .cover-divider span:last-child{background:linear-gradient(90deg,#d8a84f,transparent)}
 .cover-diamond{display:block;width:clamp(30px,5.2vh,48px);height:auto;fill:none;stroke:#e2b75f;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 0 5px rgba(211,155,61,.38))}
 .cover-swipe{position:relative;width:44%;height:clamp(25px,3.8vh,38px);margin-top:1.25vh;border:1px solid rgba(221,160,76,.82);border-radius:999px;background:linear-gradient(180deg,rgba(82,82,82,.72) 0%,rgba(18,18,18,.98) 31%,#020202 100%);box-shadow:inset 0 1px 0 rgba(255,255,255,.28),inset 0 -1px 0 rgba(181,40,31,.48),0 3px 10px rgba(0,0,0,.34);overflow:hidden}
-.cover-swipe .click-icon{position:absolute;top:50%;left:18%;width:clamp(15px,2.3vh,21px);height:clamp(15px,2.3vh,21px);color:#ed202b;filter:drop-shadow(0 0 3px rgba(237,32,43,.32));animation:cover-swipe-hand 1.8s ease-in-out infinite}
-@keyframes cover-swipe-hand{0%,15%{left:18%;transform:translateY(-50%);opacity:.35}45%,70%{left:70%;transform:translateY(-50%);opacity:1}100%{left:70%;transform:translateY(-50%);opacity:0}}
+.cover-swipe .click-icon{position:absolute;top:50%;left:18%;width:clamp(15px,2.3vh,21px);height:clamp(15px,2.3vh,21px);color:#ed202b;filter:drop-shadow(0 0 3px rgba(237,32,43,.32));animation:cover-swipe-hand 1.35s ease-in-out infinite alternate}
+@keyframes cover-swipe-hand{from{left:18%;transform:translateY(-50%)}to{left:70%;transform:translateY(-50%)}}
+.end-copy{top:40%}
+.final-contact-slide .cover-divider{margin-top:2vh}
+.contact-button{position:relative;width:58%;height:clamp(38px,5.8vh,56px);margin-top:2.2vh;border:1px solid rgba(221,160,76,.82);border-radius:999px;background:linear-gradient(180deg,rgba(82,82,82,.72) 0%,rgba(18,18,18,.98) 31%,#020202 100%);color:#f7ead3;box-shadow:inset 0 1px 0 rgba(255,255,255,.28),inset 0 -1px 0 rgba(181,40,31,.48),0 3px 10px rgba(0,0,0,.34);display:flex;align-items:center;justify-content:center;padding:0 15% 0 9%;overflow:hidden;cursor:pointer}
+.contact-button .lux-copy{gap:3px}
+.contact-button .lux-en{font-size:clamp(13px,2.05vh,19px);letter-spacing:.18em;line-height:1;color:#f4dfb8}
+.contact-button .lux-ru{font-family:Arial,sans-serif;font-size:clamp(7px,1.05vh,10px);letter-spacing:.12em;line-height:1;color:rgba(221,185,119,.93)}
+.contact-button .click-icon{position:absolute;right:7%;top:50%;transform:translateY(-50%);width:clamp(16px,2.4vh,22px);height:clamp(16px,2.4vh,22px);color:#ed202b;filter:drop-shadow(0 0 3px rgba(237,32,43,.28));pointer-events:none}
 
 /* Bottom live CATEGORIES button on product and END pages */
 .categories-button{position:absolute;z-index:7;left:50%;bottom:calc(2.6% + env(safe-area-inset-bottom));transform:translateX(-50%);width:72%;height:7.2%;max-height:68px;min-height:42px;flex:none;padding:0 15% 0 9%}
