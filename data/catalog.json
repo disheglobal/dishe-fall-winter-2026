@@ -121,146 +121,6 @@
       "image": "assets/products/C5794101_001.jpg"
     },
     {
-      "id": "CD685_BLACK",
-      "code": "CD685",
-      "color": "BLACK",
-      "title": "The Leather Jacket",
-      "size": "S M L XL",
-      "price": "295.0",
-      "category": "JACKET",
-      "image": "assets/products/CD685_BLACK.jpg"
-    },
-    {
-      "id": "CD690_BLACK",
-      "code": "CD690",
-      "color": "BLACK",
-      "title": "The Leather Jacket",
-      "size": "S M L XL",
-      "price": "320.0",
-      "category": "JACKET",
-      "image": "assets/products/CD690_BLACK.jpg"
-    },
-    {
-      "id": "CZ138_BROWN",
-      "code": "CZ138",
-      "color": "BROWN",
-      "title": "The Leather Jacket",
-      "size": "S M L XL",
-      "price": "275.0",
-      "category": "JACKET",
-      "image": "assets/products/CZ138_BROWN.jpg"
-    },
-    {
-      "id": "CZ150_BROWN",
-      "code": "CZ150",
-      "color": "BROWN",
-      "title": "The Leather Jacket",
-      "size": "S M L XL",
-      "price": "285.0",
-      "category": "JACKET",
-      "image": "assets/products/CZ150_BROWN.jpg"
-    },
-    {
-      "id": "CZ1511_CHOCOLATE",
-      "code": "CZ1511",
-      "color": "CHOCOLATE",
-      "title": "The Leather Jacket",
-      "size": "S M L XL",
-      "price": "305.0",
-      "category": "JACKET",
-      "image": "assets/products/CZ1511_CHOCOLATE.jpg"
-    },
-    {
-      "id": "CZ152_BEIGE",
-      "code": "CZ152",
-      "color": "BEIGE",
-      "title": "The Leather Jacket",
-      "size": "S M L XL",
-      "price": "255.0",
-      "category": "JACKET",
-      "image": "assets/products/CZ152_BEIGE.jpg"
-    },
-    {
-      "id": "CZ1551_BLACK",
-      "code": "CZ1551",
-      "color": "BLACK",
-      "title": "The Leather Jacket",
-      "size": "S M L XL",
-      "price": "245.0",
-      "category": "JACKET",
-      "image": "assets/products/CZ1551_BLACK.jpg"
-    },
-    {
-      "id": "CZ159_BEIGE",
-      "code": "CZ159",
-      "color": "BEIGE",
-      "title": "The Leather Jacket",
-      "size": "S M L XL",
-      "price": "265.0",
-      "category": "JACKET",
-      "image": "assets/products/CZ159_BEIGE.jpg"
-    },
-    {
-      "id": "CZ188_BROWN",
-      "code": "CZ188",
-      "color": "BROWN",
-      "title": "The Leather Jacket",
-      "size": "S M L XL",
-      "price": "275.0",
-      "category": "JACKET",
-      "image": "assets/products/CZ188_BROWN.jpg"
-    },
-    {
-      "id": "CZ191_BEIGE",
-      "code": "CZ191",
-      "color": "BEIGE",
-      "title": "The Leather Jacket",
-      "size": "S M L XL",
-      "price": "260.0",
-      "category": "JACKET",
-      "image": "assets/products/CZ191_BEIGE.jpg"
-    },
-    {
-      "id": "CZ194_BLACK",
-      "code": "CZ194",
-      "color": "BLACK",
-      "title": "The Leather Jacket",
-      "size": "S M L XL",
-      "price": "270.0",
-      "category": "JACKET",
-      "image": "assets/products/CZ194_BLACK.jpg"
-    },
-    {
-      "id": "CZ197_BROWN",
-      "code": "CZ197",
-      "color": "BROWN",
-      "title": "The Leather Jacket",
-      "size": "S M L XL",
-      "price": "285.0",
-      "category": "JACKET",
-      "image": "assets/products/CZ197_BROWN.jpg"
-    },
-    {
-      "id": "CZ216_BEIGE",
-      "code": "CZ216",
-      "color": "BEIGE",
-      "title": "The Leather Jacket",
-      "size": "S M L XL",
-      "price": "255.0",
-      "category": "JACKET",
-      "image": "assets/products/CZ216_BEIGE.jpg"
-    },
-    {
-      "id": "CZ22_BROWN",
-      "code": "CZ22",
-      "color": "BROWN",
-      "title": "The Leather Jacket",
-      "size": "S M L XL",
-      "price": "280.0",
-      "category": "JACKET",
-      "image": "assets/products/CZ22_BROWN.jpg"
-    },
-    {
       "id": "A835101_BLUE",
       "code": "A835101",
       "color": "BLUE",
@@ -1261,13 +1121,153 @@
       "image": "assets/products/C3621101_001.jpg"
     },
     {
+      "id": "CD685_BLACK",
+      "code": "CD685",
+      "color": "BLACK",
+      "title": "The Leather Jacket",
+      "size": "S M L XL",
+      "price": "295.0",
+      "category": "LEATHER",
+      "image": "assets/products/CD685_BLACK.jpg"
+    },
+    {
+      "id": "CD690_BLACK",
+      "code": "CD690",
+      "color": "BLACK",
+      "title": "The Leather Jacket",
+      "size": "S M L XL",
+      "price": "320.0",
+      "category": "LEATHER",
+      "image": "assets/products/CD690_BLACK.jpg"
+    },
+    {
+      "id": "CZ138_BROWN",
+      "code": "CZ138",
+      "color": "BROWN",
+      "title": "The Leather Jacket",
+      "size": "S M L XL",
+      "price": "275.0",
+      "category": "LEATHER",
+      "image": "assets/products/CZ138_BROWN.jpg"
+    },
+    {
+      "id": "CZ150_BROWN",
+      "code": "CZ150",
+      "color": "BROWN",
+      "title": "The Leather Jacket",
+      "size": "S M L XL",
+      "price": "285.0",
+      "category": "LEATHER",
+      "image": "assets/products/CZ150_BROWN.jpg"
+    },
+    {
+      "id": "CZ1511_CHOCOLATE",
+      "code": "CZ1511",
+      "color": "CHOCOLATE",
+      "title": "The Leather Jacket",
+      "size": "S M L XL",
+      "price": "305.0",
+      "category": "LEATHER",
+      "image": "assets/products/CZ1511_CHOCOLATE.jpg"
+    },
+    {
+      "id": "CZ152_BEIGE",
+      "code": "CZ152",
+      "color": "BEIGE",
+      "title": "The Leather Jacket",
+      "size": "S M L XL",
+      "price": "255.0",
+      "category": "LEATHER",
+      "image": "assets/products/CZ152_BEIGE.jpg"
+    },
+    {
+      "id": "CZ1551_BLACK",
+      "code": "CZ1551",
+      "color": "BLACK",
+      "title": "The Leather Jacket",
+      "size": "S M L XL",
+      "price": "245.0",
+      "category": "LEATHER",
+      "image": "assets/products/CZ1551_BLACK.jpg"
+    },
+    {
+      "id": "CZ159_BEIGE",
+      "code": "CZ159",
+      "color": "BEIGE",
+      "title": "The Leather Jacket",
+      "size": "S M L XL",
+      "price": "265.0",
+      "category": "LEATHER",
+      "image": "assets/products/CZ159_BEIGE.jpg"
+    },
+    {
+      "id": "CZ188_BROWN",
+      "code": "CZ188",
+      "color": "BROWN",
+      "title": "The Leather Jacket",
+      "size": "S M L XL",
+      "price": "275.0",
+      "category": "LEATHER",
+      "image": "assets/products/CZ188_BROWN.jpg"
+    },
+    {
+      "id": "CZ191_BEIGE",
+      "code": "CZ191",
+      "color": "BEIGE",
+      "title": "The Leather Jacket",
+      "size": "S M L XL",
+      "price": "260.0",
+      "category": "LEATHER",
+      "image": "assets/products/CZ191_BEIGE.jpg"
+    },
+    {
+      "id": "CZ194_BLACK",
+      "code": "CZ194",
+      "color": "BLACK",
+      "title": "The Leather Jacket",
+      "size": "S M L XL",
+      "price": "270.0",
+      "category": "LEATHER",
+      "image": "assets/products/CZ194_BLACK.jpg"
+    },
+    {
+      "id": "CZ197_BROWN",
+      "code": "CZ197",
+      "color": "BROWN",
+      "title": "The Leather Jacket",
+      "size": "S M L XL",
+      "price": "285.0",
+      "category": "LEATHER",
+      "image": "assets/products/CZ197_BROWN.jpg"
+    },
+    {
+      "id": "CZ216_BEIGE",
+      "code": "CZ216",
+      "color": "BEIGE",
+      "title": "The Leather Jacket",
+      "size": "S M L XL",
+      "price": "255.0",
+      "category": "LEATHER",
+      "image": "assets/products/CZ216_BEIGE.jpg"
+    },
+    {
+      "id": "CZ22_BROWN",
+      "code": "CZ22",
+      "color": "BROWN",
+      "title": "The Leather Jacket",
+      "size": "S M L XL",
+      "price": "280.0",
+      "category": "LEATHER",
+      "image": "assets/products/CZ22_BROWN.jpg"
+    },
+    {
       "id": "C5522102_BLACK",
       "code": "C5522102",
       "color": "BLACK",
       "title": "The Coat",
       "size": "36, 38, 40, 42",
       "price": "154.0",
-      "category": "OTHER",
+      "category": "OUTFIT",
       "image": "assets/products/C5522102_BLACK.jpg"
     },
     {
@@ -1277,7 +1277,7 @@
       "title": "The Coat",
       "size": "36, 38, 40, 42",
       "price": "154.0",
-      "category": "OTHER",
+      "category": "OUTFIT",
       "image": "assets/products/C5522102_BROWN.jpg"
     },
     {
@@ -1287,7 +1287,7 @@
       "title": "The Coat",
       "size": "36, 38, 40, 42",
       "price": "154.0",
-      "category": "OTHER",
+      "category": "OUTFIT",
       "image": "assets/products/C5522102_CAMEL.jpg"
     },
     {
@@ -1297,7 +1297,7 @@
       "title": "The Coat",
       "size": "36, 38, 40, 42",
       "price": "154.0",
-      "category": "OTHER",
+      "category": "OUTFIT",
       "image": "assets/products/C5522102_ECRU.jpg"
     },
     {
@@ -1307,7 +1307,7 @@
       "title": "The Coat",
       "size": "36, 38, 40, 42",
       "price": "154.0",
-      "category": "OTHER",
+      "category": "OUTFIT",
       "image": "assets/products/C5522102_GREEN.jpg"
     },
     {
@@ -1317,7 +1317,7 @@
       "title": "The Coat",
       "size": "36, 38, 40, 42",
       "price": "130.0",
-      "category": "OTHER",
+      "category": "OUTFIT",
       "image": "assets/products/S5522102_BLACK.jpg"
     },
     {
@@ -1327,7 +1327,7 @@
       "title": "The Coat",
       "size": "36, 38, 40, 42",
       "price": "130.0",
-      "category": "OTHER",
+      "category": "OUTFIT",
       "image": "assets/products/S5522102_BROWN.jpg"
     }
   ]
