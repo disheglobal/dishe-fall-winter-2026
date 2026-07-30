@@ -57,7 +57,7 @@ async function openCategory(cat){
 
     db.products
       .filter(p=>p.category===key)
-      .forEach(p=>slides.push(`<article class="slide product-slide"><div class="product-stage"><img src="${p.image}?v=${ASSET_VERSION}" alt="${p.title||p.code}">${categoriesButton()}</div></article>`));
+      .forEach(p=>slides.push(`<article class="slide product-slide"><div class="product-stage"><img data-src="${p.image}?v=${ASSET_VERSION}" alt="${p.title||p.code}" loading="lazy" decoding="async">${categoriesButton()}</div></article>`));
   });
 
   slides.push(`<article class="slide final-contact-slide"><div class="cover-stage"><img src="assets/menu.jpg?v=${ASSET_VERSION}" alt="D.SHE Contact Us"><div class="cover-copy end-copy"><img class="cover-logo" src="assets/dishe-logo.png?v=${ASSET_VERSION}" alt="D.SHE"><div class="cover-new-season">NEW SEASON</div><div class="cover-season">FALL / WINTER 2026</div><div class="cover-divider"><span></span><svg class="cover-diamond" viewBox="0 0 64 48" aria-hidden="true"><path d="M12 5h40l9 13-29 27L3 18 12 5Z"/><path d="m12 5 8 13 12-13 12 13 8-13M3 18h58M20 18l12 27 12-27"/></svg><span></span></div><button class="contact-button" type="button"><span class="lux-copy"><span class="lux-en">CONTACT US</span><span class="lux-ru">СВЯЖИТЕСЬ С НАМИ</span></span>${clickIcon()}</button></div></div></article>`);
@@ -82,12 +82,24 @@ async function openCategory(cat){
   }));
 
   const el=document.querySelector('.slides');
+  const loadSlideImages=(center,radius=2)=>{
+    const first=Math.max(0,center-radius);
+    const last=Math.min(el.children.length-1,center+radius);
+    for(let i=first;i<=last;i++){
+      el.children[i].querySelectorAll('img[data-src]').forEach(img=>{
+        img.src=img.dataset.src;
+        img.removeAttribute('data-src');
+      });
+    }
+  };
   const showSelectedCover=()=>{el.scrollLeft=startIndex*el.clientWidth};
+  loadSlideImages(startIndex);
   showSelectedCover();
   requestAnimationFrame(showSelectedCover);
 
   let returnTimer;
   el.addEventListener('scroll',()=>{
+    loadSlideImages(Math.round(el.scrollLeft/el.clientWidth));
     clearTimeout(returnTimer);
     returnTimer=setTimeout(()=>{
       if(el.scrollLeft<el.clientWidth*.12)home();
