@@ -159,7 +159,7 @@ button{font-family:inherit}
 .cover-divider span{height:1px;background:linear-gradient(90deg,transparent,#d8a84f)}
 .cover-divider span:last-child{background:linear-gradient(90deg,#d8a84f,transparent)}
 .cover-diamond{display:block;width:clamp(30px,5.2vh,48px);height:auto;fill:none;stroke:#e2b75f;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 0 5px rgba(211,155,61,.38))}
-.cover-swipe{position:relative;width:44%;height:clamp(25px,3.8vh,38px);margin-top:1.25vh;border:1px solid rgba(221,160,76,.82);border-radius:999px;background:linear-gradient(180deg,rgba(82,82,82,.72) 0%,rgba(18,18,18,.98) 31%,#020202 100%);box-shadow:inset 0 1px 0 rgba(255,255,255,.28),inset 0 -1px 0 rgba(181,40,31,.48),0 3px 10px rgba(0,0,0,.34);overflow:hidden}
+.cover-swipe{position:relative;width:44%;height:clamp(25px,3.8vh,38px);margin-top:1.25vh;padding:0;border:1px solid rgba(221,160,76,.82);border-radius:999px;background:linear-gradient(180deg,rgba(82,82,82,.72) 0%,rgba(18,18,18,.98) 31%,#020202 100%);box-shadow:inset 0 1px 0 rgba(255,255,255,.28),inset 0 -1px 0 rgba(181,40,31,.48),0 3px 10px rgba(0,0,0,.34);overflow:hidden;cursor:pointer;touch-action:pan-x;-webkit-tap-highlight-color:transparent}
 .cover-swipe .click-icon{position:absolute;top:50%;left:18%;width:clamp(15px,2.3vh,21px);height:clamp(15px,2.3vh,21px);color:#ed202b;filter:drop-shadow(0 0 3px rgba(237,32,43,.32));animation:cover-swipe-hand 1.35s ease-in-out infinite alternate}
 @keyframes cover-swipe-hand{from{left:18%;transform:translateY(-50%)}to{left:70%;transform:translateY(-50%)}}
 .end-copy{top:40%}

@@ -53,7 +53,7 @@ async function openCategory(cat){
 
   MENU_ITEMS.forEach(([key,en,ru])=>{
     if(key===cat)startIndex=slides.length;
-    slides.push(`<article class="slide cover" data-category="${key}"><div class="cover-stage"><img src="assets/menu.jpg?v=${ASSET_VERSION}" alt="${en}"><div class="cover-copy"><img class="cover-logo" src="assets/dishe-logo.png?v=${ASSET_VERSION}" alt="D.SHE"><div class="cover-new-season">NEW SEASON</div><div class="cover-season">FALL / WINTER 2026</div><div class="cover-title">${en}</div>${ru?`<div class="cover-subtitle">${ru}</div>`:''}<div class="cover-divider"><span></span><svg class="cover-diamond" viewBox="0 0 64 48" aria-hidden="true"><path d="M12 5h40l9 13-29 27L3 18 12 5Z"/><path d="m12 5 8 13 12-13 12 13 8-13M3 18h58M20 18l12 27 12-27"/></svg><span></span></div><div class="cover-swipe" aria-hidden="true">${clickIcon()}</div></div></div></article>`);
+    slides.push(`<article class="slide cover" data-category="${key}"><div class="cover-stage"><img src="assets/menu.jpg?v=${ASSET_VERSION}" alt="${en}"><div class="cover-copy"><img class="cover-logo" src="assets/dishe-logo.png?v=${ASSET_VERSION}" alt="D.SHE"><div class="cover-new-season">NEW SEASON</div><div class="cover-season">FALL / WINTER 2026</div><div class="cover-title">${en}</div>${ru?`<div class="cover-subtitle">${ru}</div>`:''}<div class="cover-divider"><span></span><svg class="cover-diamond" viewBox="0 0 64 48" aria-hidden="true"><path d="M12 5h40l9 13-29 27L3 18 12 5Z"/><path d="m12 5 8 13 12-13 12 13 8-13M3 18h58M20 18l12 27 12-27"/></svg><span></span></div><button class="cover-swipe" type="button" aria-label="Categories">${clickIcon()}</button></div></div></article>`);
 
     db.products
       .filter(p=>p.category===key)
@@ -65,6 +65,12 @@ async function openCategory(cat){
   app.innerHTML=`<section class="screen viewer"><div class="slides">${slides.join('')}</div><div class="hint"></div></section>`;
 
   document.querySelectorAll('.categories-button').forEach(b=>b.addEventListener('click',e=>{
+    e.preventDefault();
+    e.stopPropagation();
+    home();
+  }));
+
+  document.querySelectorAll('.cover-swipe').forEach(b=>b.addEventListener('click',e=>{
     e.preventDefault();
     e.stopPropagation();
     home();
