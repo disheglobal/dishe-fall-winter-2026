@@ -46,14 +46,13 @@ async function home(){
 
 async function openCategory(cat){
   const products=db.products.filter(p=>p.category===cat);
-  const cover=`assets/covers/${cat}.jpg`;
-  const hasCover=await exists(cover);
+  const category=MENU_ITEMS.find(item=>item[0]===cat);
+  const coverEn=category?.[1]||cat;
+  const coverRu=category?.[2]||'';
   const hasEnd=await exists('assets/END.jpg');
   const slides=[];
 
-  slides.push(hasCover
-    ? `<article class="slide cover"><img src="${cover}?v=${ASSET_VERSION}" alt="${cat}"></article>`
-    : `<article class="slide cover"><div class="cover-title">${cat}</div></article>`);
+  slides.push(`<article class="slide cover"><div class="cover-stage"><img src="assets/menu.jpg?v=${ASSET_VERSION}" alt="${coverEn}"><div class="cover-copy"><img class="cover-logo" src="assets/dishe-logo.png?v=${ASSET_VERSION}" alt="D.SHE"><div class="cover-new-season">NEW SEASON</div><div class="cover-season">FALL / WINTER 2026</div><div class="cover-title">${coverEn}</div>${coverRu?`<div class="cover-subtitle">${coverRu}</div>`:''}<div class="cover-divider"><span></span><svg class="cover-diamond" viewBox="0 0 64 48" aria-hidden="true"><path d="M12 5h40l9 13-29 27L3 18 12 5Z"/><path d="m12 5 8 13 12-13 12 13 8-13M3 18h58M20 18l12 27 12-27"/></svg><span></span></div><div class="cover-swipe" aria-hidden="true">${clickIcon()}</div></div></div></article>`);
 
   products.forEach(p=>slides.push(`<article class="slide product-slide"><div class="product-stage"><img src="${p.image}?v=${ASSET_VERSION}" alt="${p.title||p.code}">${categoriesButton()}</div></article>`));
 
@@ -70,4 +69,25 @@ async function openCategory(cat){
   }));
 
   const el=document.querySelector('.slides');
+  const coverStage=document.querySelector('.cover-stage');
+  let touchStartX=0;
+  let touchStartY=0;
+
+  coverStage?.addEventListener('touchstart',e=>{
+    const touch=e.changedTouches[0];
+    touchStartX=touch.clientX;
+    touchStartY=touch.clientY;
+  },{passive:true});
+
+  coverStage?.addEventListener('touchend',e=>{
+    const touch=e.changedTouches[0];
+    const dx=touch.clientX-touchStartX;
+    const dy=touch.clientY-touchStartY;
+    if(Math.abs(dx)<55||Math.abs(dx)<=Math.abs(dy))return;
+    if(dx>0){
+      home();
+    }else if(el.children.length>1){
+      el.scrollTo({left:el.clientWidth,behavior:'smooth'});
+    }
+  },{passive:true});
 }
