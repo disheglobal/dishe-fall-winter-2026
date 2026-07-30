@@ -1,7 +1,73 @@
-const app=document.getElementById('app');let db={products:[]};
-const MENU_ORDER=['BIG_SIZE','DRESS','JACKET','PANTS','KNITWEAR','SHIRT','SKIRT','SUIT','LEATHER','OUTFIT','BAG'];
-const MENU_TOP={BIG_SIZE:19.05,DRESS:25.30,JACKET:31.60,PANTS:37.90,KNITWEAR:44.15,SHIRT:50.45,SKIRT:56.75,SUIT:63.05,LEATHER:69.35,OUTFIT:75.65,BAG:81.95};
-fetch('data/catalog.json').then(r=>r.json()).then(j=>{db=j;home()}).catch(()=>app.innerHTML='<div class="empty">CATALOG ERROR</div>');
-const exists=src=>new Promise(ok=>{const i=new Image();i.onload=()=>ok(true);i.onerror=()=>ok(false);i.src=src+'?v='+Date.now()});
-async function home(){const has=await exists('assets/menu.jpg');if(!has){app.innerHTML='<div class="empty">MENU.JPG NOT FOUND</div>';return}const buttons=MENU_ORDER.map(c=>`<button class="hotspot" data-c="${c}" aria-label="${c}" style="top:${MENU_TOP[c]}%"></button>`).join('');app.innerHTML=`<section class="screen home"><div class="menu-stage"><img class="menu-image" src="assets/menu.jpg" alt="D.SHE categories">${buttons}</div></section>`;document.querySelectorAll('.hotspot').forEach(b=>b.addEventListener('click',e=>{e.preventDefault();openCategory(b.dataset.c)}))}
-async function openCategory(cat){const products=db.products.filter(p=>p.category===cat),cover=`assets/covers/${cat}.jpg`,hasCover=await exists(cover),hasEnd=await exists('assets/END.jpg'),slides=[];slides.push(hasCover?`<article class="slide cover"><img src="${cover}" alt="${cat}"></article>`:`<article class="slide cover"><div class="cover-title">${cat}</div></article>`);products.forEach(p=>slides.push(`<article class="slide product-slide"><div class="product-stage"><img src="${p.image}" alt="${p.title||p.code}"><button class="product-menu-hotspot" aria-label="Categories"></button></div></article>`));if(hasEnd)slides.push('<article class="slide end-slide"><img src="assets/END.jpg" alt="End"><button class="end-hotspot" aria-label="Categories"></button></article>');app.innerHTML=`<section class="screen viewer"><div class="topbar"><button class="menu">MENU</button><div class="counter">1 / ${slides.length}</div></div><div class="slides">${slides.join('')}</div><div class="hint">SWIPE</div></section>`;document.querySelector('.menu').onclick=home;document.querySelectorAll('.product-menu-hotspot,.end-hotspot').forEach(b=>b.onclick=e=>{e.preventDefault();e.stopPropagation();home()});const el=document.querySelector('.slides'),counter=document.querySelector('.counter');el.onscroll=()=>{const i=Math.round(el.scrollLeft/el.clientWidth);counter.textContent=`${i+1} / ${slides.length}`}}
+const app=document.getElementById('app');
+let db={products:[]};
+const ASSET_VERSION=Date.now();
+
+const MENU_ITEMS=[
+  ['BIG_SIZE','BIG SIZE','БОЛЬШИЕ РАЗМЕРЫ'],
+  ['DRESS','DRESS','ПЛАТЬЯ'],
+  ['JACKET','JACKET','ДЖИНСОВКИ'],
+  ['PANTS','PANTS','ДЖИНСЫ'],
+  ['KNITWEAR','KNITWEAR','ТРИКОТАЖ'],
+  ['SHIRT','SHIRT','РУБАШКИ'],
+  ['SKIRT','SKIRT','ЮБКИ'],
+  ['SUIT','SUIT','КОМПЛЕКТЫ'],
+  ['LEATHER','LEATHER','КОЖА'],
+  ['OUTFIT','OUTFIT','ВЕРХНЯЯ ОДЕЖДА'],
+  ['BAG','BAG','СУМКИ/АКСЕССУАРЫ']
+];
+
+const clickIcon=()=>`<span class="click-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M13.2 15.4V6.9a2.2 2.2 0 0 1 4.4 0v7.2-2.1a2.1 2.1 0 0 1 4.2 0v1.1a2.1 2.1 0 0 1 4.2 0v1.4a2.1 2.1 0 0 1 4.2 0v5.4c0 5.4-3.2 8.4-8.1 8.4h-2.4c-3.1 0-5.4-1.4-7-3.9l-4.1-6.5a2.3 2.3 0 0 1 3.6-2.8l1 1.3Z"/><path d="M7 5.8 4.8 3.6M11.3 3.9V1M6 10H2.8"/></svg></span>`;
+
+const menuButton=(key,en,ru)=>`<button class="lux-button menu-category" data-c="${key}" aria-label="${en}"><span class="lux-copy"><span class="lux-en">${en}</span><span class="lux-ru">${ru}</span></span>${clickIcon()}</button>`;
+const categoriesButton=()=>`<button class="lux-button categories-button" aria-label="Categories"><span class="lux-copy"><span class="lux-en">CATEGORIES</span></span>${clickIcon()}</button>`;
+
+fetch('data/catalog.json',{cache:'no-store'})
+  .then(r=>r.json())
+  .then(j=>{db=j;home()})
+  .catch(()=>app.innerHTML='<div class="empty">CATALOG ERROR</div>');
+
+const exists=src=>new Promise(ok=>{
+  const i=new Image();
+  i.onload=()=>ok(true);
+  i.onerror=()=>ok(false);
+  i.src=src+'?v='+Date.now();
+});
+
+async function home(){
+  const has=await exists('assets/menu.jpg');
+  if(!has){app.innerHTML='<div class="empty">MENU.JPG NOT FOUND</div>';return;}
+  const buttons=MENU_ITEMS.map(item=>menuButton(...item)).join('');
+  app.innerHTML=`<section class="screen home"><div class="menu-stage"><img class="menu-image" src="assets/menu.jpg?v=${Date.now()}" alt="D.SHE categories"><header class="brand-hero"><img class="brand-logo" src="assets/dishe-logo.png?v=${Date.now()}" alt="D•she"><div class="season-kicker"><span></span><b>NEW SEASON</b><span></span></div><div class="season-title">FALL / WINTER 2026</div></header><div class="menu-buttons">${buttons}</div></div></section>`;
+  document.querySelectorAll('.menu-category').forEach(b=>b.addEventListener('click',e=>{
+    e.preventDefault();
+    openCategory(b.dataset.c);
+  }));
+}
+
+async function openCategory(cat){
+  const products=db.products.filter(p=>p.category===cat);
+  const cover=`assets/covers/${cat}.jpg`;
+  const hasCover=await exists(cover);
+  const hasEnd=await exists('assets/END.jpg');
+  const slides=[];
+
+  slides.push(hasCover
+    ? `<article class="slide cover"><img src="${cover}?v=${ASSET_VERSION}" alt="${cat}"></article>`
+    : `<article class="slide cover"><div class="cover-title">${cat}</div></article>`);
+
+  products.forEach(p=>slides.push(`<article class="slide product-slide"><div class="product-stage"><img src="${p.image}?v=${ASSET_VERSION}" alt="${p.title||p.code}">${categoriesButton()}</div></article>`));
+
+  if(hasEnd){
+    slides.push(`<article class="slide end-slide"><div class="product-stage"><img src="assets/END.jpg?v=${ASSET_VERSION}" alt="End">${categoriesButton()}</div></article>`);
+  }
+
+  app.innerHTML=`<section class="screen viewer"><div class="slides">${slides.join('')}</div><div class="hint"></div></section>`;
+
+  document.querySelectorAll('.categories-button').forEach(b=>b.addEventListener('click',e=>{
+    e.preventDefault();
+    e.stopPropagation();
+    home();
+  }));
+
+  const el=document.querySelector('.slides');
+}

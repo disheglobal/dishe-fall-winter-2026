@@ -81,166 +81,6 @@
       "image": "assets/products/C5794101_001.jpg"
     },
     {
-      "id": "CT00379101_BEIGE",
-      "code": "CT00379101",
-      "color": "BEIGE",
-      "title": "The Knitwear",
-      "size": "S M L XL",
-      "price": "34",
-      "category": "KNITWEAR",
-      "image": "assets/products/CT00379101_BEIGE.jpg"
-    },
-    {
-      "id": "CT00379101_BLACK",
-      "code": "CT00379101",
-      "color": "BLACK",
-      "title": "The Knitwear",
-      "size": "S M L XL",
-      "price": "34",
-      "category": "KNITWEAR",
-      "image": "assets/products/CT00379101_BLACK.jpg"
-    },
-    {
-      "id": "CT00379101_BLUE",
-      "code": "CT00379101",
-      "color": "BLUE",
-      "title": "The Knitwear",
-      "size": "S M L XL",
-      "price": "34",
-      "category": "KNITWEAR",
-      "image": "assets/products/CT00379101_BLUE.jpg"
-    },
-    {
-      "id": "CT00379101_ECRU",
-      "code": "CT00379101",
-      "color": "ECRU",
-      "title": "The Knitwear",
-      "size": "S M L XL",
-      "price": "34",
-      "category": "KNITWEAR",
-      "image": "assets/products/CT00379101_ECRU.jpg"
-    },
-    {
-      "id": "CT00379101_POWDER",
-      "code": "CT00379101",
-      "color": "POWDER",
-      "title": "The Knitwear",
-      "size": "S M L XL",
-      "price": "34",
-      "category": "KNITWEAR",
-      "image": "assets/products/CT00379101_POWDER.jpg"
-    },
-    {
-      "id": "CT00381101_BEIGE",
-      "code": "CT00381101",
-      "color": "BEIGE",
-      "title": "The Knitwear",
-      "size": "S M L XL",
-      "price": "36",
-      "category": "KNITWEAR",
-      "image": "assets/products/CT00381101_BEIGE.jpg"
-    },
-    {
-      "id": "CT00381101_BLACK",
-      "code": "CT00381101",
-      "color": "BLACK",
-      "title": "The Knitwear",
-      "size": "S M L XL",
-      "price": "36",
-      "category": "KNITWEAR",
-      "image": "assets/products/CT00381101_BLACK.jpg"
-    },
-    {
-      "id": "CT00381101_BLUE",
-      "code": "CT00381101",
-      "color": "BLUE",
-      "title": "The Knitwear",
-      "size": "S M L XL",
-      "price": "36",
-      "category": "KNITWEAR",
-      "image": "assets/products/CT00381101_BLUE.jpg"
-    },
-    {
-      "id": "CT00381101_ECRU",
-      "code": "CT00381101",
-      "color": "ECRU",
-      "title": "The Knitwear",
-      "size": "S M L XL",
-      "price": "36",
-      "category": "KNITWEAR",
-      "image": "assets/products/CT00381101_ECRU.jpg"
-    },
-    {
-      "id": "CT00381101_POWDER",
-      "code": "CT00381101",
-      "color": "POWDER",
-      "title": "The Knitwear",
-      "size": "S M L XL",
-      "price": "36",
-      "category": "KNITWEAR",
-      "image": "assets/products/CT00381101_POWDER.jpg"
-    },
-    {
-      "id": "CT00550101_BLACK",
-      "code": "CT00550101",
-      "color": "BLACK",
-      "title": "The Knitwear",
-      "size": "S M L XL",
-      "price": "38",
-      "category": "KNITWEAR",
-      "image": "assets/products/CT00550101_BLACK.jpg"
-    },
-    {
-      "id": "CT00550101_BURGUNDY",
-      "code": "CT00550101",
-      "color": "BURGUNDY",
-      "title": "The Knitwear",
-      "size": "S M L XL",
-      "price": "38",
-      "category": "KNITWEAR",
-      "image": "assets/products/CT00550101_BURGUNDY.jpg"
-    },
-    {
-      "id": "CT00550101_ECRU",
-      "code": "CT00550101",
-      "color": "ECRU",
-      "title": "The Knitwear",
-      "size": "S M L XL",
-      "price": "38",
-      "category": "KNITWEAR",
-      "image": "assets/products/CT00550101_ECRU.jpg"
-    },
-    {
-      "id": "CT00550101_TERRACOT",
-      "code": "CT00550101",
-      "color": "TERRACOT",
-      "title": "The Knitwear",
-      "size": "S M L XL",
-      "price": "38",
-      "category": "KNITWEAR",
-      "image": "assets/products/CT00550101_TERRACOT.jpg"
-    },
-    {
-      "id": "CT00551101_BURGUNDY",
-      "code": "CT00551101",
-      "color": "BURGUNDY",
-      "title": "The Knitwear",
-      "size": "S M L XL",
-      "price": "37",
-      "category": "KNITWEAR",
-      "image": "assets/products/CT00551101_BURGUNDY.jpg"
-    },
-    {
-      "id": "CT00551101_TERRACOT",
-      "code": "CT00551101",
-      "color": "TERRACOT",
-      "title": "The Knitwear",
-      "size": "S M L XL",
-      "price": "37",
-      "category": "KNITWEAR",
-      "image": "assets/products/CT00551101_TERRACOT.jpg"
-    },
-    {
       "id": "C396101_001",
       "code": "C396101",
       "color": "001",
@@ -404,7 +244,7 @@
       "id": "C446101_028",
       "code": "C446101",
       "color": "028",
-      "title": "The Wide Leg Emy Style Pant",
+      "title": "The Wide Leg Emy Pant",
       "size": "26 27 28 29 30",
       "price": "54",
       "category": "PANTS",
@@ -414,7 +254,7 @@
       "id": "C446101_BROWN",
       "code": "C446101",
       "color": "BROWN",
-      "title": "The Wide Leg Emy Style Pant",
+      "title": "The Wide Leg Emy Pant",
       "size": "26 27 28 29 30",
       "price": "54",
       "category": "PANTS",
@@ -424,7 +264,7 @@
       "id": "C446101_GREEN",
       "code": "C446101",
       "color": "GREEN",
-      "title": "The Wide Leg Emy Style Pant",
+      "title": "The Wide Leg Emy Pant",
       "size": "26 27 28 29 30",
       "price": "54",
       "category": "PANTS",
@@ -439,6 +279,166 @@
       "price": "55",
       "category": "PANTS",
       "image": "assets/products/C469101_BLACK.jpg"
+    },
+    {
+      "id": "CT00379101_BEIGE",
+      "code": "CT00379101",
+      "color": "BEIGE",
+      "title": "The T-Shirt",
+      "size": "S M L XL",
+      "price": "34",
+      "category": "SHIRT",
+      "image": "assets/products/CT00379101_BEIGE.jpg"
+    },
+    {
+      "id": "CT00379101_BLACK",
+      "code": "CT00379101",
+      "color": "BLACK",
+      "title": "The T-Shirt",
+      "size": "S M L XL",
+      "price": "34",
+      "category": "SHIRT",
+      "image": "assets/products/CT00379101_BLACK.jpg"
+    },
+    {
+      "id": "CT00379101_BLUE",
+      "code": "CT00379101",
+      "color": "BLUE",
+      "title": "The T-Shirt",
+      "size": "S M L XL",
+      "price": "34",
+      "category": "SHIRT",
+      "image": "assets/products/CT00379101_BLUE.jpg"
+    },
+    {
+      "id": "CT00379101_ECRU",
+      "code": "CT00379101",
+      "color": "ECRU",
+      "title": "The T-Shirt",
+      "size": "S M L XL",
+      "price": "34",
+      "category": "SHIRT",
+      "image": "assets/products/CT00379101_ECRU.jpg"
+    },
+    {
+      "id": "CT00379101_POWDER",
+      "code": "CT00379101",
+      "color": "POWDER",
+      "title": "The T-Shirt",
+      "size": "S M L XL",
+      "price": "34",
+      "category": "SHIRT",
+      "image": "assets/products/CT00379101_POWDER.jpg"
+    },
+    {
+      "id": "CT00381101_BEIGE",
+      "code": "CT00381101",
+      "color": "BEIGE",
+      "title": "The T-Shirt",
+      "size": "S M L XL",
+      "price": "36",
+      "category": "SHIRT",
+      "image": "assets/products/CT00381101_BEIGE.jpg"
+    },
+    {
+      "id": "CT00381101_BLACK",
+      "code": "CT00381101",
+      "color": "BLACK",
+      "title": "The T-Shirt",
+      "size": "S M L XL",
+      "price": "36",
+      "category": "SHIRT",
+      "image": "assets/products/CT00381101_BLACK.jpg"
+    },
+    {
+      "id": "CT00381101_BLUE",
+      "code": "CT00381101",
+      "color": "BLUE",
+      "title": "The T-Shirt",
+      "size": "S M L XL",
+      "price": "36",
+      "category": "SHIRT",
+      "image": "assets/products/CT00381101_BLUE.jpg"
+    },
+    {
+      "id": "CT00381101_ECRU",
+      "code": "CT00381101",
+      "color": "ECRU",
+      "title": "The T-Shirt",
+      "size": "S M L XL",
+      "price": "36",
+      "category": "SHIRT",
+      "image": "assets/products/CT00381101_ECRU.jpg"
+    },
+    {
+      "id": "CT00381101_POWDER",
+      "code": "CT00381101",
+      "color": "POWDER",
+      "title": "The T-Shirt",
+      "size": "S M L XL",
+      "price": "36",
+      "category": "SHIRT",
+      "image": "assets/products/CT00381101_POWDER.jpg"
+    },
+    {
+      "id": "CT00550101_BLACK",
+      "code": "CT00550101",
+      "color": "BLACK",
+      "title": "The T-Shirt",
+      "size": "S M L XL",
+      "price": "38",
+      "category": "SHIRT",
+      "image": "assets/products/CT00550101_BLACK.jpg"
+    },
+    {
+      "id": "CT00550101_BURGUNDY",
+      "code": "CT00550101",
+      "color": "BURGUNDY",
+      "title": "The T-Shirt",
+      "size": "S M L XL",
+      "price": "38",
+      "category": "SHIRT",
+      "image": "assets/products/CT00550101_BURGUNDY.jpg"
+    },
+    {
+      "id": "CT00550101_ECRU",
+      "code": "CT00550101",
+      "color": "ECRU",
+      "title": "The T-Shirt",
+      "size": "S M L XL",
+      "price": "38",
+      "category": "SHIRT",
+      "image": "assets/products/CT00550101_ECRU.jpg"
+    },
+    {
+      "id": "CT00550101_TERRACOT",
+      "code": "CT00550101",
+      "color": "TERRACOT",
+      "title": "The T-Shirt",
+      "size": "S M L XL",
+      "price": "38",
+      "category": "SHIRT",
+      "image": "assets/products/CT00550101_TERRACOT.jpg"
+    },
+    {
+      "id": "CT00551101_BURGUNDY",
+      "code": "CT00551101",
+      "color": "BURGUNDY",
+      "title": "The T-Shirt",
+      "size": "S M L XL",
+      "price": "37",
+      "category": "SHIRT",
+      "image": "assets/products/CT00551101_BURGUNDY.jpg"
+    },
+    {
+      "id": "CT00551101_TERRACOT",
+      "code": "CT00551101",
+      "color": "TERRACOT",
+      "title": "The T-Shirt",
+      "size": "S M L XL",
+      "price": "37",
+      "category": "SHIRT",
+      "image": "assets/products/CT00551101_TERRACOT.jpg"
     },
     {
       "id": "C3621101_001",
