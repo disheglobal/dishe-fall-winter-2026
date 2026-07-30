@@ -1,5 +1,5 @@
 *{box-sizing:border-box}
-html,body,#app{margin:0;width:100%;height:100%;background:#050505;color:#fff;font-family:'Times New Roman',serif;overflow:hidden}
+html,body,#app{margin:0;width:100%;height:100%;background:#050505;color:#fff;font-family:'Times New Roman',serif;overflow:hidden;-webkit-text-size-adjust:100%;text-size-adjust:100%}
 button{font-family:inherit}
 .loading,.empty{height:100%;display:grid;place-items:center;letter-spacing:.25em}
 .screen{width:100%;height:100%;position:relative}
@@ -306,8 +306,9 @@ button{font-family:inherit}
   justify-content:space-between;
 }
 .menu-buttons .lux-button{
-  height:clamp(35px,3.72vh,41px);
-  min-height:35px;
+  height:6.9%;
+  min-height:24px;
+  max-height:38px;
   border:1px solid rgba(221,160,76,.82);
   border-radius:999px;
   background:
@@ -323,7 +324,7 @@ button{font-family:inherit}
     inset 0 -1px 0 rgba(181,40,31,.48),
     0 0 0 1px rgba(86,30,20,.18),
     0 3px 10px rgba(0,0,0,.34);
-  padding:0 48px 0 26px;
+  padding:0 12% 0 7%;
 }
 .menu-buttons .lux-button::before{
   left:5.5%;
@@ -351,21 +352,21 @@ button{font-family:inherit}
   transform:translateY(-.2px);
 }
 .menu-buttons .lux-en{
-  font-size:clamp(12px,1.72vh,16px);
+  font-size:clamp(9px,1.3vw,14px);
   letter-spacing:.18em;
   line-height:.98;
   color:#f4dfb8;
 }
 .menu-buttons .lux-ru{
-  font-size:clamp(6.5px,.88vh,8.5px);
+  font-size:clamp(6px,.72vw,8px);
   letter-spacing:.15em;
   line-height:1;
   color:rgba(221,185,119,.93);
 }
 .menu-buttons .click-icon{
   right:6.1%;
-  width:clamp(15px,2.05vh,19px);
-  height:clamp(15px,2.05vh,19px);
+  width:clamp(12px,1.7vw,18px);
+  height:clamp(12px,1.7vw,18px);
   color:#ed202b;
   filter:drop-shadow(0 0 3px rgba(237,32,43,.26));
 }
@@ -378,14 +379,15 @@ button{font-family:inherit}
 .categories-button{
   position:absolute;
   z-index:7;
-  left:18px;
-  bottom:calc(101px + env(safe-area-inset-bottom));
+  left:3.2%;
+  bottom:8%;
   transform:none;
-  width:auto;
-  min-width:0;
-  height:clamp(35px,3.72vh,41px);
-  min-height:35px;
-  max-height:none;
+  width:29%;
+  min-width:112px;
+  max-width:170px;
+  height:3.6%;
+  min-height:24px;
+  max-height:38px;
   flex:0 0 auto;
   border:1px solid rgba(221,160,76,.82);
   border-radius:999px;
@@ -408,7 +410,7 @@ button{font-family:inherit}
   display:flex;
   align-items:center;
   justify-content:center;
-  padding:0 48px 0 26px;
+  padding:0 12% 0 7%;
   overflow:hidden;
   isolation:isolate;
   -webkit-tap-highlight-color:transparent;
@@ -451,7 +453,7 @@ button{font-family:inherit}
   transform:translateY(-.2px);
 }
 .categories-button .lux-en{
-  font-size:clamp(12px,1.72vh,16px);
+  font-size:clamp(10px,1.4vw,14px);
   font-weight:400;
   letter-spacing:.18em;
   line-height:.98;
@@ -460,11 +462,11 @@ button{font-family:inherit}
 }
 .categories-button .click-icon{
   position:absolute;
-  right:17px;
+  right:6%;
   top:50%;
   transform:translateY(-50%);
-  width:clamp(15px,2.05vh,19px);
-  height:clamp(15px,2.05vh,19px);
+  width:clamp(13px,1.8vw,18px);
+  height:clamp(13px,1.8vw,18px);
   color:#ed202b;
   filter:drop-shadow(0 0 3px rgba(237,32,43,.26));
   pointer-events:none;
