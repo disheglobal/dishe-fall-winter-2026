@@ -721,56 +721,6 @@
       "image": "assets/products/CO00393101_PINK.jpg"
     },
     {
-      "id": "CT00378101_BEIGE",
-      "code": "CT00378101",
-      "color": "BEIGE",
-      "title": "The Knitwear",
-      "size": "S, M, L, XL",
-      "price": "42.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/CT00378101_BEIGE.jpg"
-    },
-    {
-      "id": "CT00378101_BLACK",
-      "code": "CT00378101",
-      "color": "BLACK",
-      "title": "The Knitwear",
-      "size": "S, M, L, XL",
-      "price": "42.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/CT00378101_BLACK.jpg"
-    },
-    {
-      "id": "CT00378101_BLUE",
-      "code": "CT00378101",
-      "color": "BLUE",
-      "title": "The Knitwear",
-      "size": "S, M, L, XL",
-      "price": "42.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/CT00378101_BLUE.jpg"
-    },
-    {
-      "id": "CT00378101_ECRU",
-      "code": "CT00378101",
-      "color": "ECRU",
-      "title": "The Knitwear",
-      "size": "S, M, L, XL",
-      "price": "42.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/CT00378101_ECRU.jpg"
-    },
-    {
-      "id": "CT00378101_POWDER",
-      "code": "CT00378101",
-      "color": "POWDER",
-      "title": "The Knitwear",
-      "size": "S, M, L, XL",
-      "price": "42.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/CT00378101_POWDER.jpg"
-    },
-    {
       "id": "CT00379101_BEIGE",
       "code": "CT00379101",
       "color": "BEIGE",
@@ -819,56 +769,6 @@
       "price": "34",
       "category": "KNITWEAR",
       "image": "assets/products/CT00379101_POWDER.jpg"
-    },
-    {
-      "id": "CT00380101_BEIGE",
-      "code": "CT00380101",
-      "color": "BEIGE",
-      "title": "The Knitwear",
-      "size": "S, M, L, XL",
-      "price": "34.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/CT00380101_BEIGE.jpg"
-    },
-    {
-      "id": "CT00380101_BLACK",
-      "code": "CT00380101",
-      "color": "BLACK",
-      "title": "The Knitwear",
-      "size": "S, M, L, XL",
-      "price": "34.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/CT00380101_BLACK.jpg"
-    },
-    {
-      "id": "CT00380101_BLUE",
-      "code": "CT00380101",
-      "color": "BLUE",
-      "title": "The Knitwear",
-      "size": "S, M, L, XL",
-      "price": "34.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/CT00380101_BLUE.jpg"
-    },
-    {
-      "id": "CT00380101_ECRU",
-      "code": "CT00380101",
-      "color": "ECRU",
-      "title": "The Knitwear",
-      "size": "S, M, L, XL",
-      "price": "34.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/CT00380101_ECRU.jpg"
-    },
-    {
-      "id": "CT00380101_POWDER",
-      "code": "CT00380101",
-      "color": "POWDER",
-      "title": "The Knitwear",
-      "size": "S, M, L, XL",
-      "price": "34.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/CT00380101_POWDER.jpg"
     },
     {
       "id": "CT00381101_BEIGE",
@@ -1099,6 +999,106 @@
       "price": "62.0",
       "category": "SHIRT",
       "image": "assets/products/C1540101_RED2.jpg"
+    },
+    {
+      "id": "CT00378101_BEIGE",
+      "code": "CT00378101",
+      "color": "BEIGE",
+      "title": "The T-Shirt",
+      "size": "S, M, L, XL",
+      "price": "42.0",
+      "category": "SHIRT",
+      "image": "assets/products/CT00378101_BEIGE.jpg"
+    },
+    {
+      "id": "CT00378101_BLACK",
+      "code": "CT00378101",
+      "color": "BLACK",
+      "title": "The T-Shirt",
+      "size": "S, M, L, XL",
+      "price": "42.0",
+      "category": "SHIRT",
+      "image": "assets/products/CT00378101_BLACK.jpg"
+    },
+    {
+      "id": "CT00378101_BLUE",
+      "code": "CT00378101",
+      "color": "BLUE",
+      "title": "The T-Shirt",
+      "size": "S, M, L, XL",
+      "price": "42.0",
+      "category": "SHIRT",
+      "image": "assets/products/CT00378101_BLUE.jpg"
+    },
+    {
+      "id": "CT00378101_ECRU",
+      "code": "CT00378101",
+      "color": "ECRU",
+      "title": "The T-Shirt",
+      "size": "S, M, L, XL",
+      "price": "42.0",
+      "category": "SHIRT",
+      "image": "assets/products/CT00378101_ECRU.jpg"
+    },
+    {
+      "id": "CT00378101_POWDER",
+      "code": "CT00378101",
+      "color": "POWDER",
+      "title": "The T-Shirt",
+      "size": "S, M, L, XL",
+      "price": "42.0",
+      "category": "SHIRT",
+      "image": "assets/products/CT00378101_POWDER.jpg"
+    },
+    {
+      "id": "CT00380101_BEIGE",
+      "code": "CT00380101",
+      "color": "BEIGE",
+      "title": "The T-Shirt",
+      "size": "S, M, L, XL",
+      "price": "34.0",
+      "category": "SHIRT",
+      "image": "assets/products/CT00380101_BEIGE.jpg"
+    },
+    {
+      "id": "CT00380101_BLACK",
+      "code": "CT00380101",
+      "color": "BLACK",
+      "title": "The T-Shirt",
+      "size": "S, M, L, XL",
+      "price": "34.0",
+      "category": "SHIRT",
+      "image": "assets/products/CT00380101_BLACK.jpg"
+    },
+    {
+      "id": "CT00380101_BLUE",
+      "code": "CT00380101",
+      "color": "BLUE",
+      "title": "The T-Shirt",
+      "size": "S, M, L, XL",
+      "price": "34.0",
+      "category": "SHIRT",
+      "image": "assets/products/CT00380101_BLUE.jpg"
+    },
+    {
+      "id": "CT00380101_ECRU",
+      "code": "CT00380101",
+      "color": "ECRU",
+      "title": "The T-Shirt",
+      "size": "S, M, L, XL",
+      "price": "34.0",
+      "category": "SHIRT",
+      "image": "assets/products/CT00380101_ECRU.jpg"
+    },
+    {
+      "id": "CT00380101_POWDER",
+      "code": "CT00380101",
+      "color": "POWDER",
+      "title": "The T-Shirt",
+      "size": "S, M, L, XL",
+      "price": "34.0",
+      "category": "SHIRT",
+      "image": "assets/products/CT00380101_POWDER.jpg"
     },
     {
       "id": "C3620101_BLUE",
