@@ -1,6 +1,8 @@
 const app=document.getElementById('app');
 let db={products:[]};
-const ASSET_VERSION=Date.now();
+// Stable release key lets phones cache category covers between visits.
+// Change it only when catalog assets are deliberately replaced.
+const ASSET_VERSION='20260806-1';
 
 let MENU_ITEMS=[
   ['BIG_SIZE','BIG SIZE','БОЛЬШИЕ РАЗМЕРЫ'],
@@ -42,10 +44,10 @@ const CATEGORY_ICONS={
   VEST:'<path d="M31 17h18l11 18-9 10-4-7v46H33V38l-4 7-9-10 11-18ZM40 17v67"/>',
   BAG:'<path d="M19 37h42v40H19V37ZM29 37v-7c0-12 22-12 22 0v7M19 49h42"/>'
 };
-const CATEGORY_COVER_EXT={DRESS:'png',JACKET:'png',VEST:'png',OUTFIT:'png',SHIRT:'png',KNITWEAR:'png',SUIT:'png',SKIRT:'png',PANTS:'png',LEATHER:'png',BAG:'png',BIG_SIZE:'png'};
-const categoryTile=([key,en,ru])=>`<button class="category-tile" data-c="${key}" aria-label="${en}"><span class="category-visual"><img class="category-cover-image" src="assets/categories/${key}.${CATEGORY_COVER_EXT[key]||'png'}?v=${ASSET_VERSION}" alt=""></span><span class="category-copy"><span class="category-name">${en}</span><span class="category-name-ru">${ru}</span></span></button>`;
+const CATEGORY_COVER_EXT={DRESS:'webp',JACKET:'webp',VEST:'webp',OUTFIT:'webp',SHIRT:'webp',KNITWEAR:'webp',SUIT:'webp',SKIRT:'webp',PANTS:'webp',LEATHER:'webp',BAG:'webp',BIG_SIZE:'webp'};
+const categoryTile=([key,en,ru])=>`<button class="category-tile" data-c="${key}" aria-label="${en}"><span class="category-visual"><img class="category-cover-image" src="assets/categories/${key}.${CATEGORY_COVER_EXT[key]||'webp'}?v=${ASSET_VERSION}" alt=""></span><span class="category-copy"><span class="category-name">${en}</span><span class="category-name-ru">${ru}</span></span></button>`;
 const capsuleTile=(name,klass)=>`<article class="capsule-tile ${klass}"><span>CAPSULE</span><b>${name}</b><small>COMING SOON</small></article>`;
-const categoryMenuMarkup=(extraClass='')=>`<div class="category-home ${extraClass}"><section class="category-hero"><img src="assets/category-hero.jpg?v=${ASSET_VERSION}" alt="D.SHE Fall Winter 2026"></section><section class="category-section"><header class="section-heading"><h2>Categories</h2><p>SHOP BY CATEGORY</p></header><div class="category-grid">${MENU_ITEMS.map(categoryTile).join('')}</div></section><section class="capsules-section"><header class="section-heading"><h2>Capsules</h2><p>CURATED EDITS</p></header><div class="capsule-grid">${capsuleTile('DENIM EDIT','capsule-large capsule-denim')}${capsuleTile('LEATHER LINE','capsule-leather')}${capsuleTile('RED EDIT','capsule-red')}${capsuleTile('EVENING','capsule-evening')}</div></section></div>`;
+const categoryMenuMarkup=(extraClass='')=>`<div class="category-home ${extraClass}"><section class="category-hero"><img src="assets/category-hero.webp?v=${ASSET_VERSION}" alt="D.SHE Fall Winter 2026"></section><section class="category-section"><header class="section-heading"><h2>Categories</h2><p>SHOP BY CATEGORY</p></header><div class="category-grid">${MENU_ITEMS.map(categoryTile).join('')}</div></section><section class="capsules-section"><header class="section-heading"><h2>Capsules</h2><p>CURATED EDITS</p></header><div class="capsule-grid">${capsuleTile('DENIM EDIT','capsule-large capsule-denim')}${capsuleTile('LEATHER LINE','capsule-leather')}${capsuleTile('RED EDIT','capsule-red')}${capsuleTile('EVENING','capsule-evening')}</div></section></div>`;
 const bindCategoryTiles=(scope=document)=>scope.querySelectorAll('.category-tile').forEach(b=>b.addEventListener('click',e=>{e.preventDefault();openCategory(b.dataset.c)}));
 
 fetch('data/catalog.json',{cache:'no-store'})
