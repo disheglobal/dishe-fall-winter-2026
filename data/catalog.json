@@ -1407,7 +1407,7 @@
       "title": "The T-Shirt",
       "size": "S, M, L, XL",
       "price": "38.0",
-      "category": "SHIRT",
+      "category": "KNITWEAR",
       "image": "assets/products/CT00344101_RED.jpg"
     },
     {
@@ -1417,7 +1417,7 @@
       "title": "The T-Shirt",
       "size": "S, M, L, XL",
       "price": "37.0",
-      "category": "SHIRT",
+      "category": "KNITWEAR",
       "image": "assets/products/CT00345101_BLACK.jpg"
     },
     {
@@ -1427,7 +1427,7 @@
       "title": "The T-Shirt",
       "size": "S, M, L, XL",
       "price": "37.0",
-      "category": "SHIRT",
+      "category": "KNITWEAR",
       "image": "assets/products/CT00345101_RED.jpg"
     },
     {
@@ -2007,7 +2007,7 @@
       "title": "The Coat",
       "size": "S, M, L, XL",
       "price": "74.0",
-      "category": "OUTFIT",
+      "category": "JACKET",
       "image": "assets/products/C5804101_BLACK.jpg"
     },
     {
@@ -2017,7 +2017,7 @@
       "title": "The Coat",
       "size": "S, M, L, XL",
       "price": "74.0",
-      "category": "OUTFIT",
+      "category": "JACKET",
       "image": "assets/products/C5804101_BLUE.jpg"
     },
     {

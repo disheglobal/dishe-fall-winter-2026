@@ -79,6 +79,57 @@ async function home(){
 }
 
 async function openCategory(cat){
+  const selectedItem=MENU_ITEMS.find(([key])=>key===cat);
+  if(!selectedItem){home();return;}
+  const categorySequence=MENU_ITEMS;
+  const loaderSlide=(key,comingSoon=false)=>{
+    const [,en,ru]=MENU_ITEMS.find(([itemKey])=>itemKey===key);
+    return `<article class="slide category-loader-slide"><div class="category-loader"><img src="assets/category-loader.webp?v=${ASSET_VERSION}" alt="D.SHE ${en}"><span class="loader-diamond" aria-label="Loading"><svg viewBox="0 0 90 66" aria-hidden="true"><defs><linearGradient id="redGem" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff8084"/><stop offset=".42" stop-color="#e20d1c"/><stop offset="1" stop-color="#690008"/></linearGradient></defs><path class="gem-shadow" d="M19 17h52l13 17-39 29L6 34l13-17Z"/><path class="gem-crown" d="M19 17h52l13 17H6l13-17Z"/><path class="gem-left" d="M6 34h25l14 29L6 34Z"/><path class="gem-center" d="M31 34h28L45 63 31 34Z"/><path class="gem-right" d="M59 34h25L45 63l14-29Z"/><path class="gem-top-left" d="m19 17 12 17 14-17-26 0Z"/><path class="gem-top-center" d="m45 17 14 17 12-17H45Z"/><path class="gem-glint" d="m25 19 7 11 8-11H25Z"/><path class="gem-rim" d="M19 17h52l13 17-39 29L6 34l13-17ZM6 34h78M31 34l14 29 14-29M19 17l12 17 14-17 14 17 12-17"/></svg></span>${comingSoon?'<span class="loader-coming-soon">COMING SOON</span>':''}</div></article>`;
+  };
+  const selectedSlides=[];
+  let activeStartIndex=0;
+  categorySequence.forEach(([key],sequenceIndex)=>{
+    const products=db.products.filter(p=>p.category===key);
+    if(key===cat) activeStartIndex=selectedSlides.length;
+    selectedSlides.push(loaderSlide(key,!products.length));
+    if(!products.length){
+      return;
+    }
+    selectedSlides.push(...products.map(p=>`<article class="slide product-slide"><div class="product-stage"><img data-src="${p.image}?v=${ASSET_VERSION}" alt="${p.title||p.code}" loading="lazy" decoding="async">${categoriesButton()}</div></article>`));
+    selectedSlides.push(`<article class="slide category-end-slide"><div class="category-end"><img src="assets/category-loader.webp?v=${ASSET_VERSION}" alt="D.SHE Categories"><button class="category-return-button" type="button"><span>Categories</span>${clickIcon()}</button></div></article>`);
+  });
+  selectedSlides.push(`<article class="slide category-end-slide"><div class="category-end"><img src="assets/category-loader.webp?v=${ASSET_VERSION}" alt="D.SHE Contact us"><a class="category-return-button category-contact-button" href="https://dishesocial.carrd.co/" target="_blank" rel="noopener"><span>Contact us</span>${clickIcon()}</a><button class="category-return-button category-home-button" type="button"><span>Categories</span>${clickIcon()}</button></div></article>`);
+  app.innerHTML=`<section class="screen viewer"><div class="slides">${selectedSlides.join('')}</div><div class="hint"></div></section>`;
+  document.querySelectorAll('.categories-button,button.category-return-button').forEach(b=>b.addEventListener('click',e=>{
+    e.preventDefault();
+    e.stopPropagation();
+    home();
+  }));
+  const selectedEl=document.querySelector('.slides');
+  const loadSelectedImages=(center,radius=2)=>{
+    const first=Math.max(0,center-radius);
+    const last=Math.min(selectedEl.children.length-1,center+radius);
+    for(let i=first;i<=last;i++) selectedEl.children[i].querySelectorAll('img[data-src]').forEach(img=>{
+      img.src=img.dataset.src;
+      img.removeAttribute('data-src');
+    });
+  };
+  const selectedHasProducts=db.products.some(product=>product.category===cat);
+  const showActiveCategoryCover=()=>{selectedEl.scrollLeft=activeStartIndex*selectedEl.clientWidth};
+  loadSelectedImages(activeStartIndex);
+  showActiveCategoryCover();
+  requestAnimationFrame(showActiveCategoryCover);
+  if(selectedHasProducts){
+    setTimeout(()=>{
+      const selectedPosition=activeStartIndex*selectedEl.clientWidth;
+      if(Math.abs(selectedEl.scrollLeft-selectedPosition)<selectedEl.clientWidth*.5){
+        selectedEl.scrollTo({left:(activeStartIndex+1)*selectedEl.clientWidth,behavior:'smooth'});
+      }
+    },2000);
+  }
+  selectedEl.addEventListener('scroll',()=>loadSelectedImages(Math.round(selectedEl.scrollLeft/selectedEl.clientWidth)),{passive:true});
+  return;
+
   const slides=[];
   let startIndex=1;
 
