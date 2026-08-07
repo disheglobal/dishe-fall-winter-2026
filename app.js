@@ -47,7 +47,8 @@ const CATEGORY_ICONS={
 const CATEGORY_COVER_EXT={DRESS:'webp',JACKET:'webp',VEST:'webp',OUTFIT:'webp',SHIRT:'webp',KNITWEAR:'webp',SUIT:'webp',SKIRT:'webp',PANTS:'webp',LEATHER:'webp',BAG:'webp',BIG_SIZE:'webp'};
 const categoryTile=([key,en,ru])=>`<button class="category-tile" data-c="${key}" aria-label="${en}"><span class="category-visual"><img class="category-cover-image" src="assets/categories/${key}.${CATEGORY_COVER_EXT[key]||'webp'}?v=${ASSET_VERSION}" alt=""></span><span class="category-copy"><span class="category-name">${en}</span><span class="category-name-ru">${ru}</span></span></button>`;
 const capsuleTile=(name,klass)=>`<article class="capsule-tile ${klass}"><span>CAPSULE</span><b>${name}</b><small>COMING SOON</small></article>`;
-const categoryMenuMarkup=(extraClass='')=>`<div class="category-home ${extraClass}"><section class="category-hero"><img src="assets/category-hero.webp?v=${ASSET_VERSION}" alt="D.SHE Fall Winter 2026"></section><section class="category-section"><header class="section-heading"><h2>Categories</h2><p>SHOP BY CATEGORY</p></header><div class="category-grid">${MENU_ITEMS.map(categoryTile).join('')}</div></section><section class="capsules-section"><header class="section-heading"><h2>Capsules</h2><p>CURATED EDITS</p></header><div class="capsule-grid">${capsuleTile('DENIM EDIT','capsule-large capsule-denim')}${capsuleTile('LEATHER LINE','capsule-leather')}${capsuleTile('RED EDIT','capsule-red')}${capsuleTile('EVENING','capsule-evening')}</div></section></div>`;
+const searchButton=()=>`<button class="catalog-search-button" type="button" aria-label="Search by product code"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.4"></circle><path d="m16 16 5 5"></path></svg><span>Search by code</span></button>`;
+const categoryMenuMarkup=(extraClass='')=>`<div class="category-home ${extraClass}"><section class="category-hero"><img src="assets/category-hero.webp?v=${ASSET_VERSION}" alt="D.SHE Fall Winter 2026"></section><section class="category-section"><header class="section-heading"><h2>Categories</h2><p>SHOP BY CATEGORY</p>${searchButton()}</header><div class="category-grid">${MENU_ITEMS.map(categoryTile).join('')}</div></section><section class="capsules-section"><header class="section-heading"><h2>Capsules</h2><p>CURATED EDITS</p></header><div class="capsule-grid">${capsuleTile('DENIM EDIT','capsule-large capsule-denim')}${capsuleTile('LEATHER LINE','capsule-leather')}${capsuleTile('RED EDIT','capsule-red')}${capsuleTile('EVENING','capsule-evening')}</div></section></div>`;
 const bindCategoryTiles=(scope=document)=>scope.querySelectorAll('.category-tile').forEach(b=>b.addEventListener('click',e=>{e.preventDefault();openCategory(b.dataset.c)}));
 
 fetch('data/catalog.json',{cache:'no-store'})
@@ -76,6 +77,38 @@ async function legacyHome(){
 async function home(){
   app.innerHTML=`<section class="screen home">${categoryMenuMarkup()}</section>`;
   bindCategoryTiles();
+  document.querySelector('.catalog-search-button')?.addEventListener('click',openProductSearch);
+}
+
+const normalizeCode=value=>String(value||'').toUpperCase().replace(/[^A-Z0-9]/g,'');
+
+function openProductSearch(){
+  const dialog=document.createElement('div');
+  dialog.className='catalog-search-overlay';
+  dialog.innerHTML=`<form class="catalog-search-dialog" novalidate><button class="catalog-search-close" type="button" aria-label="Close">×</button><span class="catalog-search-eyebrow">D.SHE CATALOGUE</span><h2>Find your model</h2><p>Enter the product code to see all available colours.</p><label><span>Product code</span><input name="code" type="search" autocomplete="off" autocapitalize="characters" placeholder="Example: CT00379101" autofocus></label><div class="catalog-search-error" aria-live="polite"></div><button class="catalog-search-submit" type="submit">Show model</button></form>`;
+  app.append(dialog);
+  const form=dialog.querySelector('form');
+  const input=form.elements.code;
+  const close=()=>dialog.remove();
+  dialog.querySelector('.catalog-search-close').addEventListener('click',close);
+  dialog.addEventListener('click',event=>{if(event.target===dialog)close()});
+  form.addEventListener('submit',event=>{
+    event.preventDefault();
+    const code=normalizeCode(input.value);
+    const matches=db.products.filter(product=>normalizeCode(product.code)===code);
+    const error=dialog.querySelector('.catalog-search-error');
+    if(!code){error.textContent='Enter a product code.';return;}
+    if(!matches.length){error.textContent='This code was not found in the catalogue.';return;}
+    dialog.remove();
+    openSearchResults(code,matches);
+  });
+  requestAnimationFrame(()=>input.focus());
+}
+
+function openSearchResults(code,products){
+  app.innerHTML=`<section class="screen viewer search-viewer"><div class="search-results-label"><button type="button" aria-label="Back to categories">←</button><span>${code} · ${products.length} ${products.length===1?'colour':'colours'}</span></div><div class="slides">${products.map(product=>`<article class="slide product-slide"><div class="product-stage"><img src="${product.image}?v=${ASSET_VERSION}" alt="${product.title||product.code}" decoding="async">${categoriesButton()}</div></article>`).join('')}</div></section>`;
+  document.querySelector('.search-results-label button').addEventListener('click',home);
+  document.querySelectorAll('.categories-button').forEach(button=>button.addEventListener('click',event=>{event.preventDefault();event.stopPropagation();home()}));
 }
 
 async function openCategory(cat){
