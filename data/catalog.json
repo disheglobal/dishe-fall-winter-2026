@@ -45,7 +45,7 @@
       "code": "C5786101",
       "color": "BLUE",
       "title": "The Merry Fit Jacket",
-      "size": "S M L XL",
+      "size": "S, M, L, XL",
       "price": "76.0",
       "category": "JACKET",
       "image": "assets/products/C5786101_BLUE.jpg"
@@ -115,7 +115,7 @@
       "code": "C5790101",
       "color": "BROWN",
       "title": "The Jacket",
-      "size": "S M L XL",
+      "size": "S, M, L, XL",
       "price": "74.0",
       "category": "JACKET",
       "image": "assets/products/C5790101_BROWN.jpg"
@@ -365,7 +365,7 @@
       "code": "C421101",
       "color": "BLUE",
       "title": "The Merry Style Baloon Pant",
-      "size": "26 27 28 29 30",
+      "size": "26, 27, 28, 29, 30",
       "price": "57.0",
       "category": "PANTS",
       "image": "assets/products/C421101_BLUE.jpg"
@@ -445,7 +445,7 @@
       "code": "C428101",
       "color": "BROWN",
       "title": "The Frida Style Pant",
-      "size": "26 27 28 29 30",
+      "size": "26, 27, 28, 29, 30",
       "price": "54.0",
       "category": "PANTS",
       "image": "assets/products/C428101_BROWN.jpg"
@@ -514,8 +514,8 @@
       "id": "C431101_BROWN",
       "code": "C431101",
       "color": "BROWN",
-      "title": "The Shri̇n Style Baggy Pant",
-      "size": "26 27 28 29 30",
+      "title": "The Shrin Style Baggy Pant",
+      "size": "26, 27, 28, 29, 30",
       "price": "56.0",
       "category": "PANTS",
       "image": "assets/products/C431101_BROWN.jpg"
@@ -534,8 +534,8 @@
       "id": "C431101_WINE",
       "code": "C431101",
       "color": "WINE",
-      "title": "The Shri̇n Style Baggy Pant",
-      "size": "26 27 28 29 30",
+      "title": "The Shrin Style Baggy Pant",
+      "size": "26, 27, 28, 29, 30",
       "price": "56.0",
       "category": "PANTS",
       "image": "assets/products/C431101_WINE.jpg"
@@ -545,7 +545,7 @@
       "code": "C432101",
       "color": "BROWN",
       "title": "The Merry Style Baloon Pant",
-      "size": "26 27 28 29 30",
+      "size": "26, 27, 28, 29, 30",
       "price": "56.0",
       "category": "PANTS",
       "image": "assets/products/C432101_BROWN.jpg"
@@ -565,7 +565,7 @@
       "code": "C432101",
       "color": "WINE",
       "title": "The Merry Style Baloon Pant",
-      "size": "26 27 28 29 30",
+      "size": "26, 27, 28, 29, 30",
       "price": "56.0",
       "category": "PANTS",
       "image": "assets/products/C432101_WINE.jpg"
@@ -875,7 +875,7 @@
       "code": "C9457101",
       "color": "BLACK",
       "title": "The Frida Style Bigsize Pant",
-      "size": "31 32 33 34 36",
+      "size": "31, 32, 33, 34, 36",
       "price": "59.0",
       "category": "PANTS",
       "image": "assets/products/C9457101_BLACK.jpg"
@@ -884,8 +884,8 @@
       "id": "C9460101_BLACK",
       "code": "C9460101",
       "color": "BLACK",
-      "title": "The Shri̇n Style Baggy Bigsize Pant",
-      "size": "31 32 33 34 36",
+      "title": "The Shrin Style Baggy Bigsize Pant",
+      "size": "31, 32, 33, 34, 36",
       "price": "59.0",
       "category": "PANTS",
       "image": "assets/products/C9460101_BLACK.jpg"
@@ -1075,7 +1075,7 @@
       "code": "CO00393101",
       "color": "BBLUE",
       "title": "The Knit Wear",
-      "size": "S M L",
+      "size": "S, M, L",
       "price": "54.0",
       "category": "KNITWEAR",
       "image": "assets/products/CO00393101_BBLUE.jpg"
@@ -1085,7 +1085,7 @@
       "code": "CO00393101",
       "color": "BEIGE",
       "title": "The Knit Wear",
-      "size": "S M L",
+      "size": "S, M, L",
       "price": "54.0",
       "category": "KNITWEAR",
       "image": "assets/products/CO00393101_BEIGE.jpg"
@@ -1095,7 +1095,7 @@
       "code": "CO00393101",
       "color": "BROWN",
       "title": "The Knit Wear",
-      "size": "S M L",
+      "size": "S, M, L",
       "price": "54.0",
       "category": "KNITWEAR",
       "image": "assets/products/CO00393101_BROWN.jpg"
@@ -1105,7 +1105,7 @@
       "code": "CO00393101",
       "color": "BURGUNDY",
       "title": "The Knit Wear",
-      "size": "S M L",
+      "size": "S, M, L",
       "price": "54.0",
       "category": "KNITWEAR",
       "image": "assets/products/CO00393101_BURGUNDY.jpg"
@@ -1115,7 +1115,7 @@
       "code": "CO00393101",
       "color": "GRAY",
       "title": "The Knit Wear",
-      "size": "S M L",
+      "size": "S, M, L",
       "price": "54.0",
       "category": "KNITWEAR",
       "image": "assets/products/CO00393101_GRAY.jpg"
@@ -1125,7 +1125,7 @@
       "code": "CO00393101",
       "color": "NAVYRED",
       "title": "The Knit Wear",
-      "size": "S M L",
+      "size": "S, M, L",
       "price": "54.0",
       "category": "KNITWEAR",
       "image": "assets/products/CO00393101_NAVYRED.jpg"
@@ -1135,7 +1135,7 @@
       "code": "CO00393101",
       "color": "NBLUE",
       "title": "The Knit Wear",
-      "size": "S M L",
+      "size": "S, M, L",
       "price": "54.0",
       "category": "KNITWEAR",
       "image": "assets/products/CO00393101_NBLUE.jpg"
@@ -1145,7 +1145,7 @@
       "code": "CO00393101",
       "color": "PINK",
       "title": "The Knit Wear",
-      "size": "S M L",
+      "size": "S, M, L",
       "price": "54.0",
       "category": "KNITWEAR",
       "image": "assets/products/CO00393101_PINK.jpg"
@@ -1705,7 +1705,7 @@
       "code": "C1529101",
       "color": "WHITE",
       "title": "The Oversize Shirt",
-      "size": "S M L XL",
+      "size": "S, M, L, XL",
       "price": "62.0",
       "category": "SHIRT",
       "image": "assets/products/C1529101_WHITE.jpg"
@@ -1715,7 +1715,7 @@
       "code": "C1530101",
       "color": "WHITE",
       "title": "The Oversize Shirt",
-      "size": "S M L XL",
+      "size": "S, M, L, XL",
       "price": "62.0",
       "category": "SHIRT",
       "image": "assets/products/C1530101_WHITE.jpg"
@@ -1745,7 +1745,7 @@
       "code": "C1539101",
       "color": "WHITE",
       "title": "The Oversize Shirt",
-      "size": "S M L XL",
+      "size": "S, M, L, XL",
       "price": "42.0",
       "category": "SHIRT",
       "image": "assets/products/C1539101_WHITE.jpg"
@@ -1755,7 +1755,7 @@
       "code": "C1540101",
       "color": "BROWN",
       "title": "The Oversize Shirt",
-      "size": "S M L XL",
+      "size": "S, M, L, XL",
       "price": "62.0",
       "category": "SHIRT",
       "image": "assets/products/C1540101_BROWN.jpg"
@@ -1805,7 +1805,7 @@
       "code": "C3620101",
       "color": "BLUE",
       "title": "The Skirt",
-      "size": "36 38 40 42",
+      "size": "36, 38, 40, 42",
       "price": "56.0",
       "category": "SKIRT",
       "image": "assets/products/C3620101_BLUE.jpg"
@@ -1905,7 +1905,7 @@
       "code": "CD685",
       "color": "BLACK",
       "title": "The Leather Jacket",
-      "size": "S M L XL",
+      "size": "S, M, L, XL",
       "price": "295.0",
       "category": "LEATHER",
       "image": "assets/products/CD685_BLACK.jpg"
@@ -1925,7 +1925,7 @@
       "code": "CD690",
       "color": "BLACK",
       "title": "The Leather Jacket",
-      "size": "S M L XL",
+      "size": "S, M, L, XL",
       "price": "320.0",
       "category": "LEATHER",
       "image": "assets/products/CD690_BLACK.jpg"
@@ -1995,7 +1995,7 @@
       "code": "CZ138",
       "color": "BROWN",
       "title": "The Leather Jacket",
-      "size": "S M L XL",
+      "size": "S, M, L, XL",
       "price": "275.0",
       "category": "LEATHER",
       "image": "assets/products/CZ138_BROWN.jpg"
@@ -2045,7 +2045,7 @@
       "code": "CZ150",
       "color": "BROWN",
       "title": "The Leather Jacket",
-      "size": "S M L XL",
+      "size": "S, M, L, XL",
       "price": "285.0",
       "category": "LEATHER",
       "image": "assets/products/CZ150_BROWN.jpg"
@@ -2075,7 +2075,7 @@
       "code": "CZ152",
       "color": "BEIGE",
       "title": "The Leather Jacket",
-      "size": "S M L XL",
+      "size": "S, M, L, XL",
       "price": "255.0",
       "category": "LEATHER",
       "image": "assets/products/CZ152_BEIGE.jpg"
@@ -2105,7 +2105,7 @@
       "code": "CZ1551",
       "color": "BLACK",
       "title": "The Leather Jacket",
-      "size": "S M L XL",
+      "size": "S, M, L, XL",
       "price": "245.0",
       "category": "LEATHER",
       "image": "assets/products/CZ1551_BLACK.jpg"
@@ -2125,7 +2125,7 @@
       "code": "CZ159",
       "color": "BEIGE",
       "title": "The Leather Jacket",
-      "size": "S M L XL",
+      "size": "S, M, L, XL",
       "price": "265.0",
       "category": "LEATHER",
       "image": "assets/products/CZ159_BEIGE.jpg"
@@ -2295,7 +2295,7 @@
       "code": "CZ188",
       "color": "BROWN",
       "title": "The Leather Jacket",
-      "size": "S M L XL",
+      "size": "S, M, L, XL",
       "price": "275.0",
       "category": "LEATHER",
       "image": "assets/products/CZ188_BROWN.jpg"
@@ -2335,7 +2335,7 @@
       "code": "CZ191",
       "color": "BEIGE",
       "title": "The Leather Jacket",
-      "size": "S M L XL",
+      "size": "S, M, L, XL",
       "price": "260.0",
       "category": "LEATHER",
       "image": "assets/products/CZ191_BEIGE.jpg"
@@ -2345,7 +2345,7 @@
       "code": "CZ194",
       "color": "BLACK",
       "title": "The Leather Jacket",
-      "size": "S M L XL",
+      "size": "S, M, L, XL",
       "price": "270.0",
       "category": "LEATHER",
       "image": "assets/products/CZ194_BLACK.jpg"
@@ -2355,7 +2355,7 @@
       "code": "CZ197",
       "color": "BROWN",
       "title": "The Leather Jacket",
-      "size": "S M L XL",
+      "size": "S, M, L, XL",
       "price": "285.0",
       "category": "LEATHER",
       "image": "assets/products/CZ197_BROWN.jpg"
@@ -2455,7 +2455,7 @@
       "code": "CZ216",
       "color": "BEIGE",
       "title": "The Leather Jacket",
-      "size": "S M L XL",
+      "size": "S, M, L, XL",
       "price": "255.0",
       "category": "LEATHER",
       "image": "assets/products/CZ216_BEIGE.jpg"
@@ -2485,7 +2485,7 @@
       "code": "CZ22",
       "color": "BROWN",
       "title": "The Leather Jacket",
-      "size": "S M L XL",
+      "size": "S, M, L, XL",
       "price": "280.0",
       "category": "LEATHER",
       "image": "assets/products/CZ22_BROWN.jpg"
