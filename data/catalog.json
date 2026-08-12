@@ -466,7 +466,7 @@
       "color": "ORANGE",
       "title": "The Frida Style Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "54",
+      "price": "54.0",
       "category": "PANTS",
       "image": "assets/products/C428101_ORANGE.jpg"
     },
@@ -614,7 +614,7 @@
       "id": "C438101_BLACK",
       "code": "C438101",
       "color": "BLACK",
-      "title": "The Bella Style Pant",
+      "title": "The Ella Style Pant",
       "size": "26, 27, 28, 29, 30",
       "price": "56.0",
       "category": "PANTS",
@@ -666,7 +666,7 @@
       "color": "BROWN",
       "title": "The Wide Leg Emy Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "54",
+      "price": "54.0",
       "category": "PANTS",
       "image": "assets/products/C446101_BROWN.jpg"
     },
@@ -676,7 +676,7 @@
       "color": "GREEN",
       "title": "The Wide Leg Emy Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "54",
+      "price": "54.0",
       "category": "PANTS",
       "image": "assets/products/C446101_GREEN.jpg"
     },
