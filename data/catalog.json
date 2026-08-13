@@ -381,6 +381,16 @@
       "image": "assets/products/S5672101_BLUE.jpg"
     },
     {
+      "id": "A249101_BLACK",
+      "code": "A249101",
+      "color": "BLACK",
+      "title": "The Pant",
+      "size": "26, 27, 28, 29, 30",
+      "price": "54.0",
+      "category": "PANTS",
+      "image": "assets/products/A249101_BLACK.jpg"
+    },
+    {
       "id": "A397101_BLUE",
       "code": "A397101",
       "color": "BLUE",
