@@ -11,6 +11,16 @@
       "image": "assets/products/A7020101_NAVYBLU.jpg"
     },
     {
+      "id": "A5637101_GRAY",
+      "code": "A5637101",
+      "color": "GRAY",
+      "title": "The Oversize Jacket",
+      "size": "S, M, L, XL",
+      "price": "71.0",
+      "category": "JACKET",
+      "image": "assets/products/A5637101_GRAY.jpg"
+    },
+    {
       "id": "B5365101_BLACK",
       "code": "B5365101",
       "color": "BLACK",
@@ -69,6 +79,36 @@
       "price": "73",
       "category": "JACKET",
       "image": "assets/products/B5528101_GRAY.jpg"
+    },
+    {
+      "id": "C5473101_BLACK",
+      "code": "C5473101",
+      "color": "BLACK",
+      "title": "The Jacket",
+      "size": "S, M, L, XL",
+      "price": "88.0",
+      "category": "JACKET",
+      "image": "assets/products/C5473101_BLACK.jpg"
+    },
+    {
+      "id": "C5480_TOBACCO",
+      "code": "C5480",
+      "color": "TOBACCO",
+      "title": "The Jacket",
+      "size": "S, M, L, XL",
+      "price": "145.0",
+      "category": "JACKET",
+      "image": "assets/products/C5480_TOBACCO.jpg"
+    },
+    {
+      "id": "C5481101_BLACK",
+      "code": "C5481101",
+      "color": "BLACK",
+      "title": "The Oversize Jacket",
+      "size": "S, M, L, XL",
+      "price": "78.0",
+      "category": "JACKET",
+      "image": "assets/products/C5481101_BLACK.jpg"
     },
     {
       "id": "C5672101_BLUE",
@@ -259,6 +299,46 @@
       "price": "74.0",
       "category": "JACKET",
       "image": "assets/products/C5804101_BLUE.jpg"
+    },
+    {
+      "id": "C5901101_BLACK",
+      "code": "C5901101",
+      "color": "BLACK",
+      "title": "The Oversize Jacket",
+      "size": "36, 38, 40, 42",
+      "price": "152.0",
+      "category": "JACKET",
+      "image": "assets/products/C5901101_BLACK.jpg"
+    },
+    {
+      "id": "C5901101_BROWN",
+      "code": "C5901101",
+      "color": "BROWN",
+      "title": "The Oversize Jacket",
+      "size": "36, 38, 40, 42",
+      "price": "152.0",
+      "category": "JACKET",
+      "image": "assets/products/C5901101_BROWN.jpg"
+    },
+    {
+      "id": "C5901101_ECRU",
+      "code": "C5901101",
+      "color": "ECRU",
+      "title": "The Oversize Jacket",
+      "size": "36, 38, 40, 42",
+      "price": "152.0",
+      "category": "JACKET",
+      "image": "assets/products/C5901101_ECRU.jpg"
+    },
+    {
+      "id": "C5901101_GREEN",
+      "code": "C5901101",
+      "color": "GREEN",
+      "title": "The Oversize Jacket",
+      "size": "36, 38, 40, 42",
+      "price": "152.0",
+      "category": "JACKET",
+      "image": "assets/products/C5901101_GREEN.jpg"
     },
     {
       "id": "CKAE19_BROWN",
@@ -461,6 +541,16 @@
       "image": "assets/products/C414101_BLUE.jpg"
     },
     {
+      "id": "C415101_BLACK",
+      "code": "C415101",
+      "color": "BLACK",
+      "title": "The Pant Nova Style",
+      "size": "26, 27, 28, 29, 30",
+      "price": "55.0",
+      "category": "PANTS",
+      "image": "assets/products/C415101_BLACK.jpg"
+    },
+    {
       "id": "C416101_001",
       "code": "C416101",
       "color": "001",
@@ -549,6 +639,16 @@
       "price": "56.0",
       "category": "PANTS",
       "image": "assets/products/C423101_001.jpg"
+    },
+    {
+      "id": "C424101_BLACK",
+      "code": "C424101",
+      "color": "BLACK",
+      "title": "The Pant Mila Style",
+      "size": "26, 27, 28, 29, 30",
+      "price": "58.0",
+      "category": "PANTS",
+      "image": "assets/products/C424101_BLACK.jpg"
     },
     {
       "id": "C427101_BLACK",
@@ -821,6 +921,16 @@
       "image": "assets/products/C446101_GREEN.jpg"
     },
     {
+      "id": "C446101_RED",
+      "code": "C446101",
+      "color": "RED",
+      "title": "The Pant Wide Leg Style",
+      "size": "26, 27, 28, 29, 30",
+      "price": "54.0",
+      "category": "PANTS",
+      "image": "assets/products/C446101_RED.jpg"
+    },
+    {
       "id": "C447101_BLACK",
       "code": "C447101",
       "color": "BLACK",
@@ -889,6 +999,16 @@
       "price": "59.0",
       "category": "PANTS",
       "image": "assets/products/C462101_BLACK.jpg"
+    },
+    {
+      "id": "C462101_BLUE",
+      "code": "C462101",
+      "color": "BLUE",
+      "title": "The Pant Wide Leg Style",
+      "size": "26, 27, 28, 29, 30",
+      "price": "59.0",
+      "category": "PANTS",
+      "image": "assets/products/C462101_BLUE.jpg"
     },
     {
       "id": "C463101_BLACK",
@@ -2141,6 +2261,26 @@
       "image": "assets/products/B1690102_BLACK.jpg"
     },
     {
+      "id": "C1520101_BLACK",
+      "code": "C1520101",
+      "color": "BLACK",
+      "title": "The Oversize Shirt",
+      "size": "S, M, L, XL",
+      "price": "62.0",
+      "category": "SHIRT",
+      "image": "assets/products/C1520101_BLACK.jpg"
+    },
+    {
+      "id": "C1527101_WHITE",
+      "code": "C1527101",
+      "color": "WHITE",
+      "title": "The Oversize Shirt",
+      "size": "S, M, L, XL",
+      "price": "62.0",
+      "category": "SHIRT",
+      "image": "assets/products/C1527101_WHITE.jpg"
+    },
+    {
       "id": "C1529101_WHITE",
       "code": "C1529101",
       "color": "WHITE",
@@ -2651,6 +2791,16 @@
       "image": "assets/products/CZ151_BLUE.jpg"
     },
     {
+      "id": "CZ1511_CHOCOLATE",
+      "code": "CZ-151-1",
+      "color": "CHOCOLATE",
+      "title": "The Leather Jacket",
+      "size": "S, M, L, XL",
+      "price": "305.0",
+      "category": "LEATHER",
+      "image": "assets/products/CZ1511_CHOCOLATE.jpg"
+    },
+    {
       "id": "CZ152_BEIGE",
       "code": "CZ-152",
       "color": "BEIGE",
@@ -2941,6 +3091,16 @@
       "image": "assets/products/CZ191_BEIGE.jpg"
     },
     {
+      "id": "CZ193_GREEN",
+      "code": "CZ-193",
+      "color": "GREEN",
+      "title": "The Leather Jacket",
+      "size": "S, M, L, XL",
+      "price": "280.0",
+      "category": "LEATHER",
+      "image": "assets/products/CZ193_GREEN.jpg"
+    },
+    {
       "id": "CZ194_BLACK",
       "code": "CZ-194",
       "color": "BLACK",
@@ -2989,6 +3149,16 @@
       "price": "270.0",
       "category": "LEATHER",
       "image": "assets/products/CZ204_BLACK.jpg"
+    },
+    {
+      "id": "CZ206_BEIGE",
+      "code": "CZ-206",
+      "color": "BEIGE",
+      "title": "The Leather Jacket",
+      "size": "S, M, L, XL",
+      "price": "270.0",
+      "category": "LEATHER",
+      "image": "assets/products/CZ206_BEIGE.jpg"
     },
     {
       "id": "CZ207_BEIGE",
@@ -3161,6 +3331,16 @@
       "image": "assets/products/CZ77_BROWN.jpg"
     },
     {
+      "id": "CZ81_BLACKl",
+      "code": "CZ-81",
+      "color": "BLACKl",
+      "title": "The Leather Jacket",
+      "size": "S, M, L, XL",
+      "price": "285.0",
+      "category": "LEATHER",
+      "image": "assets/products/CZ81_BLACKl.jpg"
+    },
+    {
       "id": "CZ82_KHAKI",
       "code": "CZ-82",
       "color": "KHAKI",
@@ -3211,16 +3391,6 @@
       "image": "assets/products/CZK85_BLACK.jpg"
     },
     {
-      "id": "CZ1511_CHOCOLATE",
-      "code": "CZ1511",
-      "color": "CHOCOLATE",
-      "title": "The Leather Jacket",
-      "size": "S M L XL",
-      "price": "305.0",
-      "category": "LEATHER",
-      "image": "assets/products/CZ1511_CHOCOLATE.jpg"
-    },
-    {
       "id": "DD503102_BURGUNDY",
       "code": "DD503102",
       "color": "BURGUNDY",
@@ -3261,6 +3431,16 @@
       "image": "assets/products/SD608102_BURGUNDY.jpg"
     },
     {
+      "id": "SD626101_BEIGE",
+      "code": "SD626101",
+      "color": "BEIGE",
+      "title": "The Leather Jacket",
+      "size": "S, M, L, XL",
+      "price": "225.0",
+      "category": "LEATHER",
+      "image": "assets/products/SD626101_BEIGE.jpg"
+    },
+    {
       "id": "SD641101_BURGUNDY",
       "code": "SD641101",
       "color": "BURGUNDY",
@@ -3269,6 +3449,26 @@
       "price": "345.0",
       "category": "LEATHER",
       "image": "assets/products/SD641101_BURGUNDY.jpg"
+    },
+    {
+      "id": "B5572101_CAMEL",
+      "code": "B5572101",
+      "color": "CAMEL",
+      "title": "The Coat",
+      "size": "36, 38, 40, 42",
+      "price": "158.0",
+      "category": "OUTFIT",
+      "image": "assets/products/B5572101_CAMEL.jpg"
+    },
+    {
+      "id": "B5573102_GREEN",
+      "code": "B5573102",
+      "color": "GREEN",
+      "title": "The Coat",
+      "size": "36, 38, 40, 42",
+      "price": "124.0",
+      "category": "OUTFIT",
+      "image": "assets/products/B5573102_GREEN.jpg"
     },
     {
       "id": "C5522102_BLACK",
