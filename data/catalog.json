@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "A7020101_NAVYBLU",
+      "code": "A7020101",
+      "color": "NAVYBLU",
+      "title": "The Dress",
+      "size": "S, M, L, XL",
+      "price": "108",
+      "category": "DRESS",
+      "image": "assets/products/A7020101_NAVYBLU.jpg"
+    },
+    {
+      "id": "B5365101_BLACK",
+      "code": "B5365101",
+      "color": "BLACK",
+      "title": "The Oversize Jacket",
+      "size": "S, M, L, XL",
+      "price": "69",
+      "category": "JACKET",
+      "image": "assets/products/B5365101_BLACK.jpg"
+    },
+    {
       "id": "B5451101_BLACK",
       "code": "B5451101",
       "color": "BLACK",
@@ -9,6 +29,46 @@
       "price": "68.0",
       "category": "JACKET",
       "image": "assets/products/B5451101_BLACK.jpg"
+    },
+    {
+      "id": "B5474102_BLACK",
+      "code": "B5474102",
+      "color": "BLACK",
+      "title": "The Oversize Jacket",
+      "size": "S, M, L, XL",
+      "price": "72",
+      "category": "JACKET",
+      "image": "assets/products/B5474102_BLACK.jpg"
+    },
+    {
+      "id": "B5487101_BLUE",
+      "code": "B5487101",
+      "color": "BLUE",
+      "title": "The Oversize Jacket",
+      "size": "S, M, L, XL",
+      "price": "72",
+      "category": "JACKET",
+      "image": "assets/products/B5487101_BLUE.jpg"
+    },
+    {
+      "id": "B5498101_BLUE",
+      "code": "B5498101",
+      "color": "BLUE",
+      "title": "The Oversize Jacket",
+      "size": "S, M, L, XL",
+      "price": "73",
+      "category": "JACKET",
+      "image": "assets/products/B5498101_BLUE.jpg"
+    },
+    {
+      "id": "B5528101_GRAY",
+      "code": "B5528101",
+      "color": "GRAY",
+      "title": "The Oversize Jacket",
+      "size": "S, M, L, XL",
+      "price": "73",
+      "category": "JACKET",
+      "image": "assets/products/B5528101_GRAY.jpg"
     },
     {
       "id": "C5672101_BLUE",
@@ -136,7 +196,7 @@
       "color": "GREEN",
       "title": "The Jacket",
       "size": "S, M, L, XL",
-      "price": "93.0",
+      "price": "93",
       "category": "JACKET",
       "image": "assets/products/C5791101_GREEN.jpg"
     },
@@ -146,9 +206,29 @@
       "color": "LIGHTBRO",
       "title": "The Jacket",
       "size": "S, M, L, XL",
-      "price": "93.0",
+      "price": "93",
       "category": "JACKET",
       "image": "assets/products/C5791101_LIGHTBRO.jpg"
+    },
+    {
+      "id": "C5792101_BROWN",
+      "code": "C5792101",
+      "color": "BROWN",
+      "title": "The Jacket",
+      "size": "S, M, L, XL",
+      "price": "86",
+      "category": "JACKET",
+      "image": "assets/products/C5792101_BROWN.jpg"
+    },
+    {
+      "id": "C5792101_ORANGE",
+      "code": "C5792101",
+      "color": "ORANGE",
+      "title": "The Jacket",
+      "size": "S, M, L, XL",
+      "price": "86",
+      "category": "JACKET",
+      "image": "assets/products/C5792101_ORANGE.jpg"
     },
     {
       "id": "C5794101_001",
@@ -221,6 +301,16 @@
       "image": "assets/products/S5672101_BLUE.jpg"
     },
     {
+      "id": "A397101_BLUE",
+      "code": "A397101",
+      "color": "BLUE",
+      "title": "The Pant",
+      "size": "26, 27, 28, 29, 30",
+      "price": "56",
+      "category": "PANTS",
+      "image": "assets/products/A397101_BLUE.jpg"
+    },
+    {
       "id": "A835101_BLUE",
       "code": "A835101",
       "color": "BLUE",
@@ -239,6 +329,36 @@
       "price": "52.0",
       "category": "PANTS",
       "image": "assets/products/A835102_BLUE.jpg"
+    },
+    {
+      "id": "B841101_BLUE",
+      "code": "B841101",
+      "color": "BLUE",
+      "title": "The Boyfriend Pant",
+      "size": "26, 27, 28, 29, 30",
+      "price": "48",
+      "category": "PANTS",
+      "image": "assets/products/B841101_BLUE.jpg"
+    },
+    {
+      "id": "B841103_BLUE",
+      "code": "B841103",
+      "color": "BLUE",
+      "title": "The Boyfriend Pant",
+      "size": "26, 27, 28, 29, 30",
+      "price": "49",
+      "category": "PANTS",
+      "image": "assets/products/B841103_BLUE.jpg"
+    },
+    {
+      "id": "B857101_BLACK",
+      "code": "B857101",
+      "color": "BLACK",
+      "title": "The Pant Kathy Style",
+      "size": "26, 27, 28, 29, 30",
+      "price": "49",
+      "category": "PANTS",
+      "image": "assets/products/B857101_BLACK.jpg"
     },
     {
       "id": "C231101_BLACK",
@@ -334,9 +454,9 @@
       "id": "C414101_BLUE",
       "code": "C414101",
       "color": "BLUE",
-      "title": "The Lenora Style Pant",
+      "title": "The Pant Lenora Barrell Style",
       "size": "26, 27, 28, 29, 30",
-      "price": "58.0",
+      "price": "58",
       "category": "PANTS",
       "image": "assets/products/C414101_BLUE.jpg"
     },
@@ -354,9 +474,9 @@
       "id": "C416101_BLUE",
       "code": "C416101",
       "color": "BLUE",
-      "title": "The Anna Style Pant",
+      "title": "The Pant Anna Style",
       "size": "26, 27, 28, 29, 30",
-      "price": "56.0",
+      "price": "56",
       "category": "PANTS",
       "image": "assets/products/C416101_BLUE.jpg"
     },
@@ -724,9 +844,9 @@
       "id": "C453101_BLACK",
       "code": "C453101",
       "color": "BLACK",
-      "title": "The Wide Leg Pant",
+      "title": "The Pant Wide Leg Style",
       "size": "26, 27, 28, 29, 30",
-      "price": "62.0",
+      "price": "62",
       "category": "PANTS",
       "image": "assets/products/C453101_BLACK.jpg"
     },
@@ -921,6 +1041,16 @@
       "image": "assets/products/C9460101_BLACK.jpg"
     },
     {
+      "id": "S218103_BLUE",
+      "code": "S218103",
+      "color": "BLUE",
+      "title": "The Boyfriend Pant",
+      "size": "26, 27, 28, 29, 30",
+      "price": "52",
+      "category": "PANTS",
+      "image": "assets/products/S218103_BLUE.jpg"
+    },
+    {
       "id": "S219101_BLUE",
       "code": "S219101",
       "color": "BLUE",
@@ -929,6 +1059,176 @@
       "price": "46.0",
       "category": "PANTS",
       "image": "assets/products/S219101_BLUE.jpg"
+    },
+    {
+      "id": "S224101_BLUE",
+      "code": "S224101",
+      "color": "BLUE",
+      "title": "The Boyfriend Pant",
+      "size": "26, 27, 28, 29, 30",
+      "price": "51",
+      "category": "PANTS",
+      "image": "assets/products/S224101_BLUE.jpg"
+    },
+    {
+      "id": "S224102_BLUE",
+      "code": "S224102",
+      "color": "BLUE",
+      "title": "The Boyfriend Pant",
+      "size": "26, 27, 28, 29, 30",
+      "price": "51",
+      "category": "PANTS",
+      "image": "assets/products/S224102_BLUE.jpg"
+    },
+    {
+      "id": "S231102_BLACK",
+      "code": "S231102",
+      "color": "BLACK",
+      "title": "The Boyfriend Pant",
+      "size": "26, 27, 28, 29, 30",
+      "price": "53",
+      "category": "PANTS",
+      "image": "assets/products/S231102_BLACK.jpg"
+    },
+    {
+      "id": "S250101_BLACK",
+      "code": "S250101",
+      "color": "BLACK",
+      "title": "The Pant",
+      "size": "26, 27, 28, 29, 30",
+      "price": "51",
+      "category": "PANTS",
+      "image": "assets/products/S250101_BLACK.jpg"
+    },
+    {
+      "id": "S251101_BLACK",
+      "code": "S251101",
+      "color": "BLACK",
+      "title": "The Pant",
+      "size": "26, 27, 28, 29, 30",
+      "price": "52",
+      "category": "PANTS",
+      "image": "assets/products/S251101_BLACK.jpg"
+    },
+    {
+      "id": "S784102_BLUE",
+      "code": "S784102",
+      "color": "BLUE",
+      "title": "The Skinny Pant",
+      "size": "26, 27, 28, 29, 30",
+      "price": "53",
+      "category": "PANTS",
+      "image": "assets/products/S784102_BLUE.jpg"
+    },
+    {
+      "id": "S816101_BLACK",
+      "code": "S816101",
+      "color": "BLACK",
+      "title": "The Skinny Pant",
+      "size": "26, 27, 28, 29, 30",
+      "price": "53",
+      "category": "PANTS",
+      "image": "assets/products/S816101_BLACK.jpg"
+    },
+    {
+      "id": "S816102_BLACK",
+      "code": "S816102",
+      "color": "BLACK",
+      "title": "The Skinny Pant",
+      "size": "26, 27, 28, 29, 30",
+      "price": "49",
+      "category": "PANTS",
+      "image": "assets/products/S816102_BLACK.jpg"
+    },
+    {
+      "id": "S849101_BLACK",
+      "code": "S849101",
+      "color": "BLACK",
+      "title": "The Pant Rosa Style",
+      "size": "26, 27, 28, 29, 30",
+      "price": "48",
+      "category": "PANTS",
+      "image": "assets/products/S849101_BLACK.jpg"
+    },
+    {
+      "id": "S857101_BLACK",
+      "code": "S857101",
+      "color": "BLACK",
+      "title": "The Pant Kathy Style",
+      "size": "26, 27, 28, 29, 30",
+      "price": "49",
+      "category": "PANTS",
+      "image": "assets/products/S857101_BLACK.jpg"
+    },
+    {
+      "id": "S857102_BLACK",
+      "code": "S857102",
+      "color": "BLACK",
+      "title": "The Pant Kathy Style",
+      "size": "26, 27, 28, 29, 30",
+      "price": "49",
+      "category": "PANTS",
+      "image": "assets/products/S857102_BLACK.jpg"
+    },
+    {
+      "id": "S858103_BLUE",
+      "code": "S858103",
+      "color": "BLUE",
+      "title": "The Skinny Pant",
+      "size": "26, 27, 28, 29, 30",
+      "price": "51",
+      "category": "PANTS",
+      "image": "assets/products/S858103_BLUE.jpg"
+    },
+    {
+      "id": "S858108_BLACK",
+      "code": "S858108",
+      "color": "BLACK",
+      "title": "The Skinny Pant",
+      "size": "26, 27, 28, 29, 30",
+      "price": "41",
+      "category": "PANTS",
+      "image": "assets/products/S858108_BLACK.jpg"
+    },
+    {
+      "id": "S878103_BLUE",
+      "code": "S878103",
+      "color": "BLUE",
+      "title": "The Skinny Pant",
+      "size": "26, 27, 28, 29, 30",
+      "price": "48",
+      "category": "PANTS",
+      "image": "assets/products/S878103_BLUE.jpg"
+    },
+    {
+      "id": "S884101_BLACK",
+      "code": "S884101",
+      "color": "BLACK",
+      "title": "The Pant Straight Style",
+      "size": "26, 27, 28, 29, 30",
+      "price": "52",
+      "category": "PANTS",
+      "image": "assets/products/S884101_BLACK.jpg"
+    },
+    {
+      "id": "S884102_BLACK",
+      "code": "S884102",
+      "color": "BLACK",
+      "title": "The Pant Straight Style",
+      "size": "26, 27, 28, 29, 30",
+      "price": "49",
+      "category": "PANTS",
+      "image": "assets/products/S884102_BLACK.jpg"
+    },
+    {
+      "id": "S910101_BLACK",
+      "code": "S910101",
+      "color": "BLACK",
+      "title": "The Pant Flora Style",
+      "size": "26, 27, 28, 29, 30",
+      "price": "53",
+      "category": "PANTS",
+      "image": "assets/products/S910101_BLACK.jpg"
     },
     {
       "id": "CO00382101_BEIGE",
@@ -1751,6 +2051,96 @@
       "image": "assets/products/A1513101_BEIGE.jpg"
     },
     {
+      "id": "A1531101_WHITE",
+      "code": "A1531101",
+      "color": "WHITE",
+      "title": "The Oversize Shirt",
+      "size": "S, M, L, XL",
+      "price": "53",
+      "category": "SHIRT",
+      "image": "assets/products/A1531101_WHITE.jpg"
+    },
+    {
+      "id": "A1531102_ECRU",
+      "code": "A1531102",
+      "color": "ECRU",
+      "title": "The Oversize Shirt",
+      "size": "S, M, L, XL",
+      "price": "53",
+      "category": "SHIRT",
+      "image": "assets/products/A1531102_ECRU.jpg"
+    },
+    {
+      "id": "A1531103_ECRU",
+      "code": "A1531103",
+      "color": "ECRU",
+      "title": "The Oversize Shirt",
+      "size": "S, M, L, XL",
+      "price": "53",
+      "category": "SHIRT",
+      "image": "assets/products/A1531103_ECRU.jpg"
+    },
+    {
+      "id": "B1653101_BLACK",
+      "code": "B1653101",
+      "color": "BLACK",
+      "title": "The Oversize Shirt",
+      "size": "S, M, L, XL",
+      "price": "52",
+      "category": "SHIRT",
+      "image": "assets/products/B1653101_BLACK.jpg"
+    },
+    {
+      "id": "B1686101_BLACK",
+      "code": "B1686101",
+      "color": "BLACK",
+      "title": "The Oversize Shirt",
+      "size": "S, M, L, XL",
+      "price": "49",
+      "category": "SHIRT",
+      "image": "assets/products/B1686101_BLACK.jpg"
+    },
+    {
+      "id": "B1686102_BLACK",
+      "code": "B1686102",
+      "color": "BLACK",
+      "title": "The Oversize Shirt",
+      "size": "S, M, L, XL",
+      "price": "42",
+      "category": "SHIRT",
+      "image": "assets/products/B1686102_BLACK.jpg"
+    },
+    {
+      "id": "B1686106_BLACK",
+      "code": "B1686106",
+      "color": "BLACK",
+      "title": "The Oversize Shirt",
+      "size": "S, M, L, XL",
+      "price": "57",
+      "category": "SHIRT",
+      "image": "assets/products/B1686106_BLACK.jpg"
+    },
+    {
+      "id": "B1690101_BLACK",
+      "code": "B1690101",
+      "color": "BLACK",
+      "title": "The Oversize Shirt",
+      "size": "S, M, L, XL",
+      "price": "44",
+      "category": "SHIRT",
+      "image": "assets/products/B1690101_BLACK.jpg"
+    },
+    {
+      "id": "B1690102_BLACK",
+      "code": "B1690102",
+      "color": "BLACK",
+      "title": "The Oversize Shirt",
+      "size": "S, M, L, XL",
+      "price": "57",
+      "category": "SHIRT",
+      "image": "assets/products/B1690102_BLACK.jpg"
+    },
+    {
       "id": "C1529101_WHITE",
       "code": "C1529101",
       "color": "WHITE",
@@ -1769,6 +2159,96 @@
       "price": "62.0",
       "category": "SHIRT",
       "image": "assets/products/C1530101_WHITE.jpg"
+    },
+    {
+      "id": "C1532101_BLACK",
+      "code": "C1532101",
+      "color": "BLACK",
+      "title": "The Shirt",
+      "size": "S, M, L, XL",
+      "price": "51",
+      "category": "SHIRT",
+      "image": "assets/products/C1532101_BLACK.jpg"
+    },
+    {
+      "id": "C1532101_GREEN",
+      "code": "C1532101",
+      "color": "GREEN",
+      "title": "The Shirt",
+      "size": "S, M, L, XL",
+      "price": "51",
+      "category": "SHIRT",
+      "image": "assets/products/C1532101_GREEN.jpg"
+    },
+    {
+      "id": "C1533101_BLACK",
+      "code": "C1533101",
+      "color": "BLACK",
+      "title": "The Shirt",
+      "size": "S, M, L, XL",
+      "price": "48",
+      "category": "SHIRT",
+      "image": "assets/products/C1533101_BLACK.jpg"
+    },
+    {
+      "id": "C1533101_BURGUNDY",
+      "code": "C1533101",
+      "color": "BURGUNDY",
+      "title": "The Shirt",
+      "size": "S, M, L, XL",
+      "price": "48",
+      "category": "SHIRT",
+      "image": "assets/products/C1533101_BURGUNDY.jpg"
+    },
+    {
+      "id": "C1533101_DARKBRO",
+      "code": "C1533101",
+      "color": "DARKBRO",
+      "title": "The Shirt",
+      "size": "S, M, L, XL",
+      "price": "48",
+      "category": "SHIRT",
+      "image": "assets/products/C1533101_DARKBRO.jpg"
+    },
+    {
+      "id": "C1533101_KHAKI",
+      "code": "C1533101",
+      "color": "KHAKI",
+      "title": "The Shirt",
+      "size": "S, M, L, XL",
+      "price": "48",
+      "category": "SHIRT",
+      "image": "assets/products/C1533101_KHAKI.jpg"
+    },
+    {
+      "id": "C1534101_BURGUNDY",
+      "code": "C1534101",
+      "color": "BURGUNDY",
+      "title": "The Shirt",
+      "size": "S, M, L, XL",
+      "price": "47",
+      "category": "SHIRT",
+      "image": "assets/products/C1534101_BURGUNDY.jpg"
+    },
+    {
+      "id": "C1534101_DARKBR",
+      "code": "C1534101",
+      "color": "DARKBR",
+      "title": "The Shirt",
+      "size": "S, M, L, XL",
+      "price": "47",
+      "category": "SHIRT",
+      "image": "assets/products/C1534101_DARKBR.jpg"
+    },
+    {
+      "id": "C1534101_YELLOW",
+      "code": "C1534101",
+      "color": "YELLOW",
+      "title": "The Shirt",
+      "size": "S, M, L, XL",
+      "price": "47",
+      "category": "SHIRT",
+      "image": "assets/products/C1534101_YELLOW.jpg"
     },
     {
       "id": "C1539101_BLACK",
@@ -1849,6 +2329,76 @@
       "price": "62.0",
       "category": "SHIRT",
       "image": "assets/products/C1540101_RED2.jpg"
+    },
+    {
+      "id": "C1541101_BLACK",
+      "code": "C1541101",
+      "color": "BLACK",
+      "title": "The Shirt",
+      "size": "S, M, L, XL",
+      "price": "52",
+      "category": "SHIRT",
+      "image": "assets/products/C1541101_BLACK.jpg"
+    },
+    {
+      "id": "C1541101_DARKBRO",
+      "code": "C1541101",
+      "color": "DARKBRO",
+      "title": "The Shirt",
+      "size": "S, M, L, XL",
+      "price": "52",
+      "category": "SHIRT",
+      "image": "assets/products/C1541101_DARKBRO.jpg"
+    },
+    {
+      "id": "C1541101_KHAKI",
+      "code": "C1541101",
+      "color": "KHAKI",
+      "title": "The Shirt",
+      "size": "S, M, L, XL",
+      "price": "52",
+      "category": "SHIRT",
+      "image": "assets/products/C1541101_KHAKI.jpg"
+    },
+    {
+      "id": "C1541102_BROWN",
+      "code": "C1541102",
+      "color": "BROWN",
+      "title": "The Shirt",
+      "size": "S, M, L, XL",
+      "price": "62",
+      "category": "SHIRT",
+      "image": "assets/products/C1541102_BROWN.jpg"
+    },
+    {
+      "id": "C1541102_BURGUNDY",
+      "code": "C1541102",
+      "color": "BURGUNDY",
+      "title": "The Shirt",
+      "size": "S, M, L, XL",
+      "price": "62",
+      "category": "SHIRT",
+      "image": "assets/products/C1541102_BURGUNDY.jpg"
+    },
+    {
+      "id": "U1591101_BLACK",
+      "code": "U1591101",
+      "color": "BLACK",
+      "title": "The Oversize Shirt",
+      "size": "S, M, L, XL",
+      "price": "34",
+      "category": "SHIRT",
+      "image": "assets/products/U1591101_BLACK.jpg"
+    },
+    {
+      "id": "A3601101_NAVYBLUE",
+      "code": "A3601101",
+      "color": "NAVYBLUE",
+      "title": "The Skirt",
+      "size": "36, 38, 40, 42",
+      "price": "56",
+      "category": "SKIRT",
+      "image": "assets/products/A3601101_NAVYBLUE.jpg"
     },
     {
       "id": "C3620101_BLUE",
