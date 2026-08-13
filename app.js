@@ -27,6 +27,7 @@ MENU_ITEMS=[
 ];
 
 const clickIcon=()=>`<span class="click-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M13.2 15.4V6.9a2.2 2.2 0 0 1 4.4 0v7.2-2.1a2.1 2.1 0 0 1 4.2 0v1.1a2.1 2.1 0 0 1 4.2 0v1.4a2.1 2.1 0 0 1 4.2 0v5.4c0 5.4-3.2 8.4-8.1 8.4h-2.4c-3.1 0-5.4-1.4-7-3.9l-4.1-6.5a2.3 2.3 0 0 1 3.6-2.8l1 1.3Z"/><path d="M7 5.8 4.8 3.6M11.3 3.9V1M6 10H2.8"/></svg></span>`;
+const telegramIcon=()=>`<span class="telegram-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="15"/><path d="m7.2 15.4 16.9-6.5c.8-.3 1.5.2 1.2 1.5l-2.9 13.5c-.2 1-1 1.3-1.8.8l-4.4-3.3-2.1 2.1c-.2.2-.4.4-.8.4l.3-4.5 8.2-7.4c.4-.3-.1-.5-.5-.2l-10.1 6.4-4.4-1.4c-1-.3-1-1 .4-1.4Z"/></svg></span>`;
 
 const menuButton=(key,en,ru)=>`<button class="lux-button menu-category" data-c="${key}" aria-label="${en}"><span class="lux-copy"><span class="lux-en">${en}</span><span class="lux-ru">${ru}</span></span>${clickIcon()}</button>`;
 const categoriesButton=()=>`<button class="lux-button categories-button" aria-label="Categories"><span class="lux-copy"><span class="lux-en">Categories</span></span>${clickIcon()}</button>`;
@@ -93,8 +94,7 @@ function openCapsule(key){
   const images=capsuleDb[key]||[];
   if(!item||!images.length){home();return;}
   const name=item[1];
-  app.innerHTML=`<section class="screen viewer search-viewer"><div class="search-results-label"><button type="button" aria-label="Back to categories">←</button><span>${name} · ${images.length}</span></div><div class="slides">${images.map((src,index)=>`<article class="slide product-slide"><div class="product-stage"><img ${index<2?'src':'data-src'}="${src}?v=${ASSET_VERSION}" alt="${name}" loading="lazy" decoding="async">${categoriesButton()}</div></article>`).join('')}</div></section>`;
-  document.querySelector('.search-results-label button').addEventListener('click',home);
+  app.innerHTML=`<section class="screen viewer search-viewer capsule-viewer capsule-viewer-${key.toLowerCase().replaceAll('_','-')}"><div class="slides">${images.map((src,index)=>`<article class="slide product-slide"><div class="product-stage"><img ${index<2?'src':'data-src'}="${src}?v=${ASSET_VERSION}" alt="${name}" loading="lazy" decoding="async">${categoriesButton()}</div></article>`).join('')}</div></section>`;
   document.querySelectorAll('.categories-button').forEach(button=>button.addEventListener('click',event=>{event.preventDefault();event.stopPropagation();home()}));
   const slides=document.querySelector('.slides');
   const loadImages=()=>{const center=Math.round(slides.scrollLeft/slides.clientWidth);for(let i=Math.max(0,center-1);i<=Math.min(slides.children.length-1,center+2);i++)slides.children[i].querySelectorAll('img[data-src]').forEach(img=>{img.src=img.dataset.src;img.removeAttribute('data-src')})};
@@ -140,19 +140,31 @@ async function openCategory(cat){
     const [,en,ru]=MENU_ITEMS.find(([itemKey])=>itemKey===key);
     return `<article class="slide category-loader-slide"><div class="category-loader"><img src="assets/category-loader.webp?v=${ASSET_VERSION}" alt="D.SHE ${en}"><span class="loader-diamond" aria-label="Loading"><svg viewBox="0 0 90 66" aria-hidden="true"><defs><linearGradient id="redGem" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff8084"/><stop offset=".42" stop-color="#e20d1c"/><stop offset="1" stop-color="#690008"/></linearGradient></defs><path class="gem-shadow" d="M19 17h52l13 17-39 29L6 34l13-17Z"/><path class="gem-crown" d="M19 17h52l13 17H6l13-17Z"/><path class="gem-left" d="M6 34h25l14 29L6 34Z"/><path class="gem-center" d="M31 34h28L45 63 31 34Z"/><path class="gem-right" d="M59 34h25L45 63l14-29Z"/><path class="gem-top-left" d="m19 17 12 17 14-17-26 0Z"/><path class="gem-top-center" d="m45 17 14 17 12-17H45Z"/><path class="gem-glint" d="m25 19 7 11 8-11H25Z"/><path class="gem-rim" d="M19 17h52l13 17-39 29L6 34l13-17ZM6 34h78M31 34l14 29 14-29M19 17l12 17 14-17 14 17 12-17"/></svg></span>${comingSoon?'<span class="loader-coming-soon">COMING SOON</span>':''}</div></article>`;
   };
+  app.innerHTML=`<section class="screen viewer"><div class="slides">${loaderSlide(cat)}</div></section>`;
+  await new Promise(resolve=>setTimeout(resolve,2000));
   const selectedSlides=[];
+  const arrowIcon=`<svg class="category-arrow-icon" viewBox="0 0 30 52" aria-hidden="true"><path d="M25 5 5 26l20 21"/></svg>`;
+  const firstCategory=categorySequence[0];
+  selectedSlides.push(`<article class="slide category-end-slide category-start-slide"><div class="category-end"><img src="assets/category-loader.webp?v=${ASSET_VERSION}" alt="D.SHE Categories"><div class="category-neighbour category-previous">${arrowIcon}<small>Menu</small></div><button class="category-return-button" type="button"><span>Categories</span>${clickIcon()}</button><div class="category-neighbour category-next"><small>${firstCategory[1]}</small>${arrowIcon}</div></div></article>`);
   let activeStartIndex=0;
   categorySequence.forEach(([key],sequenceIndex)=>{
     const products=db.products.filter(p=>p.category===key);
     if(key===cat) activeStartIndex=selectedSlides.length;
-    selectedSlides.push(loaderSlide(key,!products.length));
-    if(!products.length){
+    if(key==='BAG'){
+      const previousItem=categorySequence[sequenceIndex-1];
+      const nextItem=categorySequence[(sequenceIndex+1)%categorySequence.length];
+      selectedSlides.push(`<article class="slide category-bag-slide"><div class="category-end"><img src="assets/category-loader.webp?v=${ASSET_VERSION}" alt="D.SHE Bags"><div class="bag-slide-title">Bags</div><div class="category-neighbour category-previous">${arrowIcon}<small>${previousItem[1]}</small></div><a class="category-return-button bag-telegram-button" href="https://t.me/DisheBag" target="_blank" rel="noopener"><span>Open Telegram</span>${telegramIcon()}</a><div class="category-neighbour category-next"><small>${nextItem[1]}</small>${arrowIcon}</div></div></article>`);
       return;
+    }else if(!products.length){
+      return;
+    }else{
+      selectedSlides.push(...products.map(p=>`<article class="slide product-slide"><div class="product-stage"><img data-src="${p.image}?v=${ASSET_VERSION}" alt="${p.title||p.code}" loading="lazy" decoding="async">${categoriesButton()}</div></article>`));
     }
-    selectedSlides.push(...products.map(p=>`<article class="slide product-slide"><div class="product-stage"><img data-src="${p.image}?v=${ASSET_VERSION}" alt="${p.title||p.code}" loading="lazy" decoding="async">${categoriesButton()}</div></article>`));
-    selectedSlides.push(`<article class="slide category-end-slide"><div class="category-end"><img src="assets/category-loader.webp?v=${ASSET_VERSION}" alt="D.SHE Categories"><button class="category-return-button" type="button"><span>Categories</span>${clickIcon()}</button></div></article>`);
+    const nextItem=categorySequence[sequenceIndex+1];
+    const nextLabel=nextItem?nextItem[1]:'Contact us';
+    selectedSlides.push(`<article class="slide category-end-slide"><div class="category-end"><img src="assets/category-loader.webp?v=${ASSET_VERSION}" alt="D.SHE Categories"><div class="category-neighbour category-previous">${arrowIcon}<small>${categorySequence[sequenceIndex][1]}</small></div><button class="category-return-button" type="button"><span>Categories</span>${clickIcon()}</button><div class="category-neighbour category-next"><small>${nextLabel}</small>${arrowIcon}</div></div></article>`);
   });
-  selectedSlides.push(`<article class="slide category-end-slide"><div class="category-end"><img src="assets/category-loader.webp?v=${ASSET_VERSION}" alt="D.SHE Contact us"><a class="category-return-button category-contact-button" href="https://dishesocial.carrd.co/" target="_blank" rel="noopener"><span>Contact us</span>${clickIcon()}</a><button class="category-return-button category-home-button" type="button"><span>Categories</span>${clickIcon()}</button></div></article>`);
+  selectedSlides.push(`<article class="slide category-end-slide"><div class="category-end"><img src="assets/category-loader.webp?v=${ASSET_VERSION}" alt="D.SHE Contact us"><a class="category-return-button category-contact-button" href="https://dishesocial.carrd.co/" target="_blank" rel="noopener"><span>Contact us</span>${clickIcon()}</a><button class="category-return-button category-home-button" type="button"><span>Menu</span>${clickIcon()}</button></div></article>`);
   app.innerHTML=`<section class="screen viewer"><div class="slides">${selectedSlides.join('')}</div><div class="hint"></div></section>`;
   document.querySelectorAll('.categories-button,button.category-return-button').forEach(b=>b.addEventListener('click',e=>{
     e.preventDefault();
@@ -168,19 +180,10 @@ async function openCategory(cat){
       img.removeAttribute('data-src');
     });
   };
-  const selectedHasProducts=db.products.some(product=>product.category===cat);
   const showActiveCategoryCover=()=>{selectedEl.scrollLeft=activeStartIndex*selectedEl.clientWidth};
   loadSelectedImages(activeStartIndex);
   showActiveCategoryCover();
   requestAnimationFrame(showActiveCategoryCover);
-  if(selectedHasProducts){
-    setTimeout(()=>{
-      const selectedPosition=activeStartIndex*selectedEl.clientWidth;
-      if(Math.abs(selectedEl.scrollLeft-selectedPosition)<selectedEl.clientWidth*.5){
-        selectedEl.scrollTo({left:(activeStartIndex+1)*selectedEl.clientWidth,behavior:'smooth'});
-      }
-    },2000);
-  }
   selectedEl.addEventListener('scroll',()=>loadSelectedImages(Math.round(selectedEl.scrollLeft/selectedEl.clientWidth)),{passive:true});
   return;
 
