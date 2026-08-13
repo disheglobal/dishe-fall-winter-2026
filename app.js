@@ -1,5 +1,6 @@
 const app=document.getElementById('app');
 let db={products:[]};
+let capsuleDb={};
 // Stable release key lets phones cache category covers between visits.
 // Change it only when catalog assets are deliberately replaced.
 const ASSET_VERSION='20260806-1';
@@ -46,14 +47,20 @@ const CATEGORY_ICONS={
 };
 const CATEGORY_COVER_EXT={DRESS:'webp',JACKET:'webp',VEST:'webp',OUTFIT:'webp',SHIRT:'webp',KNITWEAR:'webp',SUIT:'webp',SKIRT:'webp',PANTS:'webp',LEATHER:'webp',BAG:'webp',BIG_SIZE:'webp'};
 const categoryTile=([key,en,ru])=>`<button class="category-tile" data-c="${key}" aria-label="${en}"><span class="category-visual"><img class="category-cover-image" src="assets/categories/${key}.${CATEGORY_COVER_EXT[key]||'webp'}?v=${ASSET_VERSION}" alt=""></span><span class="category-copy"><span class="category-name">${en}</span><span class="category-name-ru">${ru}</span></span></button>`;
-const capsuleTile=(name,klass)=>`<article class="capsule-tile ${klass}"><span>CAPSULE</span><b>${name}</b><small>COMING SOON</small></article>`;
+const capsuleDiamond=()=>`<svg class="capsule-diamond" viewBox="0 0 36 28" aria-hidden="true"><path d="M7 3h22l5 7-16 15L2 10 7 3Z"/><path d="m7 3 5 7 6-7 6 7 5-7M2 10h32M12 10l6 15 6-15"/></svg>`;
+const capsuleLeatherIcon=()=>`<svg class="capsule-leather-icon" viewBox="0 0 42 42" aria-hidden="true"><path d="M15 4c3 4 9 4 12 0l3 7 7 3-4 7 4 7-7 3-3 7c-4-3-8-3-12 0l-3-7-7-3 4-7-4-7 7-3 3-7Z"/><path d="M16 15c3-2 7-2 10 0M14 21h14M16 27c3 2 7 2 10 0"/></svg>`;
+const capsuleTencelLogo=()=>`<img class="capsule-tencel-logo" src="assets/tencel-white.png?v=${ASSET_VERSION}" alt="TENCEL">`;
+const capsuleName=name=>name.replace('SHE',`${capsuleDiamond()}SHE`);
+const CAPSULE_ITEMS=[['WINE_SHE','WINE SHE','capsule-large capsule-wine'],['LEATHER_LINE','LEATHER LINE','capsule-leather'],['REDSHE','REDSHE','capsule-red'],['BLUESHE','BLUESHE','capsule-denim-blue'],['BROWNSHE','BROWNSHE','capsule-large capsule-brown'],['OLIVESHE','OLIVESHE','capsule-olive'],['TENCEL','TENCEL','capsule-tencel capsule-wide'],['CHECKSHE','CHECKSHE','capsule-check capsule-wide']];
+const capsuleTile=([key,name,klass])=>`<button type="button" class="capsule-tile ${klass}" data-capsule="${key}" aria-label="${name}"><span>CAPSULE</span><b class="capsule-title">${capsuleName(name)}${name==='TENCEL'?capsuleTencelLogo():''}${name==='LEATHER LINE'?capsuleLeatherIcon():''}</b><small>VIEW CAPSULE</small></button>`;
 const searchButton=()=>`<button class="catalog-search-button" type="button" aria-label="Search by product code"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.4"></circle><path d="m16 16 5 5"></path></svg><span>Search by code</span></button>`;
-const categoryMenuMarkup=(extraClass='')=>`<div class="category-home ${extraClass}"><section class="category-hero"><img src="assets/category-hero.webp?v=${ASSET_VERSION}" alt="D.SHE Fall Winter 2026"></section><section class="category-section"><header class="section-heading"><h2>Categories</h2><p>SHOP BY CATEGORY</p>${searchButton()}</header><div class="category-grid">${MENU_ITEMS.map(categoryTile).join('')}</div></section><section class="capsules-section"><header class="section-heading"><h2>Capsules</h2><p>CURATED EDITS</p></header><div class="capsule-grid">${capsuleTile('DENIM EDIT','capsule-large capsule-denim')}${capsuleTile('LEATHER LINE','capsule-leather')}${capsuleTile('RED EDIT','capsule-red')}${capsuleTile('EVENING','capsule-evening')}</div></section></div>`;
-const bindCategoryTiles=(scope=document)=>scope.querySelectorAll('.category-tile').forEach(b=>b.addEventListener('click',e=>{e.preventDefault();openCategory(b.dataset.c)}));
+const categoryMenuMarkup=(extraClass='')=>`<div class="category-home ${extraClass}"><section class="category-hero"><img src="assets/category-hero.webp?v=${ASSET_VERSION}" alt="D.SHE Fall Winter 2026"></section><section class="category-section"><header class="section-heading"><h2>Categories</h2><p>SHOP BY CATEGORY</p>${searchButton()}</header><div class="category-grid">${MENU_ITEMS.map(categoryTile).join('')}</div></section><section class="capsules-section"><header class="section-heading"><h2>Capsules</h2><p>CURATED EDITS</p></header><div class="capsule-grid">${CAPSULE_ITEMS.map(capsuleTile).join('')}</div></section></div>`;
+const openCategoryLink=cat=>{if(cat==='BAG'){window.location.href='https://t.me/DisheBag';return}openCategory(cat)};
+const bindCategoryTiles=(scope=document)=>scope.querySelectorAll('.category-tile').forEach(b=>b.addEventListener('click',e=>{e.preventDefault();openCategoryLink(b.dataset.c)}));
+const bindCapsuleTiles=(scope=document)=>scope.querySelectorAll('.capsule-tile').forEach(b=>b.addEventListener('click',e=>{e.preventDefault();openCapsule(b.dataset.capsule)}));
 
-fetch('data/catalog.json',{cache:'no-store'})
-  .then(r=>r.json())
-  .then(j=>{db=j;home()})
+Promise.all([fetch('data/catalog.json',{cache:'no-store'}).then(r=>r.json()),fetch('data/capsules.json',{cache:'no-store'}).then(r=>r.json())])
+  .then(([catalog,capsules])=>{db=catalog;capsuleDb=capsules;home()})
   .catch(()=>app.innerHTML='<div class="empty">CATALOG ERROR</div>');
 
 const exists=src=>new Promise(ok=>{
@@ -70,14 +77,28 @@ async function legacyHome(){
   app.innerHTML=`<section class="screen home"><div class="menu-stage"><img class="menu-image" src="assets/menu.jpg?v=${Date.now()}" alt="D.SHE categories"><header class="brand-hero"><img class="brand-logo" src="assets/dishe-logo.png?v=${Date.now()}" alt="D•she"><div class="season-kicker"><span></span><b>NEW SEASON</b><span></span></div><div class="season-title">FALL / WINTER 2026</div></header><div class="menu-buttons">${buttons}</div></div></section>`;
   document.querySelectorAll('.menu-category').forEach(b=>b.addEventListener('click',e=>{
     e.preventDefault();
-    openCategory(b.dataset.c);
+    openCategoryLink(b.dataset.c);
   }));
 }
 
 async function home(){
   app.innerHTML=`<section class="screen home">${categoryMenuMarkup()}</section>`;
   bindCategoryTiles();
+  bindCapsuleTiles();
   document.querySelector('.catalog-search-button')?.addEventListener('click',openProductSearch);
+}
+
+function openCapsule(key){
+  const item=CAPSULE_ITEMS.find(([itemKey])=>itemKey===key);
+  const images=capsuleDb[key]||[];
+  if(!item||!images.length){home();return;}
+  const name=item[1];
+  app.innerHTML=`<section class="screen viewer search-viewer"><div class="search-results-label"><button type="button" aria-label="Back to categories">←</button><span>${name} · ${images.length}</span></div><div class="slides">${images.map((src,index)=>`<article class="slide product-slide"><div class="product-stage"><img ${index<2?'src':'data-src'}="${src}?v=${ASSET_VERSION}" alt="${name}" loading="lazy" decoding="async">${categoriesButton()}</div></article>`).join('')}</div></section>`;
+  document.querySelector('.search-results-label button').addEventListener('click',home);
+  document.querySelectorAll('.categories-button').forEach(button=>button.addEventListener('click',event=>{event.preventDefault();event.stopPropagation();home()}));
+  const slides=document.querySelector('.slides');
+  const loadImages=()=>{const center=Math.round(slides.scrollLeft/slides.clientWidth);for(let i=Math.max(0,center-1);i<=Math.min(slides.children.length-1,center+2);i++)slides.children[i].querySelectorAll('img[data-src]').forEach(img=>{img.src=img.dataset.src;img.removeAttribute('data-src')})};
+  slides.addEventListener('scroll',loadImages,{passive:true});
 }
 
 const normalizeCode=value=>String(value||'').toUpperCase().replace(/[^A-Z0-9]/g,'');
