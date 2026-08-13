@@ -131,6 +131,26 @@
       "image": "assets/products/C5791101_BROWN.jpg"
     },
     {
+      "id": "C5791101_GREEN",
+      "code": "C5791101",
+      "color": "GREEN",
+      "title": "The Jacket",
+      "size": "S, M, L, XL",
+      "price": "93.0",
+      "category": "JACKET",
+      "image": "assets/products/C5791101_GREEN.jpg"
+    },
+    {
+      "id": "C5791101_LIGHTBRO",
+      "code": "C5791101",
+      "color": "LIGHTBRO",
+      "title": "The Jacket",
+      "size": "S, M, L, XL",
+      "price": "93.0",
+      "category": "JACKET",
+      "image": "assets/products/C5791101_LIGHTBRO.jpg"
+    },
+    {
       "id": "C5794101_001",
       "code": "C5794101",
       "color": "001",
@@ -699,6 +719,16 @@
       "price": "58.0",
       "category": "PANTS",
       "image": "assets/products/C447101_BLUE.jpg"
+    },
+    {
+      "id": "C453101_BLACK",
+      "code": "C453101",
+      "color": "BLACK",
+      "title": "The Wide Leg Pant",
+      "size": "26, 27, 28, 29, 30",
+      "price": "62.0",
+      "category": "PANTS",
+      "image": "assets/products/C453101_BLACK.jpg"
     },
     {
       "id": "C453101_BLUE",
