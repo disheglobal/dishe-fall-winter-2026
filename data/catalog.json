@@ -1,6 +1,16 @@
 {
   "products": [
     {
+      "id": "C1990101_BRICKRED",
+      "code": "C1990101",
+      "color": "BRICKRED",
+      "title": "The Big Size Shirt",
+      "size": "44, 46, 48, 50",
+      "price": "65",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C1990101_BRICKRED.jpg"
+    },
+    {
       "id": "A7020101_NAVYBLU",
       "code": "A7020101",
       "color": "NAVYBLU",
@@ -1534,9 +1544,9 @@
       "id": "CO00390101_BLACK",
       "code": "CO00390101",
       "color": "BLACK",
-      "title": "The Knit Wear",
+      "title": "The Long Sleeve",
       "size": "S, M, L, XL",
-      "price": "59.0",
+      "price": "62",
       "category": "KNITWEAR",
       "image": "assets/products/CO00390101_BLACK.jpg"
     },
@@ -1544,9 +1554,9 @@
       "id": "CO00390101_RED",
       "code": "CO00390101",
       "color": "RED",
-      "title": "The Knit Wear",
+      "title": "The Long Sleeve",
       "size": "S, M, L, XL",
-      "price": "59.0",
+      "price": "62",
       "category": "KNITWEAR",
       "image": "assets/products/CO00390101_RED.jpg"
     },
@@ -3126,7 +3136,7 @@
       "color": "GREEN",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "280.0",
+      "price": "280",
       "category": "LEATHER",
       "image": "assets/products/CZ193_GREEN.jpg"
     },
@@ -3486,7 +3496,7 @@
       "color": "CAMEL",
       "title": "The Coat",
       "size": "36, 38, 40, 42",
-      "price": "158.0",
+      "price": "158",
       "category": "OUTFIT",
       "image": "assets/products/B5572101_CAMEL.jpg"
     },
@@ -3496,7 +3506,7 @@
       "color": "GREEN",
       "title": "The Coat",
       "size": "36, 38, 40, 42",
-      "price": "124.0",
+      "price": "124",
       "category": "OUTFIT",
       "image": "assets/products/B5573102_GREEN.jpg"
     },
