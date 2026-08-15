@@ -1,14 +1,234 @@
 {
   "products": [
     {
+      "id": "A1951102_ECRU",
+      "code": "A1951102",
+      "color": "ECRU",
+      "title": "The Bigsize Oversize Shirt",
+      "size": "44, 46, 48, 50",
+      "price": "56",
+      "category": "BIG_SIZE",
+      "image": "assets/products/A1951102_ECRU.jpg"
+    },
+    {
+      "id": "B1076101_BLUE",
+      "code": "B1076101",
+      "color": "BLUE",
+      "title": "The Bigsize Oversize Jacket",
+      "size": "44, 46, 48, 50",
+      "price": "75",
+      "category": "BIG_SIZE",
+      "image": "assets/products/B1076101_BLUE.jpg"
+    },
+    {
+      "id": "B1077101_BLUE",
+      "code": "B1077101",
+      "color": "BLUE",
+      "title": "The Bigsize Oversize Jacket",
+      "size": "44, 46, 48, 50",
+      "price": "75",
+      "category": "BIG_SIZE",
+      "image": "assets/products/B1077101_BLUE.jpg"
+    },
+    {
+      "id": "B9271102_NIGHTBL",
+      "code": "B9271102",
+      "color": "NIGHTBL",
+      "title": "The Bigsize Boyfriend Pant",
+      "size": "31, 32, 33, 34, 36",
+      "price": "51",
+      "category": "BIG_SIZE",
+      "image": "assets/products/B9271102_NIGHTBL.jpg"
+    },
+    {
+      "id": "C1076101_BLUE",
+      "code": "C1076101",
+      "color": "BLUE",
+      "title": "The Bigsize Oversize Jacket",
+      "size": "44, 46, 48, 50",
+      "price": "84",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C1076101_BLUE.jpg"
+    },
+    {
       "id": "C1990101_BRICKRED",
       "code": "C1990101",
       "color": "BRICKRED",
-      "title": "The Big Size Shirt",
+      "title": "The Bigsize Oversize Shirt",
       "size": "44, 46, 48, 50",
       "price": "65",
       "category": "BIG_SIZE",
       "image": "assets/products/C1990101_BRICKRED.jpg"
+    },
+    {
+      "id": "C1990101_NAVYBL",
+      "code": "C1990101",
+      "color": "NAVYBL",
+      "title": "The Bigsize Oversize Shirt",
+      "size": "44, 46, 48, 50",
+      "price": "65",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C1990101_NAVYBL.jpg"
+    },
+    {
+      "id": "C1991102_GREEN",
+      "code": "C1991102",
+      "color": "GREEN",
+      "title": "The Bigsize Oversize Shirt",
+      "size": "44, 46, 48, 50",
+      "price": "65",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C1991102_GREEN.jpg"
+    },
+    {
+      "id": "C9454101_BLUE",
+      "code": "C9454101",
+      "color": "BLUE",
+      "title": "The Bigsize Pant Lenora Barrel Style",
+      "size": "31, 32, 33, 34, 36",
+      "price": "61",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C9454101_BLUE.jpg"
+    },
+    {
+      "id": "C9455102_BLUE",
+      "code": "C9455102",
+      "color": "BLUE",
+      "title": "The Bigsize Pant Wide Leg Style",
+      "size": "31, 32, 33, 34, 36",
+      "price": "65",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C9455102_BLUE.jpg"
+    },
+    {
+      "id": "C9457101",
+      "code": "C9457101",
+      "color": "",
+      "title": "The Bigsize Pant Frida Style",
+      "size": "31, 32, 33, 34, 36",
+      "price": "59",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C9457101.jpg"
+    },
+    {
+      "id": "C9464101_BLUE",
+      "code": "C9464101",
+      "color": "BLUE",
+      "title": "The Bigsize Pant",
+      "size": "31, 32, 33, 34, 36",
+      "price": "59",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C9464101_BLUE.jpg"
+    },
+    {
+      "id": "C9465101_BLACK",
+      "code": "C9465101",
+      "color": "BLACK",
+      "title": "The Bigsize Pant Wide Leg Style",
+      "size": "31, 32, 33, 34, 36",
+      "price": "65",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C9465101_BLACK.jpg"
+    },
+    {
+      "id": "C9465101_BLUE",
+      "code": "C9465101",
+      "color": "BLUE",
+      "title": "The Bigsize Pant Wide Leg Style",
+      "size": "31, 32, 33, 34, 36",
+      "price": "65",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C9465101_BLUE.jpg"
+    },
+    {
+      "id": "C9466101_BLUE",
+      "code": "C9466101",
+      "color": "BLUE",
+      "title": "The Bigsize Pant Wide Leg Style",
+      "size": "31, 32, 33, 34, 36",
+      "price": "58",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C9466101_BLUE.jpg"
+    },
+    {
+      "id": "C9467101_BLUE",
+      "code": "C9467101",
+      "color": "BLUE",
+      "title": "The Bigsize Pant Barrel Style",
+      "size": "31, 32, 33, 34, 36",
+      "price": "58",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C9467101_BLUE.jpg"
+    },
+    {
+      "id": "C9468101_BLUE",
+      "code": "C9468101",
+      "color": "BLUE",
+      "title": "The Bigsize Pant Wide Leg Style",
+      "size": "31, 32, 33, 34, 36",
+      "price": "59",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C9468101_BLUE.jpg"
+    },
+    {
+      "id": "C9471101_BLUE",
+      "code": "C9471101",
+      "color": "BLUE",
+      "title": "The Bigsize Pant Wide Leg Style",
+      "size": "31, 32, 33, 34, 36",
+      "price": "62",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C9471101_BLUE.jpg"
+    },
+    {
+      "id": "R3824101_BLUE",
+      "code": "R3824101",
+      "color": "BLUE",
+      "title": "The Bigsize Skirt",
+      "size": "44, 46, 48, 50",
+      "price": "46",
+      "category": "BIG_SIZE",
+      "image": "assets/products/R3824101_BLUE.jpg"
+    },
+    {
+      "id": "S9308101_BLUE",
+      "code": "S9308101",
+      "color": "BLUE",
+      "title": "The Bigsize Boyfriend Pant",
+      "size": "31, 32, 33, 34, 36",
+      "price": "52",
+      "category": "BIG_SIZE",
+      "image": "assets/products/S9308101_BLUE.jpg"
+    },
+    {
+      "id": "S9308102_BLUE",
+      "code": "S9308102",
+      "color": "BLUE",
+      "title": "The Bigsize Boyfriend Pant",
+      "size": "31, 32, 33, 34, 36",
+      "price": "54",
+      "category": "BIG_SIZE",
+      "image": "assets/products/S9308102_BLUE.jpg"
+    },
+    {
+      "id": "S9308103_BLUE",
+      "code": "S9308103",
+      "color": "BLUE",
+      "title": "The Bigsize Boyfriend Pant",
+      "size": "31, 32, 33, 34, 36",
+      "price": "53",
+      "category": "BIG_SIZE",
+      "image": "assets/products/S9308103_BLUE.jpg"
+    },
+    {
+      "id": "U1954102",
+      "code": "U1954102",
+      "color": "",
+      "title": "The Bigsize Oversize Shirt",
+      "size": "44, 46, 48, 50",
+      "price": "54",
+      "category": "BIG_SIZE",
+      "image": "assets/products/U1954102.jpg"
     },
     {
       "id": "A7020101_NAVYBLU",
@@ -352,7 +572,7 @@
     },
     {
       "id": "CKAE19_BROWN",
-      "code": "CKAŞE-19",
+      "code": "CKAЕћE-19",
       "color": "BROWN",
       "title": "The Jacket",
       "size": "S, M, L, XL",
@@ -362,7 +582,7 @@
     },
     {
       "id": "CKAE19_BURGUNDY",
-      "code": "CKAŞE-19",
+      "code": "CKAЕћE-19",
       "color": "BURGUNDY",
       "title": "The Jacket",
       "size": "S, M, L, XL",
@@ -372,7 +592,7 @@
     },
     {
       "id": "CKAE20_BROWN",
-      "code": "CKAŞE-20",
+      "code": "CKAЕћE-20",
       "color": "BROWN",
       "title": "The Jacket",
       "size": "S, M, L, XL",
@@ -1159,16 +1379,6 @@
       "price": "58.0",
       "category": "PANTS",
       "image": "assets/products/C485101_BLACK.jpg"
-    },
-    {
-      "id": "C9457101_BLACK",
-      "code": "C9457101",
-      "color": "BLACK",
-      "title": "The Frida Style Bigsize Pant",
-      "size": "31, 32, 33, 34, 36",
-      "price": "59.0",
-      "category": "PANTS",
-      "image": "assets/products/C9457101_BLACK.jpg"
     },
     {
       "id": "C9460101_BLACK",
@@ -2181,36 +2391,6 @@
       "image": "assets/products/CT00551101_TERRACOT.jpg"
     },
     {
-      "id": "A1503101_BEIGE",
-      "code": "A1503101",
-      "color": "BEIGE",
-      "title": "The Oversize Shirt",
-      "size": "S, M, L, XL",
-      "price": "62.0",
-      "category": "SHIRT",
-      "image": "assets/products/A1503101_BEIGE.jpg"
-    },
-    {
-      "id": "A1503101_BEIGE (2)",
-      "code": "A1503101",
-      "color": "BEIGE (2)",
-      "title": "The Oversize Shirt",
-      "size": "S, M, L, XL",
-      "price": "62.0",
-      "category": "SHIRT",
-      "image": "assets/products/A1503101_BEIGE (2).jpg"
-    },
-    {
-      "id": "A1513101_BEIGE",
-      "code": "A1513101",
-      "color": "BEIGE",
-      "title": "The Oversize Shirt",
-      "size": "S, M, L, XL",
-      "price": "62.0",
-      "category": "SHIRT",
-      "image": "assets/products/A1513101_BEIGE.jpg"
-    },
-    {
       "id": "A1531101_WHITE",
       "code": "A1531101",
       "color": "WHITE",
@@ -3146,7 +3326,7 @@
       "color": "BLACK",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "270.0",
+      "price": "295.0",
       "category": "LEATHER",
       "image": "assets/products/CZ194_BLACK.jpg"
     },
