@@ -1,6 +1,16 @@
 {
   "products": [
     {
+      "id": "A1951101_WHITE",
+      "code": "A1951101",
+      "color": "WHITE",
+      "title": "The Bigsize Oversize Shirt",
+      "size": "44, 46, 48, 50",
+      "price": "56",
+      "category": "BIG_SIZE",
+      "image": "assets/products/A1951101_WHITE.jpg"
+    },
+    {
       "id": "A1951102_ECRU",
       "code": "A1951102",
       "color": "ECRU",
@@ -9,6 +19,46 @@
       "price": "56",
       "category": "BIG_SIZE",
       "image": "assets/products/A1951102_ECRU.jpg"
+    },
+    {
+      "id": "A1985101_RED",
+      "code": "A1985101",
+      "color": "RED",
+      "title": "The Bigsize Oversize Shirt",
+      "size": "44, 46, 48, 50",
+      "price": "65",
+      "category": "BIG_SIZE",
+      "image": "assets/products/A1985101_RED.jpg"
+    },
+    {
+      "id": "A9415101_BLACK",
+      "code": "A9415101",
+      "color": "BLACK",
+      "title": "The Bigsize Pant Lulu Style",
+      "size": "31, 32, 33, 34, 36",
+      "price": "59",
+      "category": "BIG_SIZE",
+      "image": "assets/products/A9415101_BLACK.jpg"
+    },
+    {
+      "id": "A9415102_BLACK",
+      "code": "A9415102",
+      "color": "BLACK",
+      "title": "The Bigsize Pant Lulu Style",
+      "size": "31, 32, 33, 34, 36",
+      "price": "59",
+      "category": "BIG_SIZE",
+      "image": "assets/products/A9415102_BLACK.jpg"
+    },
+    {
+      "id": "A9416101_BLACK",
+      "code": "A9416101",
+      "color": "BLACK",
+      "title": "The Bigsize Pant Flare Style",
+      "size": "31, 32, 33, 34, 36",
+      "price": "57",
+      "category": "BIG_SIZE",
+      "image": "assets/products/A9416101_BLACK.jpg"
     },
     {
       "id": "B1076101_BLUE",
@@ -31,6 +81,16 @@
       "image": "assets/products/B1077101_BLUE.jpg"
     },
     {
+      "id": "B1964101_BLACK",
+      "code": "B1964101",
+      "color": "BLACK",
+      "title": "The Bigsize Oversize Shirt",
+      "size": "44, 46, 48, 50",
+      "price": "59",
+      "category": "BIG_SIZE",
+      "image": "assets/products/B1964101_BLACK.jpg"
+    },
+    {
       "id": "B9271102_NIGHTBL",
       "code": "B9271102",
       "color": "NIGHTBL",
@@ -39,6 +99,26 @@
       "price": "51",
       "category": "BIG_SIZE",
       "image": "assets/products/B9271102_NIGHTBL.jpg"
+    },
+    {
+      "id": "C00706101_BLACK",
+      "code": "C00706101",
+      "color": "BLACK",
+      "title": "The Bigsize Knit Wear",
+      "size": "44, 46, 48, 50",
+      "price": "62",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C00706101_BLACK.jpg"
+    },
+    {
+      "id": "C00706101_RED",
+      "code": "C00706101",
+      "color": "RED",
+      "title": "The Bigsize Knit Wear",
+      "size": "44, 46, 48, 50",
+      "price": "62",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C00706101_RED.jpg"
     },
     {
       "id": "C1076101_BLUE",
@@ -51,6 +131,46 @@
       "image": "assets/products/C1076101_BLUE.jpg"
     },
     {
+      "id": "C1986101_BLACK",
+      "code": "C1986101",
+      "color": "BLACK",
+      "title": "The Bigsize Oversize Shirt",
+      "size": "44, 46, 48, 50",
+      "price": "65",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C1986101_BLACK.jpg"
+    },
+    {
+      "id": "C1987101_WHITE",
+      "code": "C1987101",
+      "color": "WHITE",
+      "title": "The Bigsize Oversize Shirt",
+      "size": "44, 46, 48, 50",
+      "price": "65",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C1987101_WHITE.jpg"
+    },
+    {
+      "id": "C1988101_WHITE",
+      "code": "C1988101",
+      "color": "WHITE",
+      "title": "The Bigsize Oversize Shirt",
+      "size": "44, 46, 48, 50",
+      "price": "65",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C1988101_WHITE.jpg"
+    },
+    {
+      "id": "C1989101_WHITE",
+      "code": "C1989101",
+      "color": "WHITE",
+      "title": "The Bigsize Oversize Shirt",
+      "size": "44, 46, 48, 50",
+      "price": "65",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C1989101_WHITE.jpg"
+    },
+    {
       "id": "C1990101_BRICKRED",
       "code": "C1990101",
       "color": "BRICKRED",
@@ -59,6 +179,16 @@
       "price": "65",
       "category": "BIG_SIZE",
       "image": "assets/products/C1990101_BRICKRED.jpg"
+    },
+    {
+      "id": "C1990101_BROWN",
+      "code": "C1990101",
+      "color": "BROWN",
+      "title": "The Bigsize Oversize Shirt",
+      "size": "44, 46, 48, 50",
+      "price": "65",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C1990101_BROWN.jpg"
     },
     {
       "id": "C1990101_NAVYBL",
@@ -71,6 +201,46 @@
       "image": "assets/products/C1990101_NAVYBL.jpg"
     },
     {
+      "id": "C1991101_BLACK",
+      "code": "C1991101",
+      "color": "BLACK",
+      "title": "The Bigsize Oversize Shirt",
+      "size": "44, 46, 48, 50",
+      "price": "55",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C1991101_BLACK.jpg"
+    },
+    {
+      "id": "C1991101_DARKBRO",
+      "code": "C1991101",
+      "color": "DARKBRO",
+      "title": "The Bigsize Oversize Shirt",
+      "size": "44, 46, 48, 50",
+      "price": "55",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C1991101_DARKBRO.jpg"
+    },
+    {
+      "id": "C1991101_KHAKI",
+      "code": "C1991101",
+      "color": "KHAKI",
+      "title": "The Bigsize Oversize Shirt",
+      "size": "44, 46, 48, 50",
+      "price": "55",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C1991101_KHAKI.jpg"
+    },
+    {
+      "id": "C1991102_BURGUNDY",
+      "code": "C1991102",
+      "color": "BURGUNDY",
+      "title": "The Bigsize Oversize Shirt",
+      "size": "44, 46, 48, 50",
+      "price": "65",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C1991102_BURGUNDY.jpg"
+    },
+    {
       "id": "C1991102_GREEN",
       "code": "C1991102",
       "color": "GREEN",
@@ -79,6 +249,86 @@
       "price": "65",
       "category": "BIG_SIZE",
       "image": "assets/products/C1991102_GREEN.jpg"
+    },
+    {
+      "id": "C1991102_YELLOW",
+      "code": "C1991102",
+      "color": "YELLOW",
+      "title": "The Bigsize Oversize Shirt",
+      "size": "44, 46, 48, 50",
+      "price": "65",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C1991102_YELLOW.jpg"
+    },
+    {
+      "id": "C3896101_BLACK",
+      "code": "C3896101",
+      "color": "BLACK",
+      "title": "The Bigsize Skirt",
+      "size": "44, 46, 48, 50",
+      "price": "54",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C3896101_BLACK.jpg"
+    },
+    {
+      "id": "C9445101_BLACK",
+      "code": "C9445101",
+      "color": "BLACK",
+      "title": "The Bigsize Pant Anna Style",
+      "size": "31, 32, 33, 34, 36",
+      "price": "58",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C9445101_BLACK.jpg"
+    },
+    {
+      "id": "C9446101_BLACK",
+      "code": "C9446101",
+      "color": "BLACK",
+      "title": "The Bigsize Pant Lulu Style",
+      "size": "31, 32, 33, 34, 36",
+      "price": "62",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C9446101_BLACK.jpg"
+    },
+    {
+      "id": "C9447101_BLACK",
+      "code": "C9447101",
+      "color": "BLACK",
+      "title": "The Bigsize Pant Nova Style",
+      "size": "31, 32, 33, 34, 36",
+      "price": "59",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C9447101_BLACK.jpg"
+    },
+    {
+      "id": "C9448101_BLACK",
+      "code": "C9448101",
+      "color": "BLACK",
+      "title": "The Bigsize Pant Frida Style",
+      "size": "31, 32, 33, 34, 36",
+      "price": "58",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C9448101_BLACK.jpg"
+    },
+    {
+      "id": "C9449101_BLACK",
+      "code": "C9449101",
+      "color": "BLACK",
+      "title": "The Bigsize Pant Polivia Style",
+      "size": "31, 32, 33, 34, 36",
+      "price": "59",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C9449101_BLACK.jpg"
+    },
+    {
+      "id": "C9450101_BLACK",
+      "code": "C9450101",
+      "color": "BLACK",
+      "title": "The Bigsize Pant Nova Style",
+      "size": "31, 32, 33, 34, 36",
+      "price": "59",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C9450101_BLACK.jpg"
     },
     {
       "id": "C9454101_BLUE",
@@ -101,6 +351,36 @@
       "image": "assets/products/C9455102_BLUE.jpg"
     },
     {
+      "id": "C9456101_BROWN",
+      "code": "C9456101",
+      "color": "BROWN",
+      "title": "The Bigsize Pant Wide Leg Style",
+      "size": "31, 32, 33, 34, 36",
+      "price": "59",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C9456101_BROWN.jpg"
+    },
+    {
+      "id": "C9456101_GREEN",
+      "code": "C9456101",
+      "color": "GREEN",
+      "title": "The Bigsize Pant Wide Leg Style",
+      "size": "31, 32, 33, 34, 36",
+      "price": "59",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C9456101_GREEN.jpg"
+    },
+    {
+      "id": "C9456101_WINE",
+      "code": "C9456101",
+      "color": "WINE",
+      "title": "The Bigsize Pant Wide Leg Style",
+      "size": "31, 32, 33, 34, 36",
+      "price": "59",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C9456101_WINE.jpg"
+    },
+    {
       "id": "C9457101",
       "code": "C9457101",
       "color": "",
@@ -109,6 +389,56 @@
       "price": "59",
       "category": "BIG_SIZE",
       "image": "assets/products/C9457101.jpg"
+    },
+    {
+      "id": "C9457101_BROWN",
+      "code": "C9457101",
+      "color": "BROWN",
+      "title": "The Bigsize Pant Frida Style",
+      "size": "31, 32, 33, 34, 36",
+      "price": "59",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C9457101_BROWN.jpg"
+    },
+    {
+      "id": "C9458101_BROWN",
+      "code": "C9458101",
+      "color": "BROWN",
+      "title": "The Bigsize Pant Baggy Style",
+      "size": "31, 32, 33, 34, 36",
+      "price": "59",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C9458101_BROWN.jpg"
+    },
+    {
+      "id": "C9458101_BURGUNDY",
+      "code": "C9458101",
+      "color": "BURGUNDY",
+      "title": "The Bigsize Pant Baggy Style",
+      "size": "31, 32, 33, 34, 36",
+      "price": "59",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C9458101_BURGUNDY.jpg"
+    },
+    {
+      "id": "C9458101_GREEN",
+      "code": "C9458101",
+      "color": "GREEN",
+      "title": "The Bigsize Pant Baggy Style",
+      "size": "31, 32, 33, 34, 36",
+      "price": "59",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C9458101_GREEN.jpg"
+    },
+    {
+      "id": "C9460101_GREEN",
+      "code": "C9460101",
+      "color": "GREEN",
+      "title": "The Bigsize Pant Baggy Style",
+      "size": "31, 32, 33, 34, 36",
+      "price": "59",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C9460101_GREEN.jpg"
     },
     {
       "id": "C9464101_BLUE",
@@ -181,6 +511,126 @@
       "image": "assets/products/C9471101_BLUE.jpg"
     },
     {
+      "id": "C9472101_BLACK",
+      "code": "C9472101",
+      "color": "BLACK",
+      "title": "The Bigsize Pant Flare Style",
+      "size": "31, 32, 33, 34, 36",
+      "price": "57",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C9472101_BLACK.jpg"
+    },
+    {
+      "id": "C9473101_BLACK",
+      "code": "C9473101",
+      "color": "BLACK",
+      "title": "The Bigsize Pant",
+      "size": "31, 32, 33, 34, 36",
+      "price": "61",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C9473101_BLACK.jpg"
+    },
+    {
+      "id": "C9474101_RED",
+      "code": "C9474101",
+      "color": "RED",
+      "title": "The Bigsize Pant",
+      "size": "31, 32, 33, 34, 36",
+      "price": "59",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C9474101_RED.jpg"
+    },
+    {
+      "id": "CO00711101_BLACK",
+      "code": "CO00711101",
+      "color": "BLACK",
+      "title": "The Bigsize Knit Wear",
+      "size": "44, 46, 48, 50",
+      "price": "49",
+      "category": "BIG_SIZE",
+      "image": "assets/products/CO00711101_BLACK.jpg"
+    },
+    {
+      "id": "CO00711101_BROWN",
+      "code": "CO00711101",
+      "color": "BROWN",
+      "title": "The Bigsize Knit Wear",
+      "size": "44, 46, 48, 50",
+      "price": "49",
+      "category": "BIG_SIZE",
+      "image": "assets/products/CO00711101_BROWN.jpg"
+    },
+    {
+      "id": "CO00711101_ECRU",
+      "code": "CO00711101",
+      "color": "ECRU",
+      "title": "The Bigsize Knit Wear",
+      "size": "44, 46, 48, 50",
+      "price": "49",
+      "category": "BIG_SIZE",
+      "image": "assets/products/CO00711101_ECRU.jpg"
+    },
+    {
+      "id": "CO00711101_GREEN",
+      "code": "CO00711101",
+      "color": "GREEN",
+      "title": "The Bigsize Knit Wear",
+      "size": "44, 46, 48, 50",
+      "price": "49",
+      "category": "BIG_SIZE",
+      "image": "assets/products/CO00711101_GREEN.jpg"
+    },
+    {
+      "id": "CO00711101_RED",
+      "code": "CO00711101",
+      "color": "RED",
+      "title": "The Bigsize Knit Wear",
+      "size": "44, 46, 48, 50",
+      "price": "49",
+      "category": "BIG_SIZE",
+      "image": "assets/products/CO00711101_RED.jpg"
+    },
+    {
+      "id": "CO00711101_WINE",
+      "code": "CO00711101",
+      "color": "WINE",
+      "title": "The Bigsize Knit Wear",
+      "size": "44, 46, 48, 50",
+      "price": "49",
+      "category": "BIG_SIZE",
+      "image": "assets/products/CO00711101_WINE.jpg"
+    },
+    {
+      "id": "CT00714101_BLACK",
+      "code": "CT00714101",
+      "color": "BLACK",
+      "title": "The Bigsize T-Shirt",
+      "size": "44, 46, 48, 50",
+      "price": "39",
+      "category": "BIG_SIZE",
+      "image": "assets/products/CT00714101_BLACK.jpg"
+    },
+    {
+      "id": "CT00714101_RED",
+      "code": "CT00714101",
+      "color": "RED",
+      "title": "The Bigsize T-Shirt",
+      "size": "44, 46, 48, 50",
+      "price": "39",
+      "category": "BIG_SIZE",
+      "image": "assets/products/CT00714101_RED.jpg"
+    },
+    {
+      "id": "R1950102_WHITE",
+      "code": "R1950102",
+      "color": "WHITE",
+      "title": "The Bigsize Oversize Shirt",
+      "size": "44, 46, 48, 50",
+      "price": "54",
+      "category": "BIG_SIZE",
+      "image": "assets/products/R1950102_WHITE.jpg"
+    },
+    {
       "id": "R3824101_BLUE",
       "code": "R3824101",
       "color": "BLUE",
@@ -189,6 +639,16 @@
       "price": "46",
       "category": "BIG_SIZE",
       "image": "assets/products/R3824101_BLUE.jpg"
+    },
+    {
+      "id": "S9300101_BLACK",
+      "code": "S9300101",
+      "color": "BLACK",
+      "title": "The Bigsize Pant",
+      "size": "31, 32, 33, 34, 36",
+      "price": "55",
+      "category": "BIG_SIZE",
+      "image": "assets/products/S9300101_BLACK.jpg"
     },
     {
       "id": "S9308101_BLUE",
@@ -219,6 +679,26 @@
       "price": "53",
       "category": "BIG_SIZE",
       "image": "assets/products/S9308103_BLUE.jpg"
+    },
+    {
+      "id": "S9400101_BLACK",
+      "code": "S9400101",
+      "color": "BLACK",
+      "title": "The Bigsize Pant",
+      "size": "31, 32, 33, 34, 36",
+      "price": "55",
+      "category": "BIG_SIZE",
+      "image": "assets/products/S9400101_BLACK.jpg"
+    },
+    {
+      "id": "S9410102_BLACK",
+      "code": "S9410102",
+      "color": "BLACK",
+      "title": "The Bigsize Pant",
+      "size": "31, 32, 33, 34, 36",
+      "price": "56",
+      "category": "BIG_SIZE",
+      "image": "assets/products/S9410102_BLACK.jpg"
     },
     {
       "id": "U1954102",
