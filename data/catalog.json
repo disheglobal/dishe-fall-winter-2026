@@ -391,6 +391,16 @@
       "image": "assets/products/C9457101.jpg"
     },
     {
+      "id": "C9457101_BLACK",
+      "code": "C9457101",
+      "color": "BLACK",
+      "title": "The Frida Style Bigsize Pant",
+      "size": "31, 32, 33, 34, 36",
+      "price": "59.0",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C9457101_BLACK.jpg"
+    },
+    {
       "id": "C9457101_BROWN",
       "code": "C9457101",
       "color": "BROWN",
@@ -429,6 +439,16 @@
       "price": "59",
       "category": "BIG_SIZE",
       "image": "assets/products/C9458101_GREEN.jpg"
+    },
+    {
+      "id": "C9460101_BLACK",
+      "code": "C9460101",
+      "color": "BLACK",
+      "title": "The Shri̇n Style Baggy Bigsize Pant",
+      "size": "31, 32, 33, 34, 36",
+      "price": "59.0",
+      "category": "BIG_SIZE",
+      "image": "assets/products/C9460101_BLACK.jpg"
     },
     {
       "id": "C9460101_GREEN",
@@ -721,6 +741,26 @@
       "image": "assets/products/A7020101_NAVYBLU.jpg"
     },
     {
+      "id": "C3621101_001",
+      "code": "C3621101",
+      "color": "001",
+      "title": "The Dress",
+      "size": "36, 38, 40, 42",
+      "price": "51",
+      "category": "DRESS",
+      "image": "assets/products/C3621101_001.jpg"
+    },
+    {
+      "id": "C3621101_BLACK",
+      "code": "C3621101",
+      "color": "BLACK",
+      "title": "The Dress",
+      "size": "36, 38, 40, 42",
+      "price": "51",
+      "category": "DRESS",
+      "image": "assets/products/C3621101_BLACK.jpg"
+    },
+    {
       "id": "A5637101_GRAY",
       "code": "A5637101",
       "color": "GRAY",
@@ -746,7 +786,7 @@
       "color": "BLACK",
       "title": "The Jacket",
       "size": "S, M, L, XL",
-      "price": "68.0",
+      "price": "68",
       "category": "JACKET",
       "image": "assets/products/B5451101_BLACK.jpg"
     },
@@ -826,7 +866,7 @@
       "color": "BLUE",
       "title": "The Baloon Jacket",
       "size": "S, M, L",
-      "price": "82.0",
+      "price": "82",
       "category": "JACKET",
       "image": "assets/products/C5672101_BLUE.jpg"
     },
@@ -836,7 +876,7 @@
       "color": "BLUE",
       "title": "The Oversize Jacket",
       "size": "S, M, L",
-      "price": "94.0",
+      "price": "94",
       "category": "JACKET",
       "image": "assets/products/C5679101_BLUE.jpg"
     },
@@ -846,7 +886,7 @@
       "color": "BLUE",
       "title": "The Balloon Jacket",
       "size": "S, M, L, XL",
-      "price": "94.0",
+      "price": "94",
       "category": "JACKET",
       "image": "assets/products/C5779101_BLUE.jpg"
     },
@@ -866,7 +906,7 @@
       "color": "BLUE",
       "title": "The Merry Fit Jacket",
       "size": "S, M, L, XL",
-      "price": "74.0",
+      "price": "74",
       "category": "JACKET",
       "image": "assets/products/C5786102_BLUE.jpg"
     },
@@ -876,7 +916,7 @@
       "color": "BLUE",
       "title": "The Luna Fit Over Jacket",
       "size": "S, M, L, XL",
-      "price": "74.0",
+      "price": "74",
       "category": "JACKET",
       "image": "assets/products/C5787101_BLUE.jpg"
     },
@@ -886,7 +926,7 @@
       "color": "BLUE",
       "title": "The Luna Fit Over Jacket",
       "size": "S, M, L, XL",
-      "price": "82.0",
+      "price": "82",
       "category": "JACKET",
       "image": "assets/products/C5787102_BLUE.jpg"
     },
@@ -896,7 +936,7 @@
       "color": "001",
       "title": "The Jacket",
       "size": "S, M, L, XL",
-      "price": "74.0",
+      "price": "74",
       "category": "JACKET",
       "image": "assets/products/C5790101_001.jpg"
     },
@@ -906,7 +946,7 @@
       "color": "019",
       "title": "The Jacket",
       "size": "S, M, L, XL",
-      "price": "74.0",
+      "price": "74",
       "category": "JACKET",
       "image": "assets/products/C5790101_019.jpg"
     },
@@ -916,9 +956,19 @@
       "color": "028",
       "title": "The Jacket",
       "size": "S, M, L, XL",
-      "price": "74.0",
+      "price": "74",
       "category": "JACKET",
       "image": "assets/products/C5790101_028.jpg"
+    },
+    {
+      "id": "C5790101_BLACK",
+      "code": "C5790101",
+      "color": "BLACK",
+      "title": "The Jacket",
+      "size": "S, M, L, XL",
+      "price": "74",
+      "category": "JACKET",
+      "image": "assets/products/C5790101_BLACK.jpg"
     },
     {
       "id": "C5790101_BROWN",
@@ -931,12 +981,32 @@
       "image": "assets/products/C5790101_BROWN.jpg"
     },
     {
+      "id": "C5790101_GREEN",
+      "code": "C5790101",
+      "color": "GREEN",
+      "title": "The Jacket",
+      "size": "S, M, L, XL",
+      "price": "74",
+      "category": "JACKET",
+      "image": "assets/products/C5790101_GREEN.jpg"
+    },
+    {
+      "id": "C5790101_WINE",
+      "code": "C5790101",
+      "color": "WINE",
+      "title": "The Jacket",
+      "size": "S, M, L, XL",
+      "price": "74",
+      "category": "JACKET",
+      "image": "assets/products/C5790101_WINE.jpg"
+    },
+    {
       "id": "C5791101_BROWN",
       "code": "C5791101",
       "color": "BROWN",
       "title": "The Jacket",
       "size": "S, M, L, XL",
-      "price": "93.0",
+      "price": "93",
       "category": "JACKET",
       "image": "assets/products/C5791101_BROWN.jpg"
     },
@@ -986,15 +1056,25 @@
       "color": "001",
       "title": "The Darla Jacket",
       "size": "S, M, L, XL",
-      "price": "69.0",
+      "price": "69",
       "category": "JACKET",
       "image": "assets/products/C5794101_001.jpg"
+    },
+    {
+      "id": "C5794101_BLACK",
+      "code": "C5794101",
+      "color": "BLACK",
+      "title": "The Darla Jacket",
+      "size": "S, M, L, XL",
+      "price": "69",
+      "category": "JACKET",
+      "image": "assets/products/C5794101_BLACK.jpg"
     },
     {
       "id": "C5804101_BLACK",
       "code": "C5804101",
       "color": "BLACK",
-      "title": "The Denim Jacket",
+      "title": "The Coat",
       "size": "S, M, L, XL",
       "price": "74.0",
       "category": "JACKET",
@@ -1004,7 +1084,7 @@
       "id": "C5804101_BLUE",
       "code": "C5804101",
       "color": "BLUE",
-      "title": "The Denim Jacket",
+      "title": "The Coat",
       "size": "S, M, L, XL",
       "price": "74.0",
       "category": "JACKET",
@@ -1051,42 +1131,12 @@
       "image": "assets/products/C5901101_GREEN.jpg"
     },
     {
-      "id": "CKAE19_BROWN",
-      "code": "CKAЕћE-19",
-      "color": "BROWN",
-      "title": "The Jacket",
-      "size": "S, M, L, XL",
-      "price": "220.0",
-      "category": "JACKET",
-      "image": "assets/products/CKAE19_BROWN.jpg"
-    },
-    {
-      "id": "CKAE19_BURGUNDY",
-      "code": "CKAЕћE-19",
-      "color": "BURGUNDY",
-      "title": "The Jacket",
-      "size": "S, M, L, XL",
-      "price": "220.0",
-      "category": "JACKET",
-      "image": "assets/products/CKAE19_BURGUNDY.jpg"
-    },
-    {
-      "id": "CKAE20_BROWN",
-      "code": "CKAЕћE-20",
-      "color": "BROWN",
-      "title": "The Jacket",
-      "size": "S, M, L, XL",
-      "price": "265.0",
-      "category": "JACKET",
-      "image": "assets/products/CKAE20_BROWN.jpg"
-    },
-    {
       "id": "S5672101_BLUE",
       "code": "S5672101",
       "color": "BLUE",
       "title": "The Balloon Jacket",
       "size": "S, M, L",
-      "price": "68.0",
+      "price": "68",
       "category": "JACKET",
       "image": "assets/products/S5672101_BLUE.jpg"
     },
@@ -1116,7 +1166,7 @@
       "color": "BLUE",
       "title": "The Skinny Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "55.0",
+      "price": "55",
       "category": "PANTS",
       "image": "assets/products/A835101_BLUE.jpg"
     },
@@ -1126,7 +1176,7 @@
       "color": "BLUE",
       "title": "The Skinny Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "52.0",
+      "price": "52",
       "category": "PANTS",
       "image": "assets/products/A835102_BLUE.jpg"
     },
@@ -1176,9 +1226,19 @@
       "color": "001",
       "title": "The Lulu Style Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "59.0",
+      "price": "59",
       "category": "PANTS",
       "image": "assets/products/C396101_001.jpg"
+    },
+    {
+      "id": "C396101_BLACK",
+      "code": "C396101",
+      "color": "BLACK",
+      "title": "The Lulu Style Pant",
+      "size": "26, 27, 28, 29, 30",
+      "price": "59",
+      "category": "PANTS",
+      "image": "assets/products/C396101_BLACK.jpg"
     },
     {
       "id": "C396102_BLUE",
@@ -1196,7 +1256,7 @@
       "color": "BLUE",
       "title": "The Megan Barrel Style Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "56.0",
+      "price": "56",
       "category": "PANTS",
       "image": "assets/products/C403101_BLUE.jpg"
     },
@@ -1236,9 +1296,19 @@
       "color": "001",
       "title": "The Frida Style Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "54.0",
+      "price": "54",
       "category": "PANTS",
       "image": "assets/products/C410101_001.jpg"
+    },
+    {
+      "id": "C410101_BLACK",
+      "code": "C410101",
+      "color": "BLACK",
+      "title": "The Frida Style Pant",
+      "size": "26, 27, 28, 29, 30",
+      "price": "54",
+      "category": "PANTS",
+      "image": "assets/products/C410101_BLACK.jpg"
     },
     {
       "id": "C410101_BLUE",
@@ -1246,7 +1316,7 @@
       "color": "BLUE",
       "title": "The Frida Style Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "54.0",
+      "price": "54",
       "category": "PANTS",
       "image": "assets/products/C410101_BLUE.jpg"
     },
@@ -1276,9 +1346,19 @@
       "color": "001",
       "title": "The Anna Style Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "56.0",
+      "price": "56",
       "category": "PANTS",
       "image": "assets/products/C416101_001.jpg"
+    },
+    {
+      "id": "C416101_BLACK",
+      "code": "C416101",
+      "color": "BLACK",
+      "title": "The Anna Style Pant",
+      "size": "26, 27, 28, 29, 30",
+      "price": "56",
+      "category": "PANTS",
+      "image": "assets/products/C416101_BLACK.jpg"
     },
     {
       "id": "C416101_BLUE",
@@ -1296,7 +1376,7 @@
       "color": "BLUE",
       "title": "The Barrel Style Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "59.0",
+      "price": "59",
       "category": "PANTS",
       "image": "assets/products/C417101_BLUE.jpg"
     },
@@ -1306,7 +1386,7 @@
       "color": "BLUE",
       "title": "The Ruby Barrell Style Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "58.0",
+      "price": "58",
       "category": "PANTS",
       "image": "assets/products/C420101_BLUE.jpg"
     },
@@ -1326,7 +1406,7 @@
       "color": "BLUE",
       "title": "The Merry Baloon Style Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "56.0",
+      "price": "56",
       "category": "PANTS",
       "image": "assets/products/C421102_BLUE.jpg"
     },
@@ -1336,7 +1416,7 @@
       "color": "BLUE",
       "title": "The Luna Style Wide Leg  Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "58.0",
+      "price": "58",
       "category": "PANTS",
       "image": "assets/products/C422101_BLUE.jpg"
     },
@@ -1346,7 +1426,7 @@
       "color": "BLUE",
       "title": "The Luna Style Wide Leg  Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "62.0",
+      "price": "62",
       "category": "PANTS",
       "image": "assets/products/C422102_BLUE.jpg"
     },
@@ -1356,9 +1436,19 @@
       "color": "001",
       "title": "The Olivia Style Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "56.0",
+      "price": "56",
       "category": "PANTS",
       "image": "assets/products/C423101_001.jpg"
+    },
+    {
+      "id": "C423101_BLACK",
+      "code": "C423101",
+      "color": "BLACK",
+      "title": "The Olivia Style Pant",
+      "size": "26, 27, 28, 29, 30",
+      "price": "56",
+      "category": "PANTS",
+      "image": "assets/products/C423101_BLACK.jpg"
     },
     {
       "id": "C424101_BLACK",
@@ -1396,7 +1486,7 @@
       "color": "BLACK",
       "title": "The Frida Style Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "54.0",
+      "price": "54",
       "category": "PANTS",
       "image": "assets/products/C428101_BLACK.jpg"
     },
@@ -1416,7 +1506,7 @@
       "color": "GREEN",
       "title": "The Frida Style Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "54.0",
+      "price": "54",
       "category": "PANTS",
       "image": "assets/products/C428101_GREEN.jpg"
     },
@@ -1426,7 +1516,7 @@
       "color": "ORANGE",
       "title": "The Frida Style Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "54.0",
+      "price": "54",
       "category": "PANTS",
       "image": "assets/products/C428101_ORANGE.jpg"
     },
@@ -1436,7 +1526,7 @@
       "color": "001",
       "title": "The Frida Style Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "56.0",
+      "price": "56",
       "category": "PANTS",
       "image": "assets/products/C430101_001.jpg"
     },
@@ -1446,7 +1536,7 @@
       "color": "019",
       "title": "The Frida Style Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "56.0",
+      "price": "56",
       "category": "PANTS",
       "image": "assets/products/C430101_019.jpg"
     },
@@ -1456,9 +1546,19 @@
       "color": "028",
       "title": "The Frida Style Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "56.0",
+      "price": "56",
       "category": "PANTS",
       "image": "assets/products/C430101_028.jpg"
+    },
+    {
+      "id": "C430101_BLACK",
+      "code": "C430101",
+      "color": "BLACK",
+      "title": "The Frida Style Pant",
+      "size": "26, 27, 28, 29, 30",
+      "price": "56",
+      "category": "PANTS",
+      "image": "assets/products/C430101_BLACK.jpg"
     },
     {
       "id": "C430101_BROWN",
@@ -1466,15 +1566,35 @@
       "color": "BROWN",
       "title": "The Frida Style Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "56.0",
+      "price": "56",
       "category": "PANTS",
       "image": "assets/products/C430101_BROWN.jpg"
+    },
+    {
+      "id": "C430101_GREEN",
+      "code": "C430101",
+      "color": "GREEN",
+      "title": "The Frida Style Pant",
+      "size": "26, 27, 28, 29, 30",
+      "price": "56",
+      "category": "PANTS",
+      "image": "assets/products/C430101_GREEN.jpg"
+    },
+    {
+      "id": "C430101_WINE",
+      "code": "C430101",
+      "color": "WINE",
+      "title": "The Frida Style Pant",
+      "size": "26, 27, 28, 29, 30",
+      "price": "56",
+      "category": "PANTS",
+      "image": "assets/products/C430101_WINE.jpg"
     },
     {
       "id": "C431101_BROWN",
       "code": "C431101",
       "color": "BROWN",
-      "title": "The Shrin Style Baggy Pant",
+      "title": "The Shri̇n Style Baggy Pant",
       "size": "26, 27, 28, 29, 30",
       "price": "56.0",
       "category": "PANTS",
@@ -1484,7 +1604,7 @@
       "id": "C431101_GREEN",
       "code": "C431101",
       "color": "GREEN",
-      "title": "The Shrin Style Baggy Pant",
+      "title": "The Baggy Style Pant",
       "size": "26, 27, 28, 29, 30",
       "price": "56.0",
       "category": "PANTS",
@@ -1494,7 +1614,7 @@
       "id": "C431101_WINE",
       "code": "C431101",
       "color": "WINE",
-      "title": "The Shrin Style Baggy Pant",
+      "title": "The Shri̇n Style Baggy Pant",
       "size": "26, 27, 28, 29, 30",
       "price": "56.0",
       "category": "PANTS",
@@ -1514,7 +1634,7 @@
       "id": "C432101_GREEN",
       "code": "C432101",
       "color": "GREEN",
-      "title": "The Merry Style Baloon Pant",
+      "title": "The Mery Style Pant",
       "size": "26, 27, 28, 29, 30",
       "price": "56.0",
       "category": "PANTS",
@@ -1556,7 +1676,7 @@
       "color": "GREEN",
       "title": "The Ballonn Style Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "64.0",
+      "price": "64",
       "category": "PANTS",
       "image": "assets/products/C433101_GREEN.jpg"
     },
@@ -1574,7 +1694,7 @@
       "id": "C438101_BLACK",
       "code": "C438101",
       "color": "BLACK",
-      "title": "The Ella Style Pant",
+      "title": "The Bella Style Pant",
       "size": "26, 27, 28, 29, 30",
       "price": "56.0",
       "category": "PANTS",
@@ -1586,7 +1706,7 @@
       "color": "BLUE",
       "title": "The Ella Style Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "56.0",
+      "price": "56",
       "category": "PANTS",
       "image": "assets/products/C438101_BLUE.jpg"
     },
@@ -1616,7 +1736,7 @@
       "color": "028",
       "title": "The Wide Leg Emy Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "54.0",
+      "price": "54",
       "category": "PANTS",
       "image": "assets/products/C446101_028.jpg"
     },
@@ -1626,7 +1746,7 @@
       "color": "BROWN",
       "title": "The Wide Leg Emy Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "54.0",
+      "price": "54",
       "category": "PANTS",
       "image": "assets/products/C446101_BROWN.jpg"
     },
@@ -1636,7 +1756,7 @@
       "color": "GREEN",
       "title": "The Wide Leg Emy Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "54.0",
+      "price": "54",
       "category": "PANTS",
       "image": "assets/products/C446101_GREEN.jpg"
     },
@@ -1649,6 +1769,16 @@
       "price": "54.0",
       "category": "PANTS",
       "image": "assets/products/C446101_RED.jpg"
+    },
+    {
+      "id": "C446101_WINE",
+      "code": "C446101",
+      "color": "WINE",
+      "title": "The Wide Leg Emy Pant",
+      "size": "26, 27, 28, 29, 30",
+      "price": "54",
+      "category": "PANTS",
+      "image": "assets/products/C446101_WINE.jpg"
     },
     {
       "id": "C447101_BLACK",
@@ -1684,9 +1814,9 @@
       "id": "C453101_BLUE",
       "code": "C453101",
       "color": "BLUE",
-      "title": "The Wide Leg Pant",
+      "title": "The Pant Wide Leg Style",
       "size": "26, 27, 28, 29, 30",
-      "price": "62.0",
+      "price": "62",
       "category": "PANTS",
       "image": "assets/products/C453101_BLUE.jpg"
     },
@@ -1696,7 +1826,7 @@
       "color": "BLUE",
       "title": "The Palazzo Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "56.0",
+      "price": "56",
       "category": "PANTS",
       "image": "assets/products/C459101_BLUE.jpg"
     },
@@ -1714,7 +1844,7 @@
       "id": "C462101_BLACK",
       "code": "C462101",
       "color": "BLACK",
-      "title": "The Wide Leg Style Pant",
+      "title": "The Wide Style Pant",
       "size": "26, 27, 28, 29, 30",
       "price": "59.0",
       "category": "PANTS",
@@ -1756,7 +1886,7 @@
       "color": "BLUE",
       "title": "The Barrel Style Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "56.0",
+      "price": "56",
       "category": "PANTS",
       "image": "assets/products/C466101_BLUE.jpg"
     },
@@ -1786,7 +1916,7 @@
       "color": "BLACK",
       "title": "The Skinny Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "55.0",
+      "price": "55",
       "category": "PANTS",
       "image": "assets/products/C469101_BLACK.jpg"
     },
@@ -1861,16 +1991,6 @@
       "image": "assets/products/C485101_BLACK.jpg"
     },
     {
-      "id": "C9460101_BLACK",
-      "code": "C9460101",
-      "color": "BLACK",
-      "title": "The Shrin Style Baggy Bigsize Pant",
-      "size": "31, 32, 33, 34, 36",
-      "price": "59.0",
-      "category": "PANTS",
-      "image": "assets/products/C9460101_BLACK.jpg"
-    },
-    {
       "id": "S218103_BLUE",
       "code": "S218103",
       "color": "BLUE",
@@ -1886,7 +2006,7 @@
       "color": "BLUE",
       "title": "The Palazzo Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "46.0",
+      "price": "46",
       "category": "PANTS",
       "image": "assets/products/S219101_BLUE.jpg"
     },
@@ -2066,7 +2186,7 @@
       "color": "BEIGE",
       "title": "The Knitwear Suit",
       "size": "S, M, L, XL",
-      "price": "78.0",
+      "price": "78",
       "category": "KNITWEAR",
       "image": "assets/products/CO00382101_BEIGE.jpg"
     },
@@ -2076,7 +2196,7 @@
       "color": "BLACK",
       "title": "The Knitwear Suit",
       "size": "S, M, L, XL",
-      "price": "78.0",
+      "price": "78",
       "category": "KNITWEAR",
       "image": "assets/products/CO00382101_BLACK.jpg"
     },
@@ -2086,7 +2206,7 @@
       "color": "ECRU",
       "title": "The Knitwear Suit",
       "size": "S, M, L, XL",
-      "price": "78.0",
+      "price": "78",
       "category": "KNITWEAR",
       "image": "assets/products/CO00382101_ECRU.jpg"
     },
@@ -2096,7 +2216,7 @@
       "color": "NAVYBLUE",
       "title": "The Knitwear Suit",
       "size": "S, M, L, XL",
-      "price": "78.0",
+      "price": "78",
       "category": "KNITWEAR",
       "image": "assets/products/CO00382101_NAVYBLUE.jpg"
     },
@@ -2106,7 +2226,7 @@
       "color": "PINK",
       "title": "The Knitwear Suit",
       "size": "S, M, L, XL",
-      "price": "78.0",
+      "price": "78",
       "category": "KNITWEAR",
       "image": "assets/products/CO00382101_PINK.jpg"
     },
@@ -2116,7 +2236,7 @@
       "color": "BEIGE",
       "title": "The Knitwear Suit",
       "size": "S, M, L, XL",
-      "price": "89.0",
+      "price": "89",
       "category": "KNITWEAR",
       "image": "assets/products/CO00383101_BEIGE.jpg"
     },
@@ -2126,7 +2246,7 @@
       "color": "BLACK",
       "title": "The Knitwear Suit",
       "size": "S, M, L, XL",
-      "price": "89.0",
+      "price": "89",
       "category": "KNITWEAR",
       "image": "assets/products/CO00383101_BLACK.jpg"
     },
@@ -2136,7 +2256,7 @@
       "color": "BROWN",
       "title": "The Knitwear Suit",
       "size": "S, M, L, XL",
-      "price": "89.0",
+      "price": "89",
       "category": "KNITWEAR",
       "image": "assets/products/CO00383101_BROWN.jpg"
     },
@@ -2146,7 +2266,7 @@
       "color": "ECRU",
       "title": "The Knitwear Suit",
       "size": "S, M, L, XL",
-      "price": "89.0",
+      "price": "89",
       "category": "KNITWEAR",
       "image": "assets/products/CO00383101_ECRU.jpg"
     },
@@ -2156,7 +2276,7 @@
       "color": "MINK",
       "title": "The Knitwear Suit",
       "size": "S, M, L, XL",
-      "price": "89.0",
+      "price": "89",
       "category": "KNITWEAR",
       "image": "assets/products/CO00383101_MINK.jpg"
     },
@@ -2166,7 +2286,7 @@
       "color": "NAVYBL",
       "title": "The Knitwear Suit",
       "size": "S, M, L, XL",
-      "price": "89.0",
+      "price": "89",
       "category": "KNITWEAR",
       "image": "assets/products/CO00383101_NAVYBL.jpg"
     },
@@ -2176,7 +2296,7 @@
       "color": "PINK",
       "title": "The Knitwear Suit",
       "size": "S, M, L, XL",
-      "price": "89.0",
+      "price": "89",
       "category": "KNITWEAR",
       "image": "assets/products/CO00383101_PINK.jpg"
     },
@@ -2186,7 +2306,7 @@
       "color": "BLACK",
       "title": "The Knitwear Suit",
       "size": "S, M, L, XL",
-      "price": "81.0",
+      "price": "81",
       "category": "KNITWEAR",
       "image": "assets/products/CO00386101_BLACK.jpg"
     },
@@ -2196,7 +2316,7 @@
       "color": "BROWN",
       "title": "The Knitwear Suit",
       "size": "S, M, L, XL",
-      "price": "81.0",
+      "price": "81",
       "category": "KNITWEAR",
       "image": "assets/products/CO00386101_BROWN.jpg"
     },
@@ -2206,7 +2326,7 @@
       "color": "ECRU",
       "title": "The Knitwear Suit",
       "size": "S, M, L, XL",
-      "price": "81.0",
+      "price": "81",
       "category": "KNITWEAR",
       "image": "assets/products/CO00386101_ECRU.jpg"
     },
@@ -2216,7 +2336,7 @@
       "color": "PINK",
       "title": "The Knitwear Suit",
       "size": "S, M, L, XL",
-      "price": "81.0",
+      "price": "81",
       "category": "KNITWEAR",
       "image": "assets/products/CO00386101_PINK.jpg"
     },
@@ -2226,7 +2346,7 @@
       "color": "YELLOW",
       "title": "The Knitwear Suit",
       "size": "S, M, L, XL",
-      "price": "81.0",
+      "price": "81",
       "category": "KNITWEAR",
       "image": "assets/products/CO00386101_YELLOW.jpg"
     },
@@ -2346,7 +2466,7 @@
       "color": "BLACK",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "99",
+      "price": "99.0",
       "category": "KNITWEAR",
       "image": "assets/products/CO00394101_BLACK.jpg"
     },
@@ -2356,7 +2476,7 @@
       "color": "BROWN",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "99",
+      "price": "99.0",
       "category": "KNITWEAR",
       "image": "assets/products/CO00394101_BROWN.jpg"
     },
@@ -2366,7 +2486,7 @@
       "color": "ECRU",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "99",
+      "price": "99.0",
       "category": "KNITWEAR",
       "image": "assets/products/CO00394101_ECRU.jpg"
     },
@@ -2376,7 +2496,7 @@
       "color": "BEIGE",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "89.0",
+      "price": "89",
       "category": "KNITWEAR",
       "image": "assets/products/CO00397101_BEIGE.jpg"
     },
@@ -2386,7 +2506,7 @@
       "color": "BROWN",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "89.0",
+      "price": "89",
       "category": "KNITWEAR",
       "image": "assets/products/CO00397101_BROWN.jpg"
     },
@@ -2396,7 +2516,7 @@
       "color": "NAVYBLUE",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "89.0",
+      "price": "89",
       "category": "KNITWEAR",
       "image": "assets/products/CO00397101_NAVYBLUE.jpg"
     },
@@ -2406,7 +2526,7 @@
       "color": "PINK",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "89.0",
+      "price": "89",
       "category": "KNITWEAR",
       "image": "assets/products/CO00397101_PINK.jpg"
     },
@@ -2416,7 +2536,7 @@
       "color": "BEIGE",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "81.0",
+      "price": "81",
       "category": "KNITWEAR",
       "image": "assets/products/CO00398101_BEIGE.jpg"
     },
@@ -2426,7 +2546,7 @@
       "color": "BLACK",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "81.0",
+      "price": "81",
       "category": "KNITWEAR",
       "image": "assets/products/CO00398101_BLACK.jpg"
     },
@@ -2436,7 +2556,7 @@
       "color": "BROWN",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "81.0",
+      "price": "81",
       "category": "KNITWEAR",
       "image": "assets/products/CO00398101_BROWN.jpg"
     },
@@ -2446,7 +2566,7 @@
       "color": "ECRU",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "81.0",
+      "price": "81",
       "category": "KNITWEAR",
       "image": "assets/products/CO00398101_ECRU.jpg"
     },
@@ -2456,7 +2576,7 @@
       "color": "PINK",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "81.0",
+      "price": "81",
       "category": "KNITWEAR",
       "image": "assets/products/CO00398101_PINK.jpg"
     },
@@ -2466,7 +2586,7 @@
       "color": "BLACK",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "52.0",
+      "price": "52",
       "category": "KNITWEAR",
       "image": "assets/products/CO00404101_BLACK.jpg"
     },
@@ -2476,7 +2596,7 @@
       "color": "BROWN",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "52.0",
+      "price": "52",
       "category": "KNITWEAR",
       "image": "assets/products/CO00404101_BROWN.jpg"
     },
@@ -2496,7 +2616,7 @@
       "color": "NAVYBLUE",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "52.0",
+      "price": "52",
       "category": "KNITWEAR",
       "image": "assets/products/CO00404101_NAVYBLUE.jpg"
     },
@@ -2506,7 +2626,7 @@
       "color": "BLACK",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "83.0",
+      "price": "83",
       "category": "KNITWEAR",
       "image": "assets/products/CO00412101_BLACK.jpg"
     },
@@ -2516,7 +2636,7 @@
       "color": "BROWN",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "83.0",
+      "price": "83",
       "category": "KNITWEAR",
       "image": "assets/products/CO00412101_BROWN.jpg"
     },
@@ -2526,7 +2646,7 @@
       "color": "ECRU",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "83.0",
+      "price": "83",
       "category": "KNITWEAR",
       "image": "assets/products/CO00412101_ECRU.jpg"
     },
@@ -2536,7 +2656,7 @@
       "color": "PINK",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "83.0",
+      "price": "83",
       "category": "KNITWEAR",
       "image": "assets/products/CO00412101_PINK.jpg"
     },
@@ -2546,7 +2666,7 @@
       "color": "PLUM",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "83.0",
+      "price": "83",
       "category": "KNITWEAR",
       "image": "assets/products/CO00412101_PLUM.jpg"
     },
@@ -2556,7 +2676,7 @@
       "color": "BLACK",
       "title": "The Knitwear Long Sleeve",
       "size": "S, M, L, XL",
-      "price": "38.0",
+      "price": "38",
       "category": "KNITWEAR",
       "image": "assets/products/CT00344101_BLACK.jpg"
     },
@@ -2564,7 +2684,7 @@
       "id": "CT00344101_RED",
       "code": "CT00344101",
       "color": "RED",
-      "title": "The Knitwear Long Sleeve",
+      "title": "The Kni̇twear Long Sleeve",
       "size": "S, M, L, XL",
       "price": "38.0",
       "category": "KNITWEAR",
@@ -2574,7 +2694,7 @@
       "id": "CT00345101_BLACK",
       "code": "CT00345101",
       "color": "BLACK",
-      "title": "The Knitwear Long Sleeve",
+      "title": "The Kni̇twear Long Sleeve",
       "size": "S, M, L, XL",
       "price": "37.0",
       "category": "KNITWEAR",
@@ -2584,7 +2704,7 @@
       "id": "CT00345101_RED",
       "code": "CT00345101",
       "color": "RED",
-      "title": "The Knitwear Long Sleeve",
+      "title": "The Kni̇twear Long Sleeve",
       "size": "S, M, L, XL",
       "price": "37.0",
       "category": "KNITWEAR",
@@ -2594,9 +2714,9 @@
       "id": "CT00378101_BEIGE",
       "code": "CT00378101",
       "color": "BEIGE",
-      "title": "The Knitwear Long Sleeve",
+      "title": "The T-Shirt",
       "size": "S, M, L, XL",
-      "price": "42.0",
+      "price": "42",
       "category": "KNITWEAR",
       "image": "assets/products/CT00378101_BEIGE.jpg"
     },
@@ -2604,9 +2724,9 @@
       "id": "CT00378101_BLACK",
       "code": "CT00378101",
       "color": "BLACK",
-      "title": "The Knitwear Long Sleeve",
+      "title": "The T-Shirt",
       "size": "S, M, L, XL",
-      "price": "42.0",
+      "price": "42",
       "category": "KNITWEAR",
       "image": "assets/products/CT00378101_BLACK.jpg"
     },
@@ -2614,9 +2734,9 @@
       "id": "CT00378101_BLUE",
       "code": "CT00378101",
       "color": "BLUE",
-      "title": "The Knitwear Long Sleeve",
+      "title": "The T-Shirt",
       "size": "S, M, L, XL",
-      "price": "42.0",
+      "price": "42",
       "category": "KNITWEAR",
       "image": "assets/products/CT00378101_BLUE.jpg"
     },
@@ -2624,9 +2744,9 @@
       "id": "CT00378101_ECRU",
       "code": "CT00378101",
       "color": "ECRU",
-      "title": "The Knitwear Long Sleeve",
+      "title": "The T-Shirt",
       "size": "S, M, L, XL",
-      "price": "42.0",
+      "price": "42",
       "category": "KNITWEAR",
       "image": "assets/products/CT00378101_ECRU.jpg"
     },
@@ -2634,9 +2754,9 @@
       "id": "CT00378101_POWDER",
       "code": "CT00378101",
       "color": "POWDER",
-      "title": "The Knitwear Long Sleeve",
+      "title": "The T-Shirt",
       "size": "S, M, L, XL",
-      "price": "42.0",
+      "price": "42",
       "category": "KNITWEAR",
       "image": "assets/products/CT00378101_POWDER.jpg"
     },
@@ -2646,7 +2766,7 @@
       "color": "BEIGE",
       "title": "The Knitwear",
       "size": "S, M, L, XL",
-      "price": "34.0",
+      "price": "34",
       "category": "KNITWEAR",
       "image": "assets/products/CT00379101_BEIGE.jpg"
     },
@@ -2656,7 +2776,7 @@
       "color": "BLACK",
       "title": "The Knitwear",
       "size": "S, M, L, XL",
-      "price": "34.0",
+      "price": "34",
       "category": "KNITWEAR",
       "image": "assets/products/CT00379101_BLACK.jpg"
     },
@@ -2666,7 +2786,7 @@
       "color": "BLUE",
       "title": "The Knitwear",
       "size": "S, M, L, XL",
-      "price": "34.0",
+      "price": "34",
       "category": "KNITWEAR",
       "image": "assets/products/CT00379101_BLUE.jpg"
     },
@@ -2676,7 +2796,7 @@
       "color": "ECRU",
       "title": "The Knitwear",
       "size": "S, M, L, XL",
-      "price": "34.0",
+      "price": "34",
       "category": "KNITWEAR",
       "image": "assets/products/CT00379101_ECRU.jpg"
     },
@@ -2686,7 +2806,7 @@
       "color": "POWDER",
       "title": "The Knitwear",
       "size": "S, M, L, XL",
-      "price": "34.0",
+      "price": "34",
       "category": "KNITWEAR",
       "image": "assets/products/CT00379101_POWDER.jpg"
     },
@@ -2694,9 +2814,9 @@
       "id": "CT00380101_BEIGE",
       "code": "CT00380101",
       "color": "BEIGE",
-      "title": "The Knitwear Long Sleeve",
+      "title": "The T-Shirt",
       "size": "S, M, L, XL",
-      "price": "34.0",
+      "price": "34",
       "category": "KNITWEAR",
       "image": "assets/products/CT00380101_BEIGE.jpg"
     },
@@ -2704,9 +2824,9 @@
       "id": "CT00380101_BLACK",
       "code": "CT00380101",
       "color": "BLACK",
-      "title": "The Knitwear Long Sleeve",
+      "title": "The T-Shirt",
       "size": "S, M, L, XL",
-      "price": "34.0",
+      "price": "34",
       "category": "KNITWEAR",
       "image": "assets/products/CT00380101_BLACK.jpg"
     },
@@ -2714,9 +2834,9 @@
       "id": "CT00380101_BLUE",
       "code": "CT00380101",
       "color": "BLUE",
-      "title": "The Knitwear Long Sleeve",
+      "title": "The T-Shirt",
       "size": "S, M, L, XL",
-      "price": "34.0",
+      "price": "34",
       "category": "KNITWEAR",
       "image": "assets/products/CT00380101_BLUE.jpg"
     },
@@ -2724,9 +2844,9 @@
       "id": "CT00380101_ECRU",
       "code": "CT00380101",
       "color": "ECRU",
-      "title": "The Knitwear Long Sleeve",
+      "title": "The T-Shirt",
       "size": "S, M, L, XL",
-      "price": "34.0",
+      "price": "34",
       "category": "KNITWEAR",
       "image": "assets/products/CT00380101_ECRU.jpg"
     },
@@ -2734,9 +2854,9 @@
       "id": "CT00380101_POWDER",
       "code": "CT00380101",
       "color": "POWDER",
-      "title": "The Knitwear Long Sleeve",
+      "title": "The T-Shirt",
       "size": "S, M, L, XL",
-      "price": "34.0",
+      "price": "34",
       "category": "KNITWEAR",
       "image": "assets/products/CT00380101_POWDER.jpg"
     },
@@ -2746,7 +2866,7 @@
       "color": "BEIGE",
       "title": "The Knitwear",
       "size": "S, M, L, XL",
-      "price": "36.0",
+      "price": "36",
       "category": "KNITWEAR",
       "image": "assets/products/CT00381101_BEIGE.jpg"
     },
@@ -2756,7 +2876,7 @@
       "color": "BLACK",
       "title": "The Knitwear",
       "size": "S, M, L, XL",
-      "price": "36.0",
+      "price": "36",
       "category": "KNITWEAR",
       "image": "assets/products/CT00381101_BLACK.jpg"
     },
@@ -2766,7 +2886,7 @@
       "color": "BLUE",
       "title": "The Knitwear",
       "size": "S, M, L, XL",
-      "price": "36.0",
+      "price": "36",
       "category": "KNITWEAR",
       "image": "assets/products/CT00381101_BLUE.jpg"
     },
@@ -2776,7 +2896,7 @@
       "color": "ECRU",
       "title": "The Knitwear",
       "size": "S, M, L, XL",
-      "price": "36.0",
+      "price": "36",
       "category": "KNITWEAR",
       "image": "assets/products/CT00381101_ECRU.jpg"
     },
@@ -2786,7 +2906,7 @@
       "color": "POWDER",
       "title": "The Knitwear",
       "size": "S, M, L, XL",
-      "price": "36.0",
+      "price": "36",
       "category": "KNITWEAR",
       "image": "assets/products/CT00381101_POWDER.jpg"
     },
@@ -2796,7 +2916,7 @@
       "color": "BLACK",
       "title": "The Knitwear",
       "size": "S, M, L, XL",
-      "price": "38.0",
+      "price": "38",
       "category": "KNITWEAR",
       "image": "assets/products/CT00550101_BLACK.jpg"
     },
@@ -2806,7 +2926,7 @@
       "color": "BURGUNDY",
       "title": "The Knitwear",
       "size": "S, M, L, XL",
-      "price": "38.0",
+      "price": "38",
       "category": "KNITWEAR",
       "image": "assets/products/CT00550101_BURGUNDY.jpg"
     },
@@ -2816,7 +2936,7 @@
       "color": "ECRU",
       "title": "The Knitwear",
       "size": "S, M, L, XL",
-      "price": "38.0",
+      "price": "38",
       "category": "KNITWEAR",
       "image": "assets/products/CT00550101_ECRU.jpg"
     },
@@ -2826,7 +2946,7 @@
       "color": "TERRACOT",
       "title": "The Knitwear",
       "size": "S, M, L, XL",
-      "price": "38.0",
+      "price": "38",
       "category": "KNITWEAR",
       "image": "assets/products/CT00550101_TERRACOT.jpg"
     },
@@ -2834,9 +2954,9 @@
       "id": "CT00551101_BLACK",
       "code": "CT00551101",
       "color": "BLACK",
-      "title": "The Knitwear",
+      "title": "The T-Shirt",
       "size": "S, M, L, XL",
-      "price": "37.0",
+      "price": "37",
       "category": "KNITWEAR",
       "image": "assets/products/CT00551101_BLACK.jpg"
     },
@@ -2846,7 +2966,7 @@
       "color": "BURGUNDY",
       "title": "The Knitwear",
       "size": "S, M, L, XL",
-      "price": "37.0",
+      "price": "37",
       "category": "KNITWEAR",
       "image": "assets/products/CT00551101_BURGUNDY.jpg"
     },
@@ -2854,9 +2974,9 @@
       "id": "CT00551101_ECRU",
       "code": "CT00551101",
       "color": "ECRU",
-      "title": "The Knitwear",
+      "title": "The T-Shirt",
       "size": "S, M, L, XL",
-      "price": "37.0",
+      "price": "37",
       "category": "KNITWEAR",
       "image": "assets/products/CT00551101_ECRU.jpg"
     },
@@ -2866,7 +2986,7 @@
       "color": "TERRACOT",
       "title": "The Knitwear",
       "size": "S, M, L, XL",
-      "price": "37.0",
+      "price": "37",
       "category": "KNITWEAR",
       "image": "assets/products/CT00551101_TERRACOT.jpg"
     },
@@ -3091,36 +3211,6 @@
       "image": "assets/products/C1534101_YELLOW.jpg"
     },
     {
-      "id": "C1539101_BLACK",
-      "code": "C1539101",
-      "color": "BLACK",
-      "title": "The Oversize Shirt",
-      "size": "S, M, L, XL",
-      "price": "42.0",
-      "category": "SHIRT",
-      "image": "assets/products/C1539101_BLACK.jpg"
-    },
-    {
-      "id": "C1539101_NAVYBLUE",
-      "code": "C1539101",
-      "color": "NAVYBLUE",
-      "title": "The Oversize Shirt",
-      "size": "S, M, L, XL",
-      "price": "42.0",
-      "category": "SHIRT",
-      "image": "assets/products/C1539101_NAVYBLUE.jpg"
-    },
-    {
-      "id": "C1539101_WHITE",
-      "code": "C1539101",
-      "color": "WHITE",
-      "title": "The Oversize Shirt",
-      "size": "S, M, L, XL",
-      "price": "42.0",
-      "category": "SHIRT",
-      "image": "assets/products/C1539101_WHITE.jpg"
-    },
-    {
       "id": "C1540101_BROWN",
       "code": "C1540101",
       "color": "BROWN",
@@ -3136,7 +3226,7 @@
       "color": "GREEN",
       "title": "The Oversize Shirt",
       "size": "S, M, L, XL",
-      "price": "62.0",
+      "price": "62",
       "category": "SHIRT",
       "image": "assets/products/C1540101_GREEN.jpg"
     },
@@ -3146,7 +3236,7 @@
       "color": "KERAMIT",
       "title": "The Oversize Shirt",
       "size": "S, M, L, XL",
-      "price": "62.0",
+      "price": "62",
       "category": "SHIRT",
       "image": "assets/products/C1540101_KERAMIT.jpg"
     },
@@ -3156,7 +3246,7 @@
       "color": "NAVYBLUE",
       "title": "The Oversize Shirt",
       "size": "S, M, L, XL",
-      "price": "62.0",
+      "price": "62",
       "category": "SHIRT",
       "image": "assets/products/C1540101_NAVYBLUE.jpg"
     },
@@ -3166,7 +3256,7 @@
       "color": "RED2",
       "title": "The Oversize Shirt",
       "size": "S, M, L, XL",
-      "price": "62.0",
+      "price": "62",
       "category": "SHIRT",
       "image": "assets/products/C1540101_RED2.jpg"
     },
@@ -3251,16 +3341,6 @@
       "image": "assets/products/C3620101_BLUE.jpg"
     },
     {
-      "id": "C3621101_001",
-      "code": "C3621101",
-      "color": "001",
-      "title": "The Skirt",
-      "size": "36, 38, 40, 42",
-      "price": "51.0",
-      "category": "SKIRT",
-      "image": "assets/products/C3621101_001.jpg"
-    },
-    {
       "id": "CTK05776101_BLACK",
       "code": "CTK05776101",
       "color": "BLACK",
@@ -3306,7 +3386,7 @@
       "color": "BLACK",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "275.0",
+      "price": "275",
       "category": "LEATHER",
       "image": "assets/products/CD165_BLACK.jpg"
     },
@@ -3316,7 +3396,7 @@
       "color": "BLACK",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "275.0",
+      "price": "275",
       "category": "LEATHER",
       "image": "assets/products/CD22_BLACK.jpg"
     },
@@ -3326,7 +3406,7 @@
       "color": "BLACK",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "280.0",
+      "price": "280",
       "category": "LEATHER",
       "image": "assets/products/CD420_BLACK.jpg"
     },
@@ -3346,7 +3426,7 @@
       "color": "BROWN",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "305.0",
+      "price": "305",
       "category": "LEATHER",
       "image": "assets/products/CD685102_BROWN.jpg"
     },
@@ -3366,9 +3446,39 @@
       "color": "BROWN",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "320.0",
+      "price": "320",
       "category": "LEATHER",
       "image": "assets/products/CD690_BROWN.jpg"
+    },
+    {
+      "id": "CKAE19_BROWN",
+      "code": "CKAŞE-19",
+      "color": "BROWN",
+      "title": "The Leather Long Coat",
+      "size": "S, M, L, XL",
+      "price": "220",
+      "category": "LEATHER",
+      "image": "assets/products/CKAE19_BROWN.jpg"
+    },
+    {
+      "id": "CKAE19_BURGUNDY",
+      "code": "CKAŞE-19",
+      "color": "BURGUNDY",
+      "title": "The Leather Long Coat",
+      "size": "S, M, L, XL",
+      "price": "220",
+      "category": "LEATHER",
+      "image": "assets/products/CKAE19_BURGUNDY.jpg"
+    },
+    {
+      "id": "CKAE20_BROWN",
+      "code": "CKAŞE-20",
+      "color": "BROWN",
+      "title": "The Leather Jacket",
+      "size": "S, M, L, XL",
+      "price": "265",
+      "category": "LEATHER",
+      "image": "assets/products/CKAE20_BROWN.jpg"
     },
     {
       "id": "CZ050_BLACK",
@@ -3376,7 +3486,7 @@
       "color": "BLACK",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "360.0",
+      "price": "360",
       "category": "LEATHER",
       "image": "assets/products/CZ050_BLACK.jpg"
     },
@@ -3386,7 +3496,7 @@
       "color": "BLACK",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "295.0",
+      "price": "295",
       "category": "LEATHER",
       "image": "assets/products/CZ123_BLACK.jpg"
     },
@@ -3406,7 +3516,7 @@
       "color": "BLUE",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "340.0",
+      "price": "340",
       "category": "LEATHER",
       "image": "assets/products/CZ1251_BLUE.jpg"
     },
@@ -3416,7 +3526,7 @@
       "color": "CHOCOLATE",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "355.0",
+      "price": "355",
       "category": "LEATHER",
       "image": "assets/products/CZ128_CHOCOLATE.jpg"
     },
@@ -3436,7 +3546,7 @@
       "color": "CHOCOLATE",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "245.0",
+      "price": "245",
       "category": "LEATHER",
       "image": "assets/products/CZ147_CHOCOLATE.jpg"
     },
@@ -3446,7 +3556,7 @@
       "color": "HAZELNUT",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "315.0",
+      "price": "315",
       "category": "LEATHER",
       "image": "assets/products/CZ1471_HAZELNUT.jpg"
     },
@@ -3456,7 +3566,7 @@
       "color": "BLACK",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "355.0",
+      "price": "355",
       "category": "LEATHER",
       "image": "assets/products/CZ148_BLACK.jpg"
     },
@@ -3486,7 +3596,7 @@
       "color": "BLUE",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "305.0",
+      "price": "305",
       "category": "LEATHER",
       "image": "assets/products/CZ151_BLUE.jpg"
     },
@@ -3546,7 +3656,7 @@
       "color": "BROWN",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "240.0",
+      "price": "240",
       "category": "LEATHER",
       "image": "assets/products/CZ156_BROWN.jpg"
     },
@@ -3586,7 +3696,7 @@
       "color": "BLACK",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "285.0",
+      "price": "285",
       "category": "LEATHER",
       "image": "assets/products/CZ161_BLACK.jpg"
     },
@@ -3606,7 +3716,7 @@
       "color": "BLACK",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "240.0",
+      "price": "240",
       "category": "LEATHER",
       "image": "assets/products/CZ164_BLACK.jpg"
     },
@@ -3636,7 +3746,7 @@
       "color": "CHOCOLATE",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "365.0",
+      "price": "365",
       "category": "LEATHER",
       "image": "assets/products/CZ170_CHOCOLATE.jpg"
     },
@@ -3646,7 +3756,7 @@
       "color": "CHOCOLATE",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "315.0",
+      "price": "315",
       "category": "LEATHER",
       "image": "assets/products/CZ172_CHOCOLATE.jpg"
     },
@@ -3656,7 +3766,7 @@
       "color": "GRAY",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "270.0",
+      "price": "270",
       "category": "LEATHER",
       "image": "assets/products/CZ173_GRAY.jpg"
     },
@@ -3676,7 +3786,7 @@
       "color": "CHOCOLATE",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "315.0",
+      "price": "315",
       "category": "LEATHER",
       "image": "assets/products/CZ176_CHOCOLATE.jpg"
     },
@@ -3686,7 +3796,7 @@
       "color": "BROWN",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "255.0",
+      "price": "255",
       "category": "LEATHER",
       "image": "assets/products/CZ176K_BROWN.jpg"
     },
@@ -3706,7 +3816,7 @@
       "color": "BROWN",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "275.0",
+      "price": "275",
       "category": "LEATHER",
       "image": "assets/products/CZ178_BROWN.jpg"
     },
@@ -3716,7 +3826,7 @@
       "color": "KHAKI",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "270.0",
+      "price": "270",
       "category": "LEATHER",
       "image": "assets/products/CZ179_KHAKI.jpg"
     },
@@ -3726,7 +3836,7 @@
       "color": "CHOCOLATE",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "320.0",
+      "price": "320",
       "category": "LEATHER",
       "image": "assets/products/CZ185_CHOCOLATE.jpg"
     },
@@ -3766,7 +3876,7 @@
       "color": "BROWN",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "290.0",
+      "price": "290",
       "category": "LEATHER",
       "image": "assets/products/CZ190_BROWN.jpg"
     },
@@ -3796,7 +3906,7 @@
       "color": "GREEN",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "280",
+      "price": "280.0",
       "category": "LEATHER",
       "image": "assets/products/CZ193_GREEN.jpg"
     },
@@ -3826,7 +3936,7 @@
       "color": "HAZELNUT",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "255.0",
+      "price": "255",
       "category": "LEATHER",
       "image": "assets/products/CZ198_HAZELNUT.jpg"
     },
@@ -3846,7 +3956,7 @@
       "color": "BLACK",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "270.0",
+      "price": "270",
       "category": "LEATHER",
       "image": "assets/products/CZ204_BLACK.jpg"
     },
@@ -3866,7 +3976,7 @@
       "color": "BEIGE",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "265.0",
+      "price": "265",
       "category": "LEATHER",
       "image": "assets/products/CZ207_BEIGE.jpg"
     },
@@ -3876,7 +3986,7 @@
       "color": "BLACK",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "270.0",
+      "price": "270",
       "category": "LEATHER",
       "image": "assets/products/CZ208_BLACK.jpg"
     },
@@ -3886,7 +3996,7 @@
       "color": "HAZELNUT",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "260.0",
+      "price": "260",
       "category": "LEATHER",
       "image": "assets/products/CZ210_HAZELNUT.jpg"
     },
@@ -3896,7 +4006,7 @@
       "color": "GRAY",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "295.0",
+      "price": "295",
       "category": "LEATHER",
       "image": "assets/products/CZ211_GRAY.jpg"
     },
@@ -3916,7 +4026,7 @@
       "color": "BROWN",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "320.0",
+      "price": "320",
       "category": "LEATHER",
       "image": "assets/products/CZ214_BROWN.jpg"
     },
@@ -3936,7 +4046,7 @@
       "color": "BROWN",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "285.0",
+      "price": "285",
       "category": "LEATHER",
       "image": "assets/products/CZ217_BROWN.jpg"
     },
@@ -3946,7 +4056,7 @@
       "color": "HAZELNUT",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "280.0",
+      "price": "280",
       "category": "LEATHER",
       "image": "assets/products/CZ219_HAZELNUT.jpg"
     },
@@ -3976,7 +4086,7 @@
       "color": "HAZELNUT",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "345.0",
+      "price": "345",
       "category": "LEATHER",
       "image": "assets/products/CZ32_HAZELNUT.jpg"
     },
@@ -3986,7 +4096,7 @@
       "color": "HAZELNUT",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "285.0",
+      "price": "285",
       "category": "LEATHER",
       "image": "assets/products/CZ64_HAZELNUT.jpg"
     },
@@ -3996,7 +4106,7 @@
       "color": "BEIGE",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "285.0",
+      "price": "285",
       "category": "LEATHER",
       "image": "assets/products/CZ64H_BEIGE.jpg"
     },
@@ -4006,7 +4116,7 @@
       "color": "CHOCOLATE",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "325.0",
+      "price": "325",
       "category": "LEATHER",
       "image": "assets/products/CZ64K_CHOCOLATE.jpg"
     },
@@ -4016,7 +4126,7 @@
       "color": "HAZELNUT",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "275.0",
+      "price": "275",
       "category": "LEATHER",
       "image": "assets/products/CZ70_HAZELNUT.jpg"
     },
@@ -4026,7 +4136,7 @@
       "color": "BROWN",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "285.0",
+      "price": "285",
       "category": "LEATHER",
       "image": "assets/products/CZ77_BROWN.jpg"
     },
@@ -4056,7 +4166,7 @@
       "color": "BROWN",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "245.0",
+      "price": "245",
       "category": "LEATHER",
       "image": "assets/products/CZK22_BROWN.jpg"
     },
@@ -4066,7 +4176,7 @@
       "color": "BLACK",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "240.0",
+      "price": "240",
       "category": "LEATHER",
       "image": "assets/products/CZK64_BLACK.jpg"
     },
@@ -4076,7 +4186,7 @@
       "color": "BROWN",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "225.0",
+      "price": "225",
       "category": "LEATHER",
       "image": "assets/products/CZK69_BROWN.jpg"
     },
@@ -4106,7 +4216,7 @@
       "color": "BLACK",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "355.0",
+      "price": "355",
       "category": "LEATHER",
       "image": "assets/products/SD593101_BLACK.jpg"
     },
@@ -4116,7 +4226,7 @@
       "color": "BURGUNDY",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "355.0",
+      "price": "355",
       "category": "LEATHER",
       "image": "assets/products/SD593101_BURGUNDY.jpg"
     },
@@ -4146,7 +4256,7 @@
       "color": "BURGUNDY",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "345.0",
+      "price": "345",
       "category": "LEATHER",
       "image": "assets/products/SD641101_BURGUNDY.jpg"
     },
@@ -4156,7 +4266,7 @@
       "color": "CAMEL",
       "title": "The Coat",
       "size": "36, 38, 40, 42",
-      "price": "158",
+      "price": "158.0",
       "category": "OUTFIT",
       "image": "assets/products/B5572101_CAMEL.jpg"
     },
@@ -4166,7 +4276,7 @@
       "color": "GREEN",
       "title": "The Coat",
       "size": "36, 38, 40, 42",
-      "price": "124",
+      "price": "124.0",
       "category": "OUTFIT",
       "image": "assets/products/B5573102_GREEN.jpg"
     },
@@ -4176,7 +4286,7 @@
       "color": "BLACK",
       "title": "The Coat",
       "size": "36, 38, 40, 42",
-      "price": "154.0",
+      "price": "154",
       "category": "OUTFIT",
       "image": "assets/products/C5522102_BLACK.jpg"
     },
@@ -4186,7 +4296,7 @@
       "color": "BROWN",
       "title": "The Coat",
       "size": "36, 38, 40, 42",
-      "price": "154.0",
+      "price": "154",
       "category": "OUTFIT",
       "image": "assets/products/C5522102_BROWN.jpg"
     },
@@ -4206,7 +4316,7 @@
       "color": "CAMEL",
       "title": "The Coat",
       "size": "36, 38, 40, 42",
-      "price": "154.0",
+      "price": "154",
       "category": "OUTFIT",
       "image": "assets/products/C5522102_CAMEL.jpg"
     },
@@ -4216,7 +4326,7 @@
       "color": "ECRU",
       "title": "The Coat",
       "size": "36, 38, 40, 42",
-      "price": "154.0",
+      "price": "154",
       "category": "OUTFIT",
       "image": "assets/products/C5522102_ECRU.jpg"
     },
@@ -4226,7 +4336,7 @@
       "color": "GREEN",
       "title": "The Coat",
       "size": "36, 38, 40, 42",
-      "price": "154.0",
+      "price": "154",
       "category": "OUTFIT",
       "image": "assets/products/C5522102_GREEN.jpg"
     },
@@ -4276,7 +4386,7 @@
       "color": "BLACK",
       "title": "The Coat",
       "size": "S, M, L, XL",
-      "price": "138.0",
+      "price": "138",
       "category": "OUTFIT",
       "image": "assets/products/C5900101_BLACK.jpg"
     },
@@ -4286,7 +4396,7 @@
       "color": "BROWN",
       "title": "The Coat",
       "size": "S, M, L, XL",
-      "price": "138.0",
+      "price": "138",
       "category": "OUTFIT",
       "image": "assets/products/C5900101_BROWN.jpg"
     },
@@ -4296,7 +4406,7 @@
       "color": "ECRU",
       "title": "The Coat",
       "size": "S, M, L, XL",
-      "price": "138.0",
+      "price": "138",
       "category": "OUTFIT",
       "image": "assets/products/C5900101_ECRU.jpg"
     },
@@ -4306,7 +4416,7 @@
       "color": "GREEN",
       "title": "The Coat",
       "size": "S, M, L, XL",
-      "price": "138.0",
+      "price": "138",
       "category": "OUTFIT",
       "image": "assets/products/C5900101_GREEN.jpg"
     },
@@ -4316,7 +4426,7 @@
       "color": "RED",
       "title": "The Coat",
       "size": "S, M, L, XL",
-      "price": "138.0",
+      "price": "138",
       "category": "OUTFIT",
       "image": "assets/products/C5900101_RED.jpg"
     },
@@ -4376,7 +4486,7 @@
       "color": "NAVYBLUE",
       "title": "The Coat",
       "size": "S, M, L, XL",
-      "price": "238.0",
+      "price": "238",
       "category": "OUTFIT",
       "image": "assets/products/C5902101_NAVYBLUE.jpg"
     },
@@ -4386,7 +4496,7 @@
       "color": "RED",
       "title": "The Coat",
       "size": "S, M, L, XL",
-      "price": "238.0",
+      "price": "238",
       "category": "OUTFIT",
       "image": "assets/products/C5902101_RED.jpg"
     },
@@ -4396,7 +4506,7 @@
       "color": "ANTHRA",
       "title": "The Coat",
       "size": "S, M, L, XL",
-      "price": "153.0",
+      "price": "153",
       "category": "OUTFIT",
       "image": "assets/products/C5903101_ANTHRA.jpg"
     },
@@ -4406,7 +4516,7 @@
       "color": "BEIGE",
       "title": "The Coat",
       "size": "S, M, L, XL",
-      "price": "153.0",
+      "price": "153",
       "category": "OUTFIT",
       "image": "assets/products/C5903101_BEIGE.jpg"
     },
@@ -4416,7 +4526,7 @@
       "color": "BLACK",
       "title": "The Coat",
       "size": "S, M, L, XL",
-      "price": "153.0",
+      "price": "153",
       "category": "OUTFIT",
       "image": "assets/products/C5903101_BLACK.jpg"
     },
@@ -4426,7 +4536,7 @@
       "color": "BROWN",
       "title": "The Coat",
       "size": "S, M, L, XL",
-      "price": "153.0",
+      "price": "153",
       "category": "OUTFIT",
       "image": "assets/products/C5903101_BROWN.jpg"
     },
@@ -4436,7 +4546,7 @@
       "color": "NAVYBLUE",
       "title": "The Coat",
       "size": "S, M, L, XL",
-      "price": "153.0",
+      "price": "153",
       "category": "OUTFIT",
       "image": "assets/products/C5903101_NAVYBLUE.jpg"
     },
@@ -4446,7 +4556,7 @@
       "color": "BEIGE",
       "title": "The Coat",
       "size": "STD4",
-      "price": "125.0",
+      "price": "125",
       "category": "OUTFIT",
       "image": "assets/products/C5905101_BEIGE.jpg"
     },
@@ -4456,7 +4566,7 @@
       "color": "BLACK",
       "title": "The Coat",
       "size": "STD4",
-      "price": "125.0",
+      "price": "125",
       "category": "OUTFIT",
       "image": "assets/products/C5905101_BLACK.jpg"
     },
@@ -4466,7 +4576,7 @@
       "color": "BROWN",
       "title": "The Coat",
       "size": "STD4",
-      "price": "125.0",
+      "price": "125",
       "category": "OUTFIT",
       "image": "assets/products/C5905101_BROWN.jpg"
     },
@@ -4476,7 +4586,7 @@
       "color": "BLACK",
       "title": "The Coat",
       "size": "36, 38, 40, 42",
-      "price": "130.0",
+      "price": "130",
       "category": "OUTFIT",
       "image": "assets/products/S5522102_BLACK.jpg"
     },
@@ -4486,7 +4596,7 @@
       "color": "BROWN",
       "title": "The Coat",
       "size": "36, 38, 40, 42",
-      "price": "130.0",
+      "price": "130",
       "category": "OUTFIT",
       "image": "assets/products/S5522102_BROWN.jpg"
     },
@@ -4496,7 +4606,7 @@
       "color": "BLACK",
       "title": "The Vest",
       "size": "S, M, L, XL",
-      "price": "255.0",
+      "price": "255",
       "category": "VEST",
       "image": "assets/products/CD1065_BLACK.jpg"
     }

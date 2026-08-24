@@ -1,4 +1,4 @@
-﻿{
+{
     "WINE_SHE":  [
                      "assets/capsules/01_WINE_SHE/C409101_BURGUNDY.jpg",
                      "assets/capsules/01_WINE_SHE/C430101_028.jpg",
@@ -101,7 +101,6 @@
     "REDSHE":  [
                    "assets/capsules/03_REDSHE/B1690101_BLACK.jpg",
                    "assets/capsules/03_REDSHE/B5451101_BLACK.jpg",
-                   "assets/capsules/03_REDSHE/C1539101_BLACK.jpg",
                    "assets/capsules/03_REDSHE/C1540101_RED2.jpg",
                    "assets/capsules/03_REDSHE/C3621101_001.jpg",
                    "assets/capsules/03_REDSHE/C396101_001.jpg",
@@ -128,7 +127,6 @@
                    "assets/capsules/03_REDSHE/S884101_BLACK.jpg"
                ],
     "BLUESHE":  [
-                    "assets/capsules/04_BLUESHE/C1539101_NAVYBLUE.jpg",
                     "assets/capsules/04_BLUESHE/C1540101_NAVYBLUE.jpg",
                     "assets/capsules/04_BLUESHE/C3620101_BLUE.jpg",
                     "assets/capsules/04_BLUESHE/C396102_BLUE.jpg",
