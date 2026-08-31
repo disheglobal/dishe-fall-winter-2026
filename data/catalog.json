@@ -741,6 +741,36 @@
       "image": "assets/products/A7020101_NAVYBLU.jpg"
     },
     {
+      "id": "SO00548101_ECRU",
+      "code": "SO00548101",
+      "color": "ECRU",
+      "title": "The Knit Dress",
+      "size": "S, M, L, XL",
+      "price": "79",
+      "category": "DRESS",
+      "image": "assets/products/SO00548101_ECRU.jpg"
+    },
+    {
+      "id": "SO00548101_GRAY",
+      "code": "SO00548101",
+      "color": "GRAY",
+      "title": "The Knit Dress",
+      "size": "S, M, L, XL",
+      "price": "79",
+      "category": "DRESS",
+      "image": "assets/products/SO00548101_GRAY.jpg"
+    },
+    {
+      "id": "SO00549101_ECRU",
+      "code": "SO00549101",
+      "color": "ECRU",
+      "title": "The Knit Dress",
+      "size": "S, M, L, XL",
+      "price": "79",
+      "category": "DRESS",
+      "image": "assets/products/SO00549101_ECRU.jpg"
+    },
+    {
       "id": "A5637101_GRAY",
       "code": "A5637101",
       "color": "GRAY",
@@ -1226,7 +1256,7 @@
       "color": "BLACK",
       "title": "The Boyfriend Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "58.0",
+      "price": "52",
       "category": "PANTS",
       "image": "assets/products/C231101_BLACK.jpg"
     },
@@ -2311,6 +2341,56 @@
       "image": "assets/products/CO00383101_PINK.jpg"
     },
     {
+      "id": "CO00384101_BLACK",
+      "code": "CO00384101",
+      "color": "BLACK",
+      "title": "The Knit Suit",
+      "size": "S, M, L, XL",
+      "price": "89",
+      "category": "KNITWEAR",
+      "image": "assets/products/CO00384101_BLACK.jpg"
+    },
+    {
+      "id": "CO00384101_BROWN",
+      "code": "CO00384101",
+      "color": "BROWN",
+      "title": "The Knit Suit",
+      "size": "S, M, L, XL",
+      "price": "89",
+      "category": "KNITWEAR",
+      "image": "assets/products/CO00384101_BROWN.jpg"
+    },
+    {
+      "id": "CO00384101_ECRU",
+      "code": "CO00384101",
+      "color": "ECRU",
+      "title": "The Knit Suit",
+      "size": "S, M, L, XL",
+      "price": "89",
+      "category": "KNITWEAR",
+      "image": "assets/products/CO00384101_ECRU.jpg"
+    },
+    {
+      "id": "CO00384101_PINK",
+      "code": "CO00384101",
+      "color": "PINK",
+      "title": "The Knit Suit",
+      "size": "S, M, L, XL",
+      "price": "89",
+      "category": "KNITWEAR",
+      "image": "assets/products/CO00384101_PINK.jpg"
+    },
+    {
+      "id": "CO00384101_YELLOW",
+      "code": "CO00384101",
+      "color": "YELLOW",
+      "title": "The Knit Suit",
+      "size": "S, M, L, XL",
+      "price": "89",
+      "category": "KNITWEAR",
+      "image": "assets/products/CO00384101_YELLOW.jpg"
+    },
+    {
       "id": "CO00386101_BLACK",
       "code": "CO00386101",
       "color": "BLACK",
@@ -2359,6 +2439,16 @@
       "price": "81",
       "category": "KNITWEAR",
       "image": "assets/products/CO00386101_YELLOW.jpg"
+    },
+    {
+      "id": "CO00389101_BLACK",
+      "code": "CO00389101",
+      "color": "BLACK",
+      "title": "The Knit Suit",
+      "size": "S, M, L, XL",
+      "price": "79",
+      "category": "KNITWEAR",
+      "image": "assets/products/CO00389101_BLACK.jpg"
     },
     {
       "id": "CO00390101_BLACK",
@@ -2476,7 +2566,7 @@
       "color": "BLACK",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "99.0",
+      "price": "99",
       "category": "KNITWEAR",
       "image": "assets/products/CO00394101_BLACK.jpg"
     },
@@ -2486,7 +2576,7 @@
       "color": "BROWN",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "99.0",
+      "price": "99",
       "category": "KNITWEAR",
       "image": "assets/products/CO00394101_BROWN.jpg"
     },
@@ -2496,7 +2586,7 @@
       "color": "ECRU",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "99.0",
+      "price": "99",
       "category": "KNITWEAR",
       "image": "assets/products/CO00394101_ECRU.jpg"
     },
@@ -2546,7 +2636,7 @@
       "color": "BEIGE",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "89",
+      "price": "83",
       "category": "KNITWEAR",
       "image": "assets/products/CO00397101_BEIGE.jpg"
     },
@@ -2556,7 +2646,7 @@
       "color": "BROWN",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "89",
+      "price": "83",
       "category": "KNITWEAR",
       "image": "assets/products/CO00397101_BROWN.jpg"
     },
@@ -2566,7 +2656,7 @@
       "color": "NAVYBLUE",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "89",
+      "price": "83",
       "category": "KNITWEAR",
       "image": "assets/products/CO00397101_NAVYBLUE.jpg"
     },
@@ -2576,7 +2666,7 @@
       "color": "PINK",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "89",
+      "price": "83",
       "category": "KNITWEAR",
       "image": "assets/products/CO00397101_PINK.jpg"
     },
@@ -2636,7 +2726,7 @@
       "color": "BLACK",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "52",
+      "price": "47",
       "category": "KNITWEAR",
       "image": "assets/products/CO00404101_BLACK.jpg"
     },
@@ -2646,7 +2736,7 @@
       "color": "BROWN",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "52",
+      "price": "47",
       "category": "KNITWEAR",
       "image": "assets/products/CO00404101_BROWN.jpg"
     },
@@ -2666,7 +2756,7 @@
       "color": "NAVYBLUE",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "52",
+      "price": "47",
       "category": "KNITWEAR",
       "image": "assets/products/CO00404101_NAVYBLUE.jpg"
     },
@@ -2711,12 +2801,52 @@
       "image": "assets/products/CO00406101_YELLOW.jpg"
     },
     {
+      "id": "CO00407101_BLACK",
+      "code": "CO00407101",
+      "color": "BLACK",
+      "title": "The Knit Suit",
+      "size": "S, M, L, XL",
+      "price": "89",
+      "category": "KNITWEAR",
+      "image": "assets/products/CO00407101_BLACK.jpg"
+    },
+    {
+      "id": "CO00407101_ECRU",
+      "code": "CO00407101",
+      "color": "ECRU",
+      "title": "The Knit Suit",
+      "size": "S, M, L, XL",
+      "price": "89",
+      "category": "KNITWEAR",
+      "image": "assets/products/CO00407101_ECRU.jpg"
+    },
+    {
+      "id": "CO00407101_MINK",
+      "code": "CO00407101",
+      "color": "MINK",
+      "title": "The Knit Suit",
+      "size": "S, M, L, XL",
+      "price": "89",
+      "category": "KNITWEAR",
+      "image": "assets/products/CO00407101_MINK.jpg"
+    },
+    {
+      "id": "CO00407101_POWDERPINK",
+      "code": "CO00407101",
+      "color": "POWDERPINK",
+      "title": "The Knit Suit",
+      "size": "S, M, L, XL",
+      "price": "89",
+      "category": "KNITWEAR",
+      "image": "assets/products/CO00407101_POWDERPINK.jpg"
+    },
+    {
       "id": "CO00412101_BLACK",
       "code": "CO00412101",
       "color": "BLACK",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "83",
+      "price": "69",
       "category": "KNITWEAR",
       "image": "assets/products/CO00412101_BLACK.jpg"
     },
@@ -2726,7 +2856,7 @@
       "color": "BROWN",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "83",
+      "price": "69",
       "category": "KNITWEAR",
       "image": "assets/products/CO00412101_BROWN.jpg"
     },
@@ -2736,7 +2866,7 @@
       "color": "ECRU",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "83",
+      "price": "69",
       "category": "KNITWEAR",
       "image": "assets/products/CO00412101_ECRU.jpg"
     },
@@ -2746,7 +2876,7 @@
       "color": "PINK",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "83",
+      "price": "69",
       "category": "KNITWEAR",
       "image": "assets/products/CO00412101_PINK.jpg"
     },
@@ -2756,7 +2886,7 @@
       "color": "PLUM",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "83",
+      "price": "69",
       "category": "KNITWEAR",
       "image": "assets/products/CO00412101_PLUM.jpg"
     },
@@ -3181,6 +3311,46 @@
       "image": "assets/products/CT00551101_TERRACOT.jpg"
     },
     {
+      "id": "CTK00402101_BLACK",
+      "code": "CTK00402101",
+      "color": "BLACK",
+      "title": "The Knit Suit",
+      "size": "S, M, L, XL",
+      "price": "103",
+      "category": "KNITWEAR",
+      "image": "assets/products/CTK00402101_BLACK.jpg"
+    },
+    {
+      "id": "CTK00402101_BROWN",
+      "code": "CTK00402101",
+      "color": "BROWN",
+      "title": "The Knit Suit",
+      "size": "S, M, L, XL",
+      "price": "103",
+      "category": "KNITWEAR",
+      "image": "assets/products/CTK00402101_BROWN.jpg"
+    },
+    {
+      "id": "CTK00402101_BURGUNDY",
+      "code": "CTK00402101",
+      "color": "BURGUNDY",
+      "title": "The Knit Suit",
+      "size": "S, M, L, XL",
+      "price": "103",
+      "category": "KNITWEAR",
+      "image": "assets/products/CTK00402101_BURGUNDY.jpg"
+    },
+    {
+      "id": "CTK00402101_TCRU",
+      "code": "CTK00402101",
+      "color": "TCRU",
+      "title": "The Knit Suit",
+      "size": "S, M, L, XL",
+      "price": "103",
+      "category": "KNITWEAR",
+      "image": "assets/products/CTK00402101_TCRU.jpg"
+    },
+    {
       "id": "DO00659101_BEIGE",
       "code": "DO00659101",
       "color": "BEIGE",
@@ -3379,6 +3549,46 @@
       "price": "27",
       "category": "KNITWEAR",
       "image": "assets/products/SO00581101_NAVYBLUE.jpg"
+    },
+    {
+      "id": "STK00545101_ECRU",
+      "code": "STK00545101",
+      "color": "ECRU",
+      "title": "The Knit Suit",
+      "size": "S, M, L, XL",
+      "price": "78",
+      "category": "KNITWEAR",
+      "image": "assets/products/STK00545101_ECRU.jpg"
+    },
+    {
+      "id": "STK00545101_PINK",
+      "code": "STK00545101",
+      "color": "PINK",
+      "title": "The Knit Suit",
+      "size": "S, M, L, XL",
+      "price": "78",
+      "category": "KNITWEAR",
+      "image": "assets/products/STK00545101_PINK.jpg"
+    },
+    {
+      "id": "STK00547101_BLACK",
+      "code": "STK00547101",
+      "color": "BLACK",
+      "title": "The Knit Suit",
+      "size": "S, M, L, XL",
+      "price": "78",
+      "category": "KNITWEAR",
+      "image": "assets/products/STK00547101_BLACK.jpg"
+    },
+    {
+      "id": "STK00547101_ECRU",
+      "code": "STK00547101",
+      "color": "ECRU",
+      "title": "The Knit Suit",
+      "size": "S, M, L, XL",
+      "price": "78",
+      "category": "KNITWEAR",
+      "image": "assets/products/STK00547101_ECRU.jpg"
     },
     {
       "id": "A1531101_WHITE",
@@ -3879,6 +4089,66 @@
       "price": "163.0",
       "category": "SUIT",
       "image": "assets/products/CTK05776101_NAVYBLUE.jpg"
+    },
+    {
+      "id": "CTK05801101_BLACK",
+      "code": "CTK05801101",
+      "color": "BLACK",
+      "title": "The Suit",
+      "size": "S, M, L, XL",
+      "price": "163",
+      "category": "SUIT",
+      "image": "assets/products/CTK05801101_BLACK.jpg"
+    },
+    {
+      "id": "CTK05801101_BROWN",
+      "code": "CTK05801101",
+      "color": "BROWN",
+      "title": "The Suit",
+      "size": "S, M, L, XL",
+      "price": "163",
+      "category": "SUIT",
+      "image": "assets/products/CTK05801101_BROWN.jpg"
+    },
+    {
+      "id": "CTK05801101_NAVYBLUE",
+      "code": "CTK05801101",
+      "color": "NAVYBLUE",
+      "title": "The Suit",
+      "size": "S, M, L, XL",
+      "price": "163",
+      "category": "SUIT",
+      "image": "assets/products/CTK05801101_NAVYBLUE.jpg"
+    },
+    {
+      "id": "CTK5809101_BLACK",
+      "code": "CTK5809101",
+      "color": "BLACK",
+      "title": "The Suit",
+      "size": "S, M, L, XL",
+      "price": "123",
+      "category": "SUIT",
+      "image": "assets/products/CTK5809101_BLACK.jpg"
+    },
+    {
+      "id": "CTK5809101_BROWN",
+      "code": "CTK5809101",
+      "color": "BROWN",
+      "title": "The Suit",
+      "size": "S, M, L, XL",
+      "price": "123",
+      "category": "SUIT",
+      "image": "assets/products/CTK5809101_BROWN.jpg"
+    },
+    {
+      "id": "CTK5809101_NAVYBLUE",
+      "code": "CTK5809101",
+      "color": "NAVYBLUE",
+      "title": "The Suit",
+      "size": "S, M, L, XL",
+      "price": "123",
+      "category": "SUIT",
+      "image": "assets/products/CTK5809101_NAVYBLUE.jpg"
     },
     {
       "id": "BD246101_BLACK",
@@ -4416,7 +4686,7 @@
       "color": "GREEN",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "280.0",
+      "price": "280",
       "category": "LEATHER",
       "image": "assets/products/CZ193_GREEN.jpg"
     },
@@ -4776,7 +5046,7 @@
       "color": "CAMEL",
       "title": "The Coat",
       "size": "36, 38, 40, 42",
-      "price": "158.0",
+      "price": "158",
       "category": "OUTFIT",
       "image": "assets/products/B5572101_CAMEL.jpg"
     },
@@ -4786,7 +5056,7 @@
       "color": "GREEN",
       "title": "The Coat",
       "size": "36, 38, 40, 42",
-      "price": "124.0",
+      "price": "124",
       "category": "OUTFIT",
       "image": "assets/products/B5573102_GREEN.jpg"
     },
