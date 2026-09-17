@@ -711,16 +711,6 @@
       "image": "assets/products/S9400101_BLACK.jpg"
     },
     {
-      "id": "S9410102_BLACK",
-      "code": "S9410102",
-      "color": "BLACK",
-      "title": "The Bigsize Pant",
-      "size": "31, 32, 33, 34, 36",
-      "price": "56",
-      "category": "BIG_SIZE",
-      "image": "assets/products/S9410102_BLACK.jpg"
-    },
-    {
       "id": "U1954102",
       "code": "U1954102",
       "color": "",
@@ -799,36 +789,6 @@
       "price": "118",
       "category": "DRESS",
       "image": "assets/products/C7026102_NAVYBLUE.jpg"
-    },
-    {
-      "id": "SO00548101_ECRU",
-      "code": "SO00548101",
-      "color": "ECRU",
-      "title": "The Knit Dress",
-      "size": "S, M, L, XL",
-      "price": "79",
-      "category": "DRESS",
-      "image": "assets/products/SO00548101_ECRU.jpg"
-    },
-    {
-      "id": "SO00548101_GRAY",
-      "code": "SO00548101",
-      "color": "GRAY",
-      "title": "The Knit Dress",
-      "size": "S, M, L, XL",
-      "price": "79",
-      "category": "DRESS",
-      "image": "assets/products/SO00548101_GRAY.jpg"
-    },
-    {
-      "id": "SO00549101_ECRU",
-      "code": "SO00549101",
-      "color": "ECRU",
-      "title": "The Knit Dress",
-      "size": "S, M, L, XL",
-      "price": "79",
-      "category": "DRESS",
-      "image": "assets/products/SO00549101_ECRU.jpg"
     },
     {
       "id": "A5637101_GRAY",
@@ -1369,26 +1329,6 @@
       "price": "48",
       "category": "PANTS",
       "image": "assets/products/B841101_BLUE.jpg"
-    },
-    {
-      "id": "B841103_BLUE",
-      "code": "B841103",
-      "color": "BLUE",
-      "title": "The Boyfriend Pant",
-      "size": "26, 27, 28, 29, 30",
-      "price": "49",
-      "category": "PANTS",
-      "image": "assets/products/B841103_BLUE.jpg"
-    },
-    {
-      "id": "B857101_BLACK",
-      "code": "B857101",
-      "color": "BLACK",
-      "title": "The Pant Kathy Style",
-      "size": "26, 27, 28, 29, 30",
-      "price": "49",
-      "category": "PANTS",
-      "image": "assets/products/B857101_BLACK.jpg"
     },
     {
       "id": "C231101_BLACK",
@@ -2231,26 +2171,6 @@
       "image": "assets/products/S219101_BLUE.jpg"
     },
     {
-      "id": "S224101_BLUE",
-      "code": "S224101",
-      "color": "BLUE",
-      "title": "The Boyfriend Pant",
-      "size": "26, 27, 28, 29, 30",
-      "price": "51",
-      "category": "PANTS",
-      "image": "assets/products/S224101_BLUE.jpg"
-    },
-    {
-      "id": "S224102_BLUE",
-      "code": "S224102",
-      "color": "BLUE",
-      "title": "The Boyfriend Pant",
-      "size": "26, 27, 28, 29, 30",
-      "price": "51",
-      "category": "PANTS",
-      "image": "assets/products/S224102_BLUE.jpg"
-    },
-    {
       "id": "S231102_BLACK",
       "code": "S231102",
       "color": "BLACK",
@@ -2259,36 +2179,6 @@
       "price": "53",
       "category": "PANTS",
       "image": "assets/products/S231102_BLACK.jpg"
-    },
-    {
-      "id": "S250101_BLACK",
-      "code": "S250101",
-      "color": "BLACK",
-      "title": "The Pant",
-      "size": "26, 27, 28, 29, 30",
-      "price": "51",
-      "category": "PANTS",
-      "image": "assets/products/S250101_BLACK.jpg"
-    },
-    {
-      "id": "S251101_BLACK",
-      "code": "S251101",
-      "color": "BLACK",
-      "title": "The Pant",
-      "size": "26, 27, 28, 29, 30",
-      "price": "52",
-      "category": "PANTS",
-      "image": "assets/products/S251101_BLACK.jpg"
-    },
-    {
-      "id": "S784102_BLUE",
-      "code": "S784102",
-      "color": "BLUE",
-      "title": "The Skinny Pant",
-      "size": "26, 27, 28, 29, 30",
-      "price": "53",
-      "category": "PANTS",
-      "image": "assets/products/S784102_BLUE.jpg"
     },
     {
       "id": "S816101_BLACK",
@@ -2311,36 +2201,6 @@
       "image": "assets/products/S816102_BLACK.jpg"
     },
     {
-      "id": "S849101_BLACK",
-      "code": "S849101",
-      "color": "BLACK",
-      "title": "The Pant Rosa Style",
-      "size": "26, 27, 28, 29, 30",
-      "price": "48",
-      "category": "PANTS",
-      "image": "assets/products/S849101_BLACK.jpg"
-    },
-    {
-      "id": "S857101_BLACK",
-      "code": "S857101",
-      "color": "BLACK",
-      "title": "The Pant Kathy Style",
-      "size": "26, 27, 28, 29, 30",
-      "price": "49",
-      "category": "PANTS",
-      "image": "assets/products/S857101_BLACK.jpg"
-    },
-    {
-      "id": "S857102_BLACK",
-      "code": "S857102",
-      "color": "BLACK",
-      "title": "The Pant Kathy Style",
-      "size": "26, 27, 28, 29, 30",
-      "price": "49",
-      "category": "PANTS",
-      "image": "assets/products/S857102_BLACK.jpg"
-    },
-    {
       "id": "S858103_BLUE",
       "code": "S858103",
       "color": "BLUE",
@@ -2361,16 +2221,6 @@
       "image": "assets/products/S858108_BLACK.jpg"
     },
     {
-      "id": "S878103_BLUE",
-      "code": "S878103",
-      "color": "BLUE",
-      "title": "The Skinny Pant",
-      "size": "26, 27, 28, 29, 30",
-      "price": "48",
-      "category": "PANTS",
-      "image": "assets/products/S878103_BLUE.jpg"
-    },
-    {
       "id": "S884101_BLACK",
       "code": "S884101",
       "color": "BLACK",
@@ -2379,16 +2229,6 @@
       "price": "52",
       "category": "PANTS",
       "image": "assets/products/S884101_BLACK.jpg"
-    },
-    {
-      "id": "S884102_BLACK",
-      "code": "S884102",
-      "color": "BLACK",
-      "title": "The Pant Straight Style",
-      "size": "26, 27, 28, 29, 30",
-      "price": "49",
-      "category": "PANTS",
-      "image": "assets/products/S884102_BLACK.jpg"
     },
     {
       "id": "S910101_BLACK",
@@ -3531,16 +3371,6 @@
       "image": "assets/products/CTK00402101_TCRU.jpg"
     },
     {
-      "id": "DO00659101_BEIGE",
-      "code": "DO00659101",
-      "color": "BEIGE",
-      "title": "The Knit Wear",
-      "size": "S, M, L, XL",
-      "price": "48",
-      "category": "KNITWEAR",
-      "image": "assets/products/DO00659101_BEIGE.jpg"
-    },
-    {
       "id": "DO00659101_BLACK",
       "code": "DO00659101",
       "color": "BLACK",
@@ -3549,16 +3379,6 @@
       "price": "48",
       "category": "KNITWEAR",
       "image": "assets/products/DO00659101_BLACK.jpg"
-    },
-    {
-      "id": "DO00659101_GRAY",
-      "code": "DO00659101",
-      "color": "GRAY",
-      "title": "The Knit Wear",
-      "size": "S, M, L, XL",
-      "price": "48",
-      "category": "KNITWEAR",
-      "image": "assets/products/DO00659101_GRAY.jpg"
     },
     {
       "id": "DO00663101_BEIGE",
@@ -3581,56 +3401,6 @@
       "image": "assets/products/DO00663101_GRAY.jpg"
     },
     {
-      "id": "SO00539101_BLACK",
-      "code": "SO00539101",
-      "color": "BLACK",
-      "title": "The Knit Wear",
-      "size": "S, M, L, XL",
-      "price": "46",
-      "category": "KNITWEAR",
-      "image": "assets/products/SO00539101_BLACK.jpg"
-    },
-    {
-      "id": "SO00539101_BURGUNDY",
-      "code": "SO00539101",
-      "color": "BURGUNDY",
-      "title": "The Knit Wear",
-      "size": "S, M, L, XL",
-      "price": "46",
-      "category": "KNITWEAR",
-      "image": "assets/products/SO00539101_BURGUNDY.jpg"
-    },
-    {
-      "id": "SO00539101_GRAY",
-      "code": "SO00539101",
-      "color": "GRAY",
-      "title": "The Knit Wear",
-      "size": "S, M, L, XL",
-      "price": "46",
-      "category": "KNITWEAR",
-      "image": "assets/products/SO00539101_GRAY.jpg"
-    },
-    {
-      "id": "SO00539101_NAVYBLU",
-      "code": "SO00539101",
-      "color": "NAVYBLU",
-      "title": "The Knit Wear",
-      "size": "S, M, L, XL",
-      "price": "46",
-      "category": "KNITWEAR",
-      "image": "assets/products/SO00539101_NAVYBLU.jpg"
-    },
-    {
-      "id": "SO00541101_BLACK",
-      "code": "SO00541101",
-      "color": "BLACK",
-      "title": "The Knit Wear",
-      "size": "S, M, L, XL",
-      "price": "48",
-      "category": "KNITWEAR",
-      "image": "assets/products/SO00541101_BLACK.jpg"
-    },
-    {
       "id": "SO00541101_BURGUNDY",
       "code": "SO00541101",
       "color": "BURGUNDY",
@@ -3641,26 +3411,6 @@
       "image": "assets/products/SO00541101_BURGUNDY.jpg"
     },
     {
-      "id": "SO00541101_GRAY",
-      "code": "SO00541101",
-      "color": "GRAY",
-      "title": "The Knit Wear",
-      "size": "S, M, L, XL",
-      "price": "48",
-      "category": "KNITWEAR",
-      "image": "assets/products/SO00541101_GRAY.jpg"
-    },
-    {
-      "id": "SO00541101_NAVYBLU",
-      "code": "SO00541101",
-      "color": "NAVYBLU",
-      "title": "The Knit Wear",
-      "size": "S, M, L, XL",
-      "price": "48",
-      "category": "KNITWEAR",
-      "image": "assets/products/SO00541101_NAVYBLU.jpg"
-    },
-    {
       "id": "SO00542101_BLACK",
       "code": "SO00542101",
       "color": "BLACK",
@@ -3669,26 +3419,6 @@
       "price": "48",
       "category": "KNITWEAR",
       "image": "assets/products/SO00542101_BLACK.jpg"
-    },
-    {
-      "id": "SO00542101_GRAY",
-      "code": "SO00542101",
-      "color": "GRAY",
-      "title": "The Knit Wear",
-      "size": "S, M, L, XL",
-      "price": "48",
-      "category": "KNITWEAR",
-      "image": "assets/products/SO00542101_GRAY.jpg"
-    },
-    {
-      "id": "SO00546101_BLACK",
-      "code": "SO00546101",
-      "color": "BLACK",
-      "title": "The Knit Wear",
-      "size": "S, M, L, XL",
-      "price": "48",
-      "category": "KNITWEAR",
-      "image": "assets/products/SO00546101_BLACK.jpg"
     },
     {
       "id": "SO00546101_PINK",
@@ -3729,46 +3459,6 @@
       "price": "27",
       "category": "KNITWEAR",
       "image": "assets/products/SO00581101_NAVYBLUE.jpg"
-    },
-    {
-      "id": "STK00545101_ECRU",
-      "code": "STK00545101",
-      "color": "ECRU",
-      "title": "The Knit Suit",
-      "size": "S, M, L, XL",
-      "price": "78",
-      "category": "KNITWEAR",
-      "image": "assets/products/STK00545101_ECRU.jpg"
-    },
-    {
-      "id": "STK00545101_PINK",
-      "code": "STK00545101",
-      "color": "PINK",
-      "title": "The Knit Suit",
-      "size": "S, M, L, XL",
-      "price": "78",
-      "category": "KNITWEAR",
-      "image": "assets/products/STK00545101_PINK.jpg"
-    },
-    {
-      "id": "STK00547101_BLACK",
-      "code": "STK00547101",
-      "color": "BLACK",
-      "title": "The Knit Suit",
-      "size": "S, M, L, XL",
-      "price": "78",
-      "category": "KNITWEAR",
-      "image": "assets/products/STK00547101_BLACK.jpg"
-    },
-    {
-      "id": "STK00547101_ECRU",
-      "code": "STK00547101",
-      "color": "ECRU",
-      "title": "The Knit Suit",
-      "size": "S, M, L, XL",
-      "price": "78",
-      "category": "KNITWEAR",
-      "image": "assets/products/STK00547101_ECRU.jpg"
     },
     {
       "id": "A1531101_WHITE",
@@ -5429,26 +5119,6 @@
       "price": "345",
       "category": "LEATHER",
       "image": "assets/products/SD641101_BURGUNDY.jpg"
-    },
-    {
-      "id": "B5572101_CAMEL",
-      "code": "B5572101",
-      "color": "CAMEL",
-      "title": "The Coat",
-      "size": "36, 38, 40, 42",
-      "price": "158.0",
-      "category": "OUTFIT",
-      "image": "assets/products/B5572101_CAMEL.jpg"
-    },
-    {
-      "id": "B5573102_GREEN",
-      "code": "B5573102",
-      "color": "GREEN",
-      "title": "The Coat",
-      "size": "36, 38, 40, 42",
-      "price": "124.0",
-      "category": "OUTFIT",
-      "image": "assets/products/B5573102_GREEN.jpg"
     },
     {
       "id": "C2355_BLACK",
