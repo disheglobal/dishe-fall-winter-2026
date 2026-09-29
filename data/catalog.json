@@ -201,16 +201,6 @@
       "image": "assets/products/C5672101_BLUE.jpg"
     },
     {
-      "id": "C5679101_BLUE",
-      "code": "C5679101",
-      "color": "BLUE",
-      "title": "The Oversize Jacket",
-      "size": "S, M, L",
-      "price": "94.0",
-      "category": "JACKET",
-      "image": "assets/products/C5679101_BLUE.jpg"
-    },
-    {
       "id": "C5749101_BEIGE",
       "code": "C5749101",
       "color": "BEIGE",
@@ -531,26 +521,6 @@
       "image": "assets/products/A397101_BLUE.jpg"
     },
     {
-      "id": "A835101_BLUE",
-      "code": "A835101",
-      "color": "BLUE",
-      "title": "The Skinny Pant",
-      "size": "26, 27, 28, 29, 30",
-      "price": "55.0",
-      "category": "PANTS",
-      "image": "assets/products/A835101_BLUE.jpg"
-    },
-    {
-      "id": "A835102_BLUE",
-      "code": "A835102",
-      "color": "BLUE",
-      "title": "The Skinny Pant",
-      "size": "26, 27, 28, 29, 30",
-      "price": "52.0",
-      "category": "PANTS",
-      "image": "assets/products/A835102_BLUE.jpg"
-    },
-    {
       "id": "B841101_BLUE",
       "code": "B841101",
       "color": "BLUE",
@@ -679,16 +649,6 @@
       "price": "58.0",
       "category": "PANTS",
       "image": "assets/products/C420101_BLUE.jpg"
-    },
-    {
-      "id": "C421101_BLUE",
-      "code": "C421101",
-      "color": "BLUE",
-      "title": "The Merry Style Baloon Pant",
-      "size": "26, 27, 28, 29, 30",
-      "price": "57.0",
-      "category": "PANTS",
-      "image": "assets/products/C421101_BLUE.jpg"
     },
     {
       "id": "C421102_NAVY_BLUE",
@@ -2929,36 +2889,6 @@
       "price": "48.0",
       "category": "SHIRT",
       "image": "assets/products/C1533101_KHAKI.jpg"
-    },
-    {
-      "id": "C1534101_BURGUNDY",
-      "code": "C1534101",
-      "color": "BURGUNDY",
-      "title": "The Shirt",
-      "size": "S, M, L, XL",
-      "price": "47.0",
-      "category": "SHIRT",
-      "image": "assets/products/C1534101_BURGUNDY.jpg"
-    },
-    {
-      "id": "C1534101_DARKBR",
-      "code": "C1534101",
-      "color": "DARKBR",
-      "title": "The Shirt",
-      "size": "S, M, L, XL",
-      "price": "47.0",
-      "category": "SHIRT",
-      "image": "assets/products/C1534101_DARKBR.jpg"
-    },
-    {
-      "id": "C1534101_YELLOW",
-      "code": "C1534101",
-      "color": "YELLOW",
-      "title": "The Shirt",
-      "size": "S, M, L, XL",
-      "price": "47.0",
-      "category": "SHIRT",
-      "image": "assets/products/C1534101_YELLOW.jpg"
     },
     {
       "id": "C1539102_BLACK",
