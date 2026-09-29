@@ -1,26 +1,6 @@
 {
   "products": [
     {
-      "id": "C9457101_BLACK",
-      "code": "C9457101",
-      "color": "BLACK",
-      "title": "The Frida Style Bigsize Pant",
-      "size": "31, 32, 33, 34, 36",
-      "price": "59.0",
-      "category": "BIG_SIZE",
-      "image": "assets/products/C9457101_BLACK.jpg"
-    },
-    {
-      "id": "C9460101_BLACK",
-      "code": "C9460101",
-      "color": "BLACK",
-      "title": "The Shri̇n Style Baggy Bigsize Pant",
-      "size": "31, 32, 33, 34, 36",
-      "price": "59.0",
-      "category": "BIG_SIZE",
-      "image": "assets/products/C9460101_BLACK.jpg"
-    },
-    {
       "id": "A7020101_NAVYBLU",
       "code": "A7020101",
       "color": "NAVYBLU",
@@ -391,26 +371,6 @@
       "image": "assets/products/C5802101_BLUE.jpg"
     },
     {
-      "id": "C5901101_BROWN",
-      "code": "C5901101",
-      "color": "BROWN",
-      "title": "The Oversize Jacket",
-      "size": "36, 38, 40, 42",
-      "price": "152.0",
-      "category": "JACKET",
-      "image": "assets/products/C5901101_BROWN.jpg"
-    },
-    {
-      "id": "C5901101_ECRU",
-      "code": "C5901101",
-      "color": "ECRU",
-      "title": "The Oversize Jacket",
-      "size": "36, 38, 40, 42",
-      "price": "152.0",
-      "category": "JACKET",
-      "image": "assets/products/C5901101_ECRU.jpg"
-    },
-    {
       "id": "S5668101_NAVYBL",
       "code": "S5668101",
       "color": "NAVYBL",
@@ -429,16 +389,6 @@
       "price": "68.0",
       "category": "JACKET",
       "image": "assets/products/S5672101_BLUE.jpg"
-    },
-    {
-      "id": "A249101_BLACK",
-      "code": "A249101",
-      "color": "BLACK",
-      "title": "The Pant",
-      "size": "26, 27, 28, 29, 30",
-      "price": "54.0",
-      "category": "PANTS",
-      "image": "assets/products/A249101_BLACK.jpg"
     },
     {
       "id": "A355101_BEIGE",
@@ -489,16 +439,6 @@
       "price": "56.0",
       "category": "PANTS",
       "image": "assets/products/A397101_BLUE.jpg"
-    },
-    {
-      "id": "B841101_BLUE",
-      "code": "B841101",
-      "color": "BLUE",
-      "title": "The Boyfriend Pant",
-      "size": "26, 27, 28, 29, 30",
-      "price": "48.0",
-      "category": "PANTS",
-      "image": "assets/products/B841101_BLUE.jpg"
     },
     {
       "id": "C396101_BLACK",
@@ -809,16 +749,6 @@
       "price": "59.0",
       "category": "PANTS",
       "image": "assets/products/C462101_BLACK.jpg"
-    },
-    {
-      "id": "C462101_BLUE",
-      "code": "C462101",
-      "color": "BLUE",
-      "title": "The Pant Wide Leg Style",
-      "size": "26, 27, 28, 29, 30",
-      "price": "59.0",
-      "category": "PANTS",
-      "image": "assets/products/C462101_BLUE.jpg"
     },
     {
       "id": "C466101_BLUE",
@@ -1661,16 +1591,6 @@
       "image": "assets/products/CO00404101_NAVYBLUE.jpg"
     },
     {
-      "id": "CO00405101_BLACK",
-      "code": "CO00405101",
-      "color": "BLACK",
-      "title": "The Knit Wear",
-      "size": "S, M, L, XL",
-      "price": "79.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/CO00405101_BLACK.jpg"
-    },
-    {
       "id": "CO00405101_BROWN",
       "code": "CO00405101",
       "color": "BROWN",
@@ -1839,16 +1759,6 @@
       "price": "49.0",
       "category": "KNITWEAR",
       "image": "assets/products/CO00410101_BROWN.jpg"
-    },
-    {
-      "id": "CO00410101_ECRU",
-      "code": "CO00410101",
-      "color": "ECRU",
-      "title": "The Knit Wear",
-      "size": "S, M, L, XL",
-      "price": "49.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/CO00410101_ECRU.jpg"
     },
     {
       "id": "CO00410101_POWDERPINK",
@@ -2069,16 +1979,6 @@
       "price": "68.0",
       "category": "KNITWEAR",
       "image": "assets/products/CO00417101_BROWN.jpg"
-    },
-    {
-      "id": "CO00417101_ECRU",
-      "code": "CO00417101",
-      "color": "ECRU",
-      "title": "The Knit Wear",
-      "size": "S, M, L, XL",
-      "price": "68.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/CO00417101_ECRU.jpg"
     },
     {
       "id": "CO00417101_GRAY",
@@ -2509,16 +2409,6 @@
       "price": "27.0",
       "category": "KNITWEAR",
       "image": "assets/products/SO00581101_NAVYBLUE.jpg"
-    },
-    {
-      "id": "A1503101_BEIGE",
-      "code": "A1503101",
-      "color": "BEIGE",
-      "title": "The Oversize Shirt",
-      "size": "S, M, L, XL",
-      "price": "62.0",
-      "category": "SHIRT",
-      "image": "assets/products/A1503101_BEIGE.jpg"
     },
     {
       "id": "A1531101_WHITE",
