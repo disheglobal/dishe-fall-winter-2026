@@ -71,16 +71,6 @@
       "image": "assets/products/C7026102_NAVYBLUE.jpg"
     },
     {
-      "id": "A5637101_GRAY",
-      "code": "A5637101",
-      "color": "GRAY",
-      "title": "The Oversize Jacket",
-      "size": "S, M, L, XL",
-      "price": "71.0",
-      "category": "JACKET",
-      "image": "assets/products/A5637101_GRAY.jpg"
-    },
-    {
       "id": "AO5766101_ANTRACI",
       "code": "AO5766101",
       "color": "ANTRACI",
@@ -391,6 +381,176 @@
       "image": "assets/products/S5672101_BLUE.jpg"
     },
     {
+      "id": "SZ6011101_BEIGE",
+      "code": "SZ6011101",
+      "color": "BEIGE",
+      "title": "The Jacket Shezzen",
+      "size": "S-M-L-XL",
+      "price": "24.0",
+      "category": "JACKET",
+      "image": "assets/products/SZ6011101_BEIGE.jpg"
+    },
+    {
+      "id": "SZ6011101_BLACK",
+      "code": "SZ6011101",
+      "color": "BLACK",
+      "title": "The Jacket Shezzen",
+      "size": "S-M-L-XL",
+      "price": "24.0",
+      "category": "JACKET",
+      "image": "assets/products/SZ6011101_BLACK.jpg"
+    },
+    {
+      "id": "SZ6011101_BROWN",
+      "code": "SZ6011101",
+      "color": "BROWN",
+      "title": "The Jacket Shezzen",
+      "size": "S-M-L-XL",
+      "price": "24.0",
+      "category": "JACKET",
+      "image": "assets/products/SZ6011101_BROWN.jpg"
+    },
+    {
+      "id": "SZ6700102",
+      "code": "SZ6700102",
+      "color": "",
+      "title": "The Jacket Shezzen",
+      "size": "S-M-L-XL",
+      "price": "23.0",
+      "category": "JACKET",
+      "image": "assets/products/SZ6700102.jpg"
+    },
+    {
+      "id": "SZ6703101",
+      "code": "SZ6703101",
+      "color": "",
+      "title": "The Jacket Shezzen",
+      "size": "S-M-L-XL",
+      "price": "24.0",
+      "category": "JACKET",
+      "image": "assets/products/SZ6703101.jpg"
+    },
+    {
+      "id": "SZ6703102",
+      "code": "SZ6703102",
+      "color": "",
+      "title": "The Jacket Shezzen",
+      "size": "S-M-L-XL",
+      "price": "24.0",
+      "category": "JACKET",
+      "image": "assets/products/SZ6703102.jpg"
+    },
+    {
+      "id": "SZ6703103",
+      "code": "SZ6703103",
+      "color": "",
+      "title": "The Jacket Shezzen",
+      "size": "S-M-L-XL",
+      "price": "24.0",
+      "category": "JACKET",
+      "image": "assets/products/SZ6703103.jpg"
+    },
+    {
+      "id": "SZ6703104",
+      "code": "SZ6703104",
+      "color": "",
+      "title": "The Jacket Shezzen",
+      "size": "S-M-L-XL",
+      "price": "24.0",
+      "category": "JACKET",
+      "image": "assets/products/SZ6703104.jpg"
+    },
+    {
+      "id": "SZ6704101",
+      "code": "SZ6704101",
+      "color": "",
+      "title": "The Jacket Shezzen",
+      "size": "S-M-L-XL",
+      "price": "23.0",
+      "category": "JACKET",
+      "image": "assets/products/SZ6704101.jpg"
+    },
+    {
+      "id": "SZ6704102",
+      "code": "SZ6704102",
+      "color": "",
+      "title": "The Jacket Shezzen",
+      "size": "S-M-L-XL",
+      "price": "23.0",
+      "category": "JACKET",
+      "image": "assets/products/SZ6704102.jpg"
+    },
+    {
+      "id": "SZ6704103",
+      "code": "SZ6704103",
+      "color": "",
+      "title": "The Jacket Shezzen",
+      "size": "S-M-L-XL",
+      "price": "23.0",
+      "category": "JACKET",
+      "image": "assets/products/SZ6704103.jpg"
+    },
+    {
+      "id": "SZ6704104",
+      "code": "SZ6704104",
+      "color": "",
+      "title": "The Jacket Shezzen",
+      "size": "S-M-L-XL",
+      "price": "23.0",
+      "category": "JACKET",
+      "image": "assets/products/SZ6704104.jpg"
+    },
+    {
+      "id": "SZ6705101",
+      "code": "SZ6705101",
+      "color": "",
+      "title": "The Jacket Shezzen",
+      "size": "S-M-L-XL",
+      "price": "23.0",
+      "category": "JACKET",
+      "image": "assets/products/SZ6705101.jpg"
+    },
+    {
+      "id": "SZ6705102",
+      "code": "SZ6705102",
+      "color": "",
+      "title": "The Jacket Shezzen",
+      "size": "S-M-L-XL",
+      "price": "23.0",
+      "category": "JACKET",
+      "image": "assets/products/SZ6705102.jpg"
+    },
+    {
+      "id": "SZ6800101",
+      "code": "SZ6800101",
+      "color": "",
+      "title": "The Jacket Shezzen",
+      "size": "S-M-L-XL",
+      "price": "24.0",
+      "category": "JACKET",
+      "image": "assets/products/SZ6800101.jpg"
+    },
+    {
+      "id": "SZ6802101",
+      "code": "SZ6802101",
+      "color": "",
+      "title": "The Jacket Shezzen",
+      "size": "S-M-L-XL",
+      "price": "18.0",
+      "category": "JACKET",
+      "image": "assets/products/SZ6802101.jpg"
+    },
+    {
+      "id": "SZ6805101",
+      "code": "SZ6805101",
+      "color": "",
+      "title": "The Jacket Shezzen",
+      "size": "S-M-L-XL",
+      "price": "15.0",
+      "category": "JACKET",
+      "image": "assets/products/SZ6805101.jpg"
+    },
+    {
       "id": "A355101_BEIGE",
       "code": "A355101",
       "color": "BEIGE",
@@ -501,16 +661,6 @@
       "image": "assets/products/C416101_BLACK.jpg"
     },
     {
-      "id": "C416101_BLUE",
-      "code": "C416101",
-      "color": "BLUE",
-      "title": "The Pant Anna Style",
-      "size": "26, 27, 28, 29, 30",
-      "price": "56.0",
-      "category": "PANTS",
-      "image": "assets/products/C416101_BLUE.jpg"
-    },
-    {
       "id": "C416101_RED",
       "code": "C416101",
       "color": "RED",
@@ -579,16 +729,6 @@
       "price": "54.0",
       "category": "PANTS",
       "image": "assets/products/C428101_BLACK.jpg"
-    },
-    {
-      "id": "C428101_BROWN",
-      "code": "C428101",
-      "color": "BROWN",
-      "title": "The Frida Style Pant",
-      "size": "26, 27, 28, 29, 30",
-      "price": "54.0",
-      "category": "PANTS",
-      "image": "assets/products/C428101_BROWN.jpg"
     },
     {
       "id": "C428101_GREEN",
@@ -871,6 +1011,536 @@
       "image": "assets/products/S910101_BLACK.jpg"
     },
     {
+      "id": "SZ6000102",
+      "code": "SZ6000102",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "13.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6000102.jpg"
+    },
+    {
+      "id": "SZ6003102",
+      "code": "SZ6003102",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "14.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6003102.jpg"
+    },
+    {
+      "id": "SZ6004101",
+      "code": "SZ6004101",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "14.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6004101.jpg"
+    },
+    {
+      "id": "SZ6004102",
+      "code": "SZ6004102",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "14.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6004102.jpg"
+    },
+    {
+      "id": "SZ6006101",
+      "code": "SZ6006101",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "14.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6006101.jpg"
+    },
+    {
+      "id": "SZ6007101",
+      "code": "SZ6007101",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "15.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6007101.jpg"
+    },
+    {
+      "id": "SZ6009101",
+      "code": "SZ6009101",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "14.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6009101.jpg"
+    },
+    {
+      "id": "SZ6010101",
+      "code": "SZ6010101",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "16.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6010101.jpg"
+    },
+    {
+      "id": "SZ6013101_BROWN",
+      "code": "SZ6013101",
+      "color": "BROWN",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "17.5",
+      "category": "PANTS",
+      "image": "assets/products/SZ6013101_BROWN.jpg"
+    },
+    {
+      "id": "SZ6013101_GREEN",
+      "code": "SZ6013101",
+      "color": "GREEN",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "17.5",
+      "category": "PANTS",
+      "image": "assets/products/SZ6013101_GREEN.jpg"
+    },
+    {
+      "id": "SZ6013101_YELLOW",
+      "code": "SZ6013101",
+      "color": "YELLOW",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "17.5",
+      "category": "PANTS",
+      "image": "assets/products/SZ6013101_YELLOW.jpg"
+    },
+    {
+      "id": "SZ6014101",
+      "code": "SZ6014101",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "14.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6014101.jpg"
+    },
+    {
+      "id": "SZ6015102",
+      "code": "SZ6015102",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "16.5",
+      "category": "PANTS",
+      "image": "assets/products/SZ6015102.jpg"
+    },
+    {
+      "id": "SZ6015105",
+      "code": "SZ6015105",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "16.5",
+      "category": "PANTS",
+      "image": "assets/products/SZ6015105.jpg"
+    },
+    {
+      "id": "SZ6016101",
+      "code": "SZ6016101",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "14.5",
+      "category": "PANTS",
+      "image": "assets/products/SZ6016101.jpg"
+    },
+    {
+      "id": "SZ6016102",
+      "code": "SZ6016102",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "14.5",
+      "category": "PANTS",
+      "image": "assets/products/SZ6016102.jpg"
+    },
+    {
+      "id": "SZ6018101",
+      "code": "SZ6018101",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "14.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6018101.jpg"
+    },
+    {
+      "id": "SZ6018102",
+      "code": "SZ6018102",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "13.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6018102.jpg"
+    },
+    {
+      "id": "SZ6021101",
+      "code": "SZ6021101",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "17.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6021101.jpg"
+    },
+    {
+      "id": "SZ6021102",
+      "code": "SZ6021102",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "17.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6021102.jpg"
+    },
+    {
+      "id": "SZ6022101_CAMEL",
+      "code": "SZ6022101",
+      "color": "CAMEL",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "15.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6022101_CAMEL.jpg"
+    },
+    {
+      "id": "SZ6022101_KHAKI",
+      "code": "SZ6022101",
+      "color": "KHAKI",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "15.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6022101_KHAKI.jpg"
+    },
+    {
+      "id": "SZ6022101_RED",
+      "code": "SZ6022101",
+      "color": "RED",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "15.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6022101_RED.jpg"
+    },
+    {
+      "id": "SZ6023101",
+      "code": "SZ6023101",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "18.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6023101.jpg"
+    },
+    {
+      "id": "SZ6023102",
+      "code": "SZ6023102",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "18.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6023102.jpg"
+    },
+    {
+      "id": "SZ6023103",
+      "code": "SZ6023103",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "18.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6023103.jpg"
+    },
+    {
+      "id": "SZ6026101",
+      "code": "SZ6026101",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "14.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6026101.jpg"
+    },
+    {
+      "id": "SZ6027101",
+      "code": "SZ6027101",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "15.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6027101.jpg"
+    },
+    {
+      "id": "SZ6029101",
+      "code": "SZ6029101",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "14.5",
+      "category": "PANTS",
+      "image": "assets/products/SZ6029101.jpg"
+    },
+    {
+      "id": "SZ6030101",
+      "code": "SZ6030101",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "15.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6030101.jpg"
+    },
+    {
+      "id": "SZ6031102",
+      "code": "SZ6031102",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "17.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6031102.jpg"
+    },
+    {
+      "id": "SZ6031103",
+      "code": "SZ6031103",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "17.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6031103.jpg"
+    },
+    {
+      "id": "SZ6031104",
+      "code": "SZ6031104",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "17.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6031104.jpg"
+    },
+    {
+      "id": "SZ6032101_BLACK",
+      "code": "SZ6032101",
+      "color": "BLACK",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "16.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6032101_BLACK.jpg"
+    },
+    {
+      "id": "SZ6032101_KHAKI",
+      "code": "SZ6032101",
+      "color": "KHAKI",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "16.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6032101_KHAKI.jpg"
+    },
+    {
+      "id": "SZ6032101_PINK",
+      "code": "SZ6032101",
+      "color": "PINK",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "16.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6032101_PINK.jpg"
+    },
+    {
+      "id": "SZ6033102",
+      "code": "SZ6033102",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "15.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6033102.jpg"
+    },
+    {
+      "id": "SZ6034101",
+      "code": "SZ6034101",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "16.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6034101.jpg"
+    },
+    {
+      "id": "SZ6034102",
+      "code": "SZ6034102",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "16.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6034102.jpg"
+    },
+    {
+      "id": "SZ6035101",
+      "code": "SZ6035101",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "16.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6035101.jpg"
+    },
+    {
+      "id": "SZ6036101",
+      "code": "SZ6036101",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "17.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6036101.jpg"
+    },
+    {
+      "id": "SZ6037101",
+      "code": "SZ6037101",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "16.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6037101.jpg"
+    },
+    {
+      "id": "SZ6039101",
+      "code": "SZ6039101",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "15.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6039101.jpg"
+    },
+    {
+      "id": "SZ6041101",
+      "code": "SZ6041101",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "14.5",
+      "category": "PANTS",
+      "image": "assets/products/SZ6041101.jpg"
+    },
+    {
+      "id": "SZ6041102",
+      "code": "SZ6041102",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "14.5",
+      "category": "PANTS",
+      "image": "assets/products/SZ6041102.jpg"
+    },
+    {
+      "id": "SZ6046101",
+      "code": "SZ6046101",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "14.5",
+      "category": "PANTS",
+      "image": "assets/products/SZ6046101.jpg"
+    },
+    {
+      "id": "SZ6047101",
+      "code": "SZ6047101",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "15.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6047101.jpg"
+    },
+    {
+      "id": "SZ6610101",
+      "code": "SZ6610101",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "15.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6610101.jpg"
+    },
+    {
+      "id": "SZ6702101_BEIGE",
+      "code": "SZ6702101",
+      "color": "BEIGE",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "16.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6702101_BEIGE.jpg"
+    },
+    {
+      "id": "SZ6702101_BLACK",
+      "code": "SZ6702101",
+      "color": "BLACK",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "16.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6702101_BLACK.jpg"
+    },
+    {
+      "id": "SZ6702101_BROWN",
+      "code": "SZ6702101",
+      "color": "BROWN",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "16.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6702101_BROWN.jpg"
+    },
+    {
+      "id": "SZ6706101",
+      "code": "SZ6706101",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "18.0",
+      "category": "PANTS",
+      "image": "assets/products/SZ6706101.jpg"
+    },
+    {
+      "id": "SZ6808101",
+      "code": "SZ6808101",
+      "color": "",
+      "title": "The Pants Shezzen",
+      "size": "26-27-28-29-30",
+      "price": "15.5",
+      "category": "PANTS",
+      "image": "assets/products/SZ6808101.jpg"
+    },
+    {
       "id": "CO00382101_BEIGE",
       "code": "CO00382101",
       "color": "BEIGE",
@@ -1039,16 +1709,6 @@
       "price": "69.0",
       "category": "KNITWEAR",
       "image": "assets/products/CO00386101_BLACK.jpg"
-    },
-    {
-      "id": "CO00386101_ECRU",
-      "code": "CO00386101",
-      "color": "ECRU",
-      "title": "The Knitwear Suit",
-      "size": "S, M, L, XL",
-      "price": "69.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/CO00386101_ECRU.jpg"
     },
     {
       "id": "CO00386101_PINK",
@@ -2651,16 +3311,6 @@
       "image": "assets/products/C1541101_KHAKI.jpg"
     },
     {
-      "id": "C1541102_BROWN",
-      "code": "C1541102",
-      "color": "BROWN",
-      "title": "The Shirt",
-      "size": "S, M, L, XL",
-      "price": "62.0",
-      "category": "SHIRT",
-      "image": "assets/products/C1541102_BROWN.jpg"
-    },
-    {
       "id": "C1541102_BURGUNDY",
       "code": "C1541102",
       "color": "BURGUNDY",
@@ -2791,6 +3441,56 @@
       "image": "assets/products/C1551101_NAVYBLUE.jpg"
     },
     {
+      "id": "SZ6701102",
+      "code": "SZ6701102",
+      "color": "",
+      "title": "The Shirt Shezzen",
+      "size": "S-M-L-XL",
+      "price": "24.0",
+      "category": "SHIRT",
+      "image": "assets/products/SZ6701102.jpg"
+    },
+    {
+      "id": "SZ6801101",
+      "code": "SZ6801101",
+      "color": "",
+      "title": "Theshirt",
+      "size": "S-M-L-XL",
+      "price": "16.0",
+      "category": "SHIRT",
+      "image": "assets/products/SZ6801101.jpg"
+    },
+    {
+      "id": "SZ6807101",
+      "code": "SZ6807101",
+      "color": "",
+      "title": "The Shirt Shezzen",
+      "size": "S-M-L-XL",
+      "price": "16.0",
+      "category": "SHIRT",
+      "image": "assets/products/SZ6807101.jpg"
+    },
+    {
+      "id": "SZ6807103",
+      "code": "SZ6807103",
+      "color": "",
+      "title": "The Shirt Shezzen",
+      "size": "S-M-L-XL",
+      "price": "17.0",
+      "category": "SHIRT",
+      "image": "assets/products/SZ6807103.jpg"
+    },
+    {
+      "id": "SZ6809101",
+      "code": "SZ6809101",
+      "color": "",
+      "title": "The Shirt Shezzen",
+      "size": "S-M-L-XL",
+      "price": "17.0",
+      "category": "SHIRT",
+      "image": "assets/products/SZ6809101.jpg"
+    },
+    {
       "id": "U1591101_BLACK",
       "code": "U1591101",
       "color": "BLACK",
@@ -2869,6 +3569,116 @@
       "price": "43.0",
       "category": "SKIRT",
       "image": "assets/products/S3592101_ANTRA.jpg"
+    },
+    {
+      "id": "SZ6020101_BROWN",
+      "code": "SZ6020101",
+      "color": "BROWN",
+      "title": "The Skirt Shezzen",
+      "size": "36-38-40-42",
+      "price": "15.0",
+      "category": "SKIRT",
+      "image": "assets/products/SZ6020101_BROWN.jpg"
+    },
+    {
+      "id": "SZ6020101_KHAKI",
+      "code": "SZ6020101",
+      "color": "KHAKI",
+      "title": "The Skirt Shezzen",
+      "size": "36-38-40-42",
+      "price": "15.0",
+      "category": "SKIRT",
+      "image": "assets/products/SZ6020101_KHAKI.jpg"
+    },
+    {
+      "id": "SZ6601102",
+      "code": "SZ6601102",
+      "color": "",
+      "title": "The Skirt Shezzen",
+      "size": "36-38-40-42",
+      "price": "13.0",
+      "category": "SKIRT",
+      "image": "assets/products/SZ6601102.jpg"
+    },
+    {
+      "id": "SZ6602101",
+      "code": "SZ6602101",
+      "color": "",
+      "title": "The Skirt Shezzen",
+      "size": "36-38-40-42",
+      "price": "13.0",
+      "category": "SKIRT",
+      "image": "assets/products/SZ6602101.jpg"
+    },
+    {
+      "id": "SZ6603101",
+      "code": "SZ6603101",
+      "color": "",
+      "title": "The Skirt Shezzen",
+      "size": "36-38-40-42",
+      "price": "13.0",
+      "category": "SKIRT",
+      "image": "assets/products/SZ6603101.jpg"
+    },
+    {
+      "id": "SZ6605101",
+      "code": "SZ6605101",
+      "color": "",
+      "title": "The Skirt Shezzen",
+      "size": "36-38-40-42",
+      "price": "13.5",
+      "category": "SKIRT",
+      "image": "assets/products/SZ6605101.jpg"
+    },
+    {
+      "id": "SZ6605102",
+      "code": "SZ6605102",
+      "color": "",
+      "title": "The Skirt Shezzen",
+      "size": "36-38-40-42",
+      "price": "14.0",
+      "category": "SKIRT",
+      "image": "assets/products/SZ6605102.jpg"
+    },
+    {
+      "id": "SZ6606101",
+      "code": "SZ6606101",
+      "color": "",
+      "title": "The Skirt Shezzen",
+      "size": "36-38-40-42",
+      "price": "14.0",
+      "category": "SKIRT",
+      "image": "assets/products/SZ6606101.jpg"
+    },
+    {
+      "id": "SZ6606102",
+      "code": "SZ6606102",
+      "color": "",
+      "title": "The Skirt Shezzen",
+      "size": "36-38-40-42",
+      "price": "14.0",
+      "category": "SKIRT",
+      "image": "assets/products/SZ6606102.jpg"
+    },
+    {
+      "id": "SZ6607101",
+      "code": "SZ6607101",
+      "color": "",
+      "title": "The Skirt Shezzen",
+      "size": "36-38-40-42",
+      "price": "12.0",
+      "category": "SKIRT",
+      "image": "assets/products/SZ6607101.jpg"
+    },
+    {
+      "id": "SZ6608102",
+      "code": "SZ6608102",
+      "color": "",
+      "title": "The Skirt Shezzen",
+      "size": "36-38-40-42",
+      "price": "14.5",
+      "category": "SKIRT",
+      "image": "assets/products/SZ6608102.jpg"
     },
     {
       "id": "C1191101_BROWN",
