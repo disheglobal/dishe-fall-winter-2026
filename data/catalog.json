@@ -2791,26 +2791,6 @@
       "image": "assets/products/C1551101_NAVYBLUE.jpg"
     },
     {
-      "id": "CT00420101_BLACK",
-      "code": "CT00420101",
-      "color": "BLACK",
-      "title": "The T-Shirt",
-      "size": "S, M, L, XL",
-      "price": "39.0",
-      "category": "SHIRT",
-      "image": "assets/products/CT00420101_BLACK.jpg"
-    },
-    {
-      "id": "CT00420101_ECRU",
-      "code": "CT00420101",
-      "color": "ECRU",
-      "title": "The T-Shirt",
-      "size": "S, M, L, XL",
-      "price": "39.0",
-      "category": "SHIRT",
-      "image": "assets/products/CT00420101_ECRU.jpg"
-    },
-    {
       "id": "U1591101_BLACK",
       "code": "U1591101",
       "color": "BLACK",
