@@ -3261,26 +3261,6 @@
       "image": "assets/products/DO00659101_BLACK.jpg"
     },
     {
-      "id": "DO00663101_BEIGE",
-      "code": "DO00663101",
-      "color": "BEIGE",
-      "title": "The Knit Wear",
-      "size": "S, M, L, XL",
-      "price": "48.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/DO00663101_BEIGE.jpg"
-    },
-    {
-      "id": "DO00663101_GRAY",
-      "code": "DO00663101",
-      "color": "GRAY",
-      "title": "The Knit Wear",
-      "size": "S, M, L, XL",
-      "price": "48.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/DO00663101_GRAY.jpg"
-    },
-    {
       "id": "A1531101_WHITE",
       "code": "A1531101",
       "color": "WHITE",
