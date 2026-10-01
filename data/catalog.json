@@ -296,7 +296,7 @@
       "color": "BLACK",
       "title": "The Jacket",
       "size": "S, M, L, XL",
-      "price": "79.0",
+      "price": "79",
       "category": "JACKET",
       "image": "assets/products/C5791101_BLACK.jpg"
     },
@@ -326,7 +326,7 @@
       "color": "BLACK",
       "title": "The Jacket",
       "size": "S, M, L, XL",
-      "price": "77.0",
+      "price": "77",
       "category": "JACKET",
       "image": "assets/products/C5792101_BLACK.jpg"
     },
