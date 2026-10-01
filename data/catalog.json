@@ -3221,66 +3221,6 @@
       "image": "assets/products/DO00663101_GRAY.jpg"
     },
     {
-      "id": "SO00541101_BURGUNDY",
-      "code": "SO00541101",
-      "color": "BURGUNDY",
-      "title": "The Knit Wear",
-      "size": "S, M, L, XL",
-      "price": "48.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/SO00541101_BURGUNDY.jpg"
-    },
-    {
-      "id": "SO00542101_BLACK",
-      "code": "SO00542101",
-      "color": "BLACK",
-      "title": "The Knit Wear",
-      "size": "S, M, L, XL",
-      "price": "48.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/SO00542101_BLACK.jpg"
-    },
-    {
-      "id": "SO00546101_PINK",
-      "code": "SO00546101",
-      "color": "PINK",
-      "title": "The Knit Wear",
-      "size": "S, M, L, XL",
-      "price": "48.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/SO00546101_PINK.jpg"
-    },
-    {
-      "id": "SO00580101_BROWN",
-      "code": "SO00580101",
-      "color": "BROWN",
-      "title": "The Knit Wear",
-      "size": "S, M, L",
-      "price": "27.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/SO00580101_BROWN.jpg"
-    },
-    {
-      "id": "SO00581101_BROWN",
-      "code": "SO00581101",
-      "color": "BROWN",
-      "title": "The Knit Wear",
-      "size": "S, M, L",
-      "price": "27.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/SO00581101_BROWN.jpg"
-    },
-    {
-      "id": "SO00581101_NAVYBLUE",
-      "code": "SO00581101",
-      "color": "NAVYBLUE",
-      "title": "The Knit Wear",
-      "size": "S, M, L",
-      "price": "27.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/SO00581101_NAVYBLUE.jpg"
-    },
-    {
       "id": "A1531101_WHITE",
       "code": "A1531101",
       "color": "WHITE",
