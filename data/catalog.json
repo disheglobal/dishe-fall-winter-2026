@@ -2441,16 +2441,6 @@
       "image": "assets/products/CO00409101_PLUM.jpg"
     },
     {
-      "id": "CO00410101_BLACK",
-      "code": "CO00410101",
-      "color": "BLACK",
-      "title": "The Knit Wear",
-      "size": "S, M, L, XL",
-      "price": "49.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/CO00410101_BLACK.jpg"
-    },
-    {
       "id": "CO00410101_BROWN",
       "code": "CO00410101",
       "color": "BROWN",
