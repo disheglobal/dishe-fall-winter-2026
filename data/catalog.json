@@ -106,7 +106,7 @@
       "color": "BLACK",
       "title": "The Oversize Jacket",
       "size": "S, M, L, XL",
-      "price": "72",
+      "price": "42",
       "category": "JACKET",
       "image": "assets/products/B5474102_BLACK.jpg"
     },
@@ -216,7 +216,7 @@
       "color": "BLUE",
       "title": "The Balloon Jacket",
       "size": "S, M, L, XL",
-      "price": "94",
+      "price": "78",
       "category": "JACKET",
       "image": "assets/products/C5779101_BLUE.jpg"
     },
@@ -296,7 +296,7 @@
       "color": "GREEN",
       "title": "The Jacket",
       "size": "S, M, L, XL",
-      "price": "93",
+      "price": "79",
       "category": "JACKET",
       "image": "assets/products/C5791101_GREEN.jpg"
     },
@@ -306,7 +306,7 @@
       "color": "LIGHT_BROWN",
       "title": "The Jacket",
       "size": "S, M, L, XL",
-      "price": "93",
+      "price": "79",
       "category": "JACKET",
       "image": "assets/products/C5791101_LIGHT_BROWN.jpg"
     },
@@ -316,7 +316,7 @@
       "color": "BROWN",
       "title": "The Jacket",
       "size": "S, M, L, XL",
-      "price": "86",
+      "price": "77",
       "category": "JACKET",
       "image": "assets/products/C5792101_BROWN.jpg"
     },
@@ -326,7 +326,7 @@
       "color": "ORANGE",
       "title": "The Jacket",
       "size": "S, M, L, XL",
-      "price": "86",
+      "price": "77",
       "category": "JACKET",
       "image": "assets/products/C5792101_ORANGE.jpg"
     },
@@ -346,7 +346,7 @@
       "color": "BLACK",
       "title": "The Jacket",
       "size": "S, M, L, XL",
-      "price": "92",
+      "price": "78",
       "category": "JACKET",
       "image": "assets/products/C5802101_BLACK.jpg"
     },
@@ -356,7 +356,7 @@
       "color": "BLUE",
       "title": "The Jacket",
       "size": "S, M, L, XL",
-      "price": "92",
+      "price": "78",
       "category": "JACKET",
       "image": "assets/products/C5802101_BLUE.jpg"
     },
@@ -676,7 +676,7 @@
       "color": "BLUE",
       "title": "The Barrel Style Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "59",
+      "price": "57",
       "category": "PANTS",
       "image": "assets/products/C417101_BLUE.jpg"
     },
@@ -796,7 +796,7 @@
       "color": "BLACK",
       "title": "The Ballonn Style Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "64",
+      "price": "57",
       "category": "PANTS",
       "image": "assets/products/C433101_BLACK.jpg"
     },
@@ -806,7 +806,7 @@
       "color": "DARK_BROWN",
       "title": "The Ballonn Style Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "64",
+      "price": "57",
       "category": "PANTS",
       "image": "assets/products/C433101_DARK_BROWN.jpg"
     },
@@ -816,7 +816,7 @@
       "color": "GREEN",
       "title": "The Ballonn Style Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "64",
+      "price": "57",
       "category": "PANTS",
       "image": "assets/products/C433101_GREEN.jpg"
     },
@@ -826,7 +826,7 @@
       "color": "LIGHT_BROWN",
       "title": "The Ballonn Style Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "64",
+      "price": "57",
       "category": "PANTS",
       "image": "assets/products/C433101_LIGHT_BROWN.jpg"
     },
@@ -856,7 +856,7 @@
       "color": "BLACK",
       "title": "The Pant Wide Leg Style",
       "size": "26, 27, 28, 29, 30",
-      "price": "62",
+      "price": "55",
       "category": "PANTS",
       "image": "assets/products/C453101_BLACK.jpg"
     },
@@ -866,7 +866,7 @@
       "color": "BLUE",
       "title": "The Pant Wide Leg Style",
       "size": "26, 27, 28, 29, 30",
-      "price": "62",
+      "price": "55",
       "category": "PANTS",
       "image": "assets/products/C453101_BLUE.jpg"
     },
@@ -916,7 +916,7 @@
       "color": "BLACK",
       "title": "The Kargo Style Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "58",
+      "price": "51",
       "category": "PANTS",
       "image": "assets/products/C485101_BLACK.jpg"
     },
