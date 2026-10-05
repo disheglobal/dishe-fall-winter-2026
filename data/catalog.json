@@ -877,6 +877,61 @@
       "brand": "DISHE"
     },
     {
+      "id": "CD347_BLACK",
+      "code": "CD-347",
+      "color": "BLACK",
+      "title": "The Leateher Jacket",
+      "size": "S, M, L, XL",
+      "price": "295.0",
+      "category": "JACKET",
+      "brand": "DISHE",
+      "image": "assets/products/CD347_BLACK.jpg"
+    },
+    {
+      "id": "CKASHE21_BROWN",
+      "code": "CKASHE-21",
+      "color": "BROWN",
+      "title": "The Leateher Jacket",
+      "size": "S, M, L, XL",
+      "price": "205.0",
+      "category": "JACKET",
+      "brand": "DISHE",
+      "image": "assets/products/CKASHE21_BROWN.jpg"
+    },
+    {
+      "id": "CZ1761_DARKBROWN",
+      "code": "CZ-176-1",
+      "color": "DARKBROWN",
+      "title": "The Leateher Jacket",
+      "size": "S, M, L, XL",
+      "price": "398.0",
+      "category": "JACKET",
+      "brand": "DISHE",
+      "image": "assets/products/CZ1761_DARKBROWN.jpg"
+    },
+    {
+      "id": "CZ84B_BLACK",
+      "code": "CZ-84-B",
+      "color": "BLACK",
+      "title": "The Leateher Jacket",
+      "size": "S, M, L, XL",
+      "price": "385.0",
+      "category": "JACKET",
+      "brand": "DISHE",
+      "image": "assets/products/CZ84B_BLACK.jpg"
+    },
+    {
+      "id": "CZK157_BROWN",
+      "code": "CZ-K-157",
+      "color": "BROWN",
+      "title": "The Leateher Jacket",
+      "size": "S, M, L, XL",
+      "price": "235.0",
+      "category": "JACKET",
+      "brand": "DISHE",
+      "image": "assets/products/CZK157_BROWN.jpg"
+    },
+    {
       "id": "S5668101_NAVYBL",
       "code": "S5668101",
       "color": "NAVYBL",
@@ -1010,6 +1065,17 @@
       "image": "assets/products/C410101_BLACK.jpg"
     },
     {
+      "id": "C410101_BLUE",
+      "code": "C410101",
+      "color": "BLUE",
+      "title": "The Frida Pant",
+      "size": "26-27-28-29-30",
+      "price": "54.0",
+      "category": "PANTS",
+      "brand": "DISHE",
+      "image": "assets/products/C410101_BLUE.jpg"
+    },
+    {
       "id": "C414101_BLUE",
       "code": "C414101",
       "color": "BLUE",
@@ -1027,6 +1093,7 @@
       "size": "26, 27, 28, 29, 30",
       "price": "68.0",
       "category": "PANTS",
+      "brand": "DISHE",
       "image": "assets/products/C415102_BLACK.jpg"
     },
     {
@@ -1130,6 +1197,17 @@
       "price": "54.0",
       "category": "PANTS",
       "image": "assets/products/C428101_BLACK.jpg"
+    },
+    {
+      "id": "C428101_BURGUNDY",
+      "code": "C428101",
+      "color": "BURGUNDY",
+      "title": "The Pant Frida Style",
+      "size": "26, 27, 28, 29, 30",
+      "price": "54.0",
+      "category": "PANTS",
+      "brand": "DISHE",
+      "image": "assets/products/C428101_BURGUNDY.jpg"
     },
     {
       "id": "C428101_GREEN",
@@ -1397,6 +1475,7 @@
       "size": "26, 27, 28, 29, 30",
       "price": "55.0",
       "category": "PANTS",
+      "brand": "DISHE",
       "image": "assets/products/C469101_BLACK.jpg"
     },
     {
@@ -1452,6 +1531,17 @@
       "price": "51",
       "category": "PANTS",
       "image": "assets/products/C485101_BLACK.jpg"
+    },
+    {
+      "id": "C498101_RED",
+      "code": "C498101",
+      "color": "RED",
+      "title": "The Pant Megan Barrel",
+      "size": "26, 27, 28, 29, 30",
+      "price": "54.0",
+      "category": "PANTS",
+      "brand": "DISHE",
+      "image": "assets/products/C498101_RED.jpg"
     },
     {
       "id": "C500101_RED",
@@ -1792,6 +1882,17 @@
       "price": "66.0",
       "category": "KNITWEAR",
       "image": "assets/products/CO00389101_PINK.jpg"
+    },
+    {
+      "id": "CO00390101_BLACK",
+      "code": "CO00390101",
+      "color": "BLACK",
+      "title": "The Knit Wear",
+      "size": "S, M, L, XL",
+      "price": "52.0",
+      "category": "KNITWEAR",
+      "brand": "DISHE",
+      "image": "assets/products/CO00390101_BLACK.jpg"
     },
     {
       "id": "CO00391101_BLACK",
@@ -2454,6 +2555,17 @@
       "image": "assets/products/CO00409101_PLUM.jpg"
     },
     {
+      "id": "CO00410101_BLACK",
+      "code": "CO00410101",
+      "color": "BLACK",
+      "title": "The Knit Wear",
+      "size": "S, M, L, XL",
+      "price": "49.0",
+      "category": "KNITWEAR",
+      "brand": "DISHE",
+      "image": "assets/products/CO00410101_BLACK.jpg"
+    },
+    {
       "id": "CO00410101_BROWN",
       "code": "CO00410101",
       "color": "BROWN",
@@ -2724,6 +2836,28 @@
       "image": "assets/products/CO00421101_ECRU.jpg"
     },
     {
+      "id": "CO00426101_RED",
+      "code": "CO00426101",
+      "color": "RED",
+      "title": "The Knit Wear",
+      "size": "S, M, L, XL",
+      "price": "52.0",
+      "category": "KNITWEAR",
+      "brand": "DISHE",
+      "image": "assets/products/CO00426101_RED.jpg"
+    },
+    {
+      "id": "CO00426102_RED",
+      "code": "CO00426102",
+      "color": "RED",
+      "title": "The Knit Wear",
+      "size": "S, M, L, XL",
+      "price": "42.0",
+      "category": "KNITWEAR",
+      "brand": "DISHE",
+      "image": "assets/products/CO00426102_RED.jpg"
+    },
+    {
       "id": "CT00344101_BLACK",
       "code": "CT00344101",
       "color": "BLACK",
@@ -2964,6 +3098,28 @@
       "price": "36.0",
       "category": "KNITWEAR",
       "image": "assets/products/CT00381101_POWDER_PINK.jpg"
+    },
+    {
+      "id": "CT00420101_BLACK",
+      "code": "CT00420101",
+      "color": "BLACK",
+      "title": "The Knit Long",
+      "size": "S, M, L, XL",
+      "price": "39.0",
+      "category": "KNITWEAR",
+      "brand": "DISHE",
+      "image": "assets/products/CT00420101_BLACK.jpg"
+    },
+    {
+      "id": "CT00420101_ECRU",
+      "code": "CT00420101",
+      "color": "ECRU",
+      "title": "The Knit Long",
+      "size": "S, M, L, XL",
+      "price": "39.0",
+      "category": "KNITWEAR",
+      "brand": "DISHE",
+      "image": "assets/products/CT00420101_ECRU.jpg"
     },
     {
       "id": "CT00550101_BURGUNDY",
@@ -4679,6 +4835,17 @@
       "image": "assets/products/C2573_BROWN.jpg"
     },
     {
+      "id": "C5480_TOBACCO",
+      "code": "C5480",
+      "color": "TOBACCO",
+      "title": "The Coat",
+      "size": "S, M, L, XL",
+      "price": "145.0",
+      "category": "OUTFIT",
+      "brand": "DISHE",
+      "image": "assets/products/C5480_TOBACCO.jpg"
+    },
+    {
       "id": "C5522102_BURGUNDY",
       "code": "C5522102",
       "color": "BURGUNDY",
@@ -5318,6 +5485,17 @@
       "price": "157.0",
       "category": "OUTFIT",
       "image": "assets/products/C5918101_NAVYBLUE.jpg"
+    },
+    {
+      "id": "C608_BROWN",
+      "code": "C608",
+      "color": "BROWN",
+      "title": "The Outerwear",
+      "size": "S, M, L, XL",
+      "price": "285.0",
+      "category": "OUTFIT",
+      "brand": "DISHE",
+      "image": "assets/products/C608_BROWN.jpg"
     },
     {
       "id": "S5522102_BLACK",
