@@ -796,16 +796,6 @@
       "image": "assets/products/B5365101_BLACK.jpg"
     },
     {
-      "id": "B5451101_BLACK",
-      "code": "B5451101",
-      "color": "BLACK",
-      "title": "The Jacket",
-      "size": "S, M, L, XL",
-      "price": "68.0",
-      "category": "JACKET",
-      "image": "assets/products/B5451101_BLACK.jpg"
-    },
-    {
       "id": "B5474102_BLACK",
       "code": "B5474102",
       "color": "BLACK",
@@ -1815,16 +1805,6 @@
       "image": "assets/products/S219101_BLUE.jpg"
     },
     {
-      "id": "S231102_BLACK",
-      "code": "S231102",
-      "color": "BLACK",
-      "title": "The Boyfriend Pant",
-      "size": "26, 27, 28, 29, 30",
-      "price": "53.0",
-      "category": "PANTS",
-      "image": "assets/products/S231102_BLACK.jpg"
-    },
-    {
       "id": "S816101_BLACK",
       "code": "S816101",
       "color": "BLACK",
@@ -1835,16 +1815,6 @@
       "image": "assets/products/S816101_BLACK.jpg"
     },
     {
-      "id": "S816102_BLACK",
-      "code": "S816102",
-      "color": "BLACK",
-      "title": "The Skinny Pant",
-      "size": "26, 27, 28, 29, 30",
-      "price": "49.0",
-      "category": "PANTS",
-      "image": "assets/products/S816102_BLACK.jpg"
-    },
-    {
       "id": "S858108_BLACK",
       "code": "S858108",
       "color": "BLACK",
@@ -1853,16 +1823,6 @@
       "price": "41.0",
       "category": "PANTS",
       "image": "assets/products/S858108_BLACK.jpg"
-    },
-    {
-      "id": "S884101_BLACK",
-      "code": "S884101",
-      "color": "BLACK",
-      "title": "The Pant Straight Style",
-      "size": "26, 27, 28, 29, 30",
-      "price": "52.0",
-      "category": "PANTS",
-      "image": "assets/products/S884101_BLACK.jpg"
     },
     {
       "id": "S910101_BLACK",
