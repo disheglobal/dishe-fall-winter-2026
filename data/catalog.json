@@ -1533,17 +1533,6 @@
       "image": "assets/products/C485101_BLACK.jpg"
     },
     {
-      "id": "C498101_RED",
-      "code": "C498101",
-      "color": "RED",
-      "title": "The Pant Megan Barrel",
-      "size": "26, 27, 28, 29, 30",
-      "price": "54.0",
-      "category": "PANTS",
-      "brand": "DISHE",
-      "image": "assets/products/C498101_RED.jpg"
-    },
-    {
       "id": "C500101_RED",
       "code": "C500101",
       "color": "RED",
