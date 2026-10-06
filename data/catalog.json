@@ -716,66 +716,6 @@
       "image": "assets/products/A7020101_NAVYBLU.jpg"
     },
     {
-      "id": "C7025102_BLACK",
-      "code": "C7025102",
-      "color": "BLACK",
-      "title": "The Dress",
-      "size": "S, M, L, XL",
-      "price": "93.0",
-      "category": "DRESS",
-      "image": "assets/products/C7025102_BLACK.jpg"
-    },
-    {
-      "id": "C7025102_BROWN",
-      "code": "C7025102",
-      "color": "BROWN",
-      "title": "The Dress",
-      "size": "S, M, L, XL",
-      "price": "93.0",
-      "category": "DRESS",
-      "image": "assets/products/C7025102_BROWN.jpg"
-    },
-    {
-      "id": "C7025102_NAVYBLUE",
-      "code": "C7025102",
-      "color": "NAVYBLUE",
-      "title": "The Dress",
-      "size": "S, M, L, XL",
-      "price": "93.0",
-      "category": "DRESS",
-      "image": "assets/products/C7025102_NAVYBLUE.jpg"
-    },
-    {
-      "id": "C7026102_BLACK",
-      "code": "C7026102",
-      "color": "BLACK",
-      "title": "The Dress",
-      "size": "S, M, L, XL",
-      "price": "98.0",
-      "category": "DRESS",
-      "image": "assets/products/C7026102_BLACK.jpg"
-    },
-    {
-      "id": "C7026102_BROWN",
-      "code": "C7026102",
-      "color": "BROWN",
-      "title": "The Dress",
-      "size": "S, M, L, XL",
-      "price": "98.0",
-      "category": "DRESS",
-      "image": "assets/products/C7026102_BROWN.jpg"
-    },
-    {
-      "id": "C7026102_NAVYBLUE",
-      "code": "C7026102",
-      "color": "NAVYBLUE",
-      "title": "The Dress",
-      "size": "S, M, L, XL",
-      "price": "98.0",
-      "category": "DRESS",
-      "image": "assets/products/C7026102_NAVYBLUE.jpg"
-    },
-    {
       "id": "AO5766101_ANTRACI",
       "code": "AO5766101",
       "color": "ANTRACI",
@@ -3933,26 +3873,6 @@
       "image": "assets/products/C1545102_ANTHRACITE.jpg"
     },
     {
-      "id": "C1545102_BROWN",
-      "code": "C1545102",
-      "color": "BROWN",
-      "title": "The Shirt",
-      "size": "S, M, L, XL",
-      "price": "63.0",
-      "category": "SHIRT",
-      "image": "assets/products/C1545102_BROWN.jpg"
-    },
-    {
-      "id": "C1545102_NAVYBLUE",
-      "code": "C1545102",
-      "color": "NAVYBLUE",
-      "title": "The Shirt",
-      "size": "S, M, L, XL",
-      "price": "63.0",
-      "category": "SHIRT",
-      "image": "assets/products/C1545102_NAVYBLUE.jpg"
-    },
-    {
       "id": "C1548102_ANTHRACITE",
       "code": "C1548102",
       "color": "ANTHRACITE",
@@ -3961,26 +3881,6 @@
       "price": "63.0",
       "category": "SHIRT",
       "image": "assets/products/C1548102_ANTHRACITE.jpg"
-    },
-    {
-      "id": "C1548102_BROWN",
-      "code": "C1548102",
-      "color": "BROWN",
-      "title": "The Shirt",
-      "size": "S, M, L, XL",
-      "price": "63.0",
-      "category": "SHIRT",
-      "image": "assets/products/C1548102_BROWN.jpg"
-    },
-    {
-      "id": "C1548102_NAVY_BLUE",
-      "code": "C1548102",
-      "color": "NAVY_BLUE",
-      "title": "The Shirt",
-      "size": "S, M, L, XL",
-      "price": "63",
-      "category": "SHIRT",
-      "image": "assets/products/C1548102_NAVY_BLUE.jpg"
     },
     {
       "id": "C1549102_ANTHRACITE",
@@ -3993,26 +3893,6 @@
       "image": "assets/products/C1549102_ANTHRACITE.jpg"
     },
     {
-      "id": "C1549102_BROWN",
-      "code": "C1549102",
-      "color": "BROWN",
-      "title": "The Shirt",
-      "size": "S, M, L, XL",
-      "price": "59.0",
-      "category": "SHIRT",
-      "image": "assets/products/C1549102_BROWN.jpg"
-    },
-    {
-      "id": "C1549102_NAVY_BLUE",
-      "code": "C1549102",
-      "color": "NAVY_BLUE",
-      "title": "The Shirt",
-      "size": "S, M, L, XL",
-      "price": "59",
-      "category": "SHIRT",
-      "image": "assets/products/C1549102_NAVY_BLUE.jpg"
-    },
-    {
       "id": "C1551101_ANTHRACITE",
       "code": "C1551101",
       "color": "ANTHRACITE",
@@ -4021,26 +3901,6 @@
       "price": "43.0",
       "category": "SHIRT",
       "image": "assets/products/C1551101_ANTHRACITE.jpg"
-    },
-    {
-      "id": "C1551101_BROWN",
-      "code": "C1551101",
-      "color": "BROWN",
-      "title": "The Shirt",
-      "size": "S, M, L, XL",
-      "price": "43.0",
-      "category": "SHIRT",
-      "image": "assets/products/C1551101_BROWN.jpg"
-    },
-    {
-      "id": "C1551101_NAVYBLUE",
-      "code": "C1551101",
-      "color": "NAVYBLUE",
-      "title": "The Shirt",
-      "size": "S, M, L, XL",
-      "price": "43.0",
-      "category": "SHIRT",
-      "image": "assets/products/C1551101_NAVYBLUE.jpg"
     },
     {
       "id": "U1591101_BLACK",
@@ -4103,26 +3963,6 @@
       "image": "assets/products/C3621101_BLACK.jpg"
     },
     {
-      "id": "C3629101_BLACK",
-      "code": "C3629101",
-      "color": "BLACK",
-      "title": "The Skirt",
-      "size": "36, 38, 40, 42",
-      "price": "56.0",
-      "category": "SKIRT",
-      "image": "assets/products/C3629101_BLACK.jpg"
-    },
-    {
-      "id": "C3629101_BROWN",
-      "code": "C3629101",
-      "color": "BROWN",
-      "title": "The Skirt",
-      "size": "36, 38, 40, 42",
-      "price": "56.0",
-      "category": "SKIRT",
-      "image": "assets/products/C3629101_BROWN.jpg"
-    },
-    {
       "id": "C3629101_NAVY_BLUE",
       "code": "C3629101",
       "color": "NAVY_BLUE",
@@ -4151,149 +3991,6 @@
       "price": "43.0",
       "category": "SKIRT",
       "image": "assets/products/S3592101_ANTRA.jpg"
-    },
-    {
-      "id": "C1191101_BROWN",
-      "code": "C1191101",
-      "color": "BROWN",
-      "title": "The Suit",
-      "size": "S, M, L, XL",
-      "price": "125.0",
-      "category": "SUIT",
-      "image": "assets/products/C1191101_BROWN.jpg"
-    },
-    {
-      "id": "C1191101_NAVYBLUE",
-      "code": "C1191101",
-      "color": "NAVYBLUE",
-      "title": "The Suit",
-      "size": "S, M, L, XL",
-      "price": "125.0",
-      "category": "SUIT",
-      "image": "assets/products/C1191101_NAVYBLUE.jpg"
-    },
-    {
-      "id": "CTK005808102_NAVYBLUE",
-      "code": "CTK005808102",
-      "color": "NAVYBLUE",
-      "title": "The Suit",
-      "size": "S, M, L, XL",
-      "price": "136.0",
-      "category": "SUIT",
-      "image": "assets/products/CTK005808102_NAVYBLUE.jpg"
-    },
-    {
-      "id": "CTK05776101_BLACK",
-      "code": "CTK05776101",
-      "color": "BLACK",
-      "title": "The Knitwear Suit",
-      "size": "S, M, L, XL",
-      "price": "127.0",
-      "category": "SUIT",
-      "brand": "DISHE",
-      "image": "assets/products/CTK05776101_BLACK.jpg"
-    },
-    {
-      "id": "CTK05776101_BROWN",
-      "code": "CTK05776101",
-      "color": "BROWN",
-      "title": "The Knitwear Suit",
-      "size": "S, M, L, XL",
-      "price": "127.0",
-      "category": "SUIT",
-      "brand": "DISHE",
-      "image": "assets/products/CTK05776101_BROWN.jpg"
-    },
-    {
-      "id": "CTK05776101_NAVYBLUE",
-      "code": "CTK05776101",
-      "color": "NAVYBLUE",
-      "title": "The Knitwear Suit",
-      "size": "S, M, L, XL",
-      "price": "127.0",
-      "category": "SUIT",
-      "brand": "DISHE",
-      "image": "assets/products/CTK05776101_NAVYBLUE.jpg"
-    },
-    {
-      "id": "CTK05801101_BLACK",
-      "code": "CTK05801101",
-      "color": "BLACK",
-      "title": "The Suit",
-      "size": "S, M, L, XL",
-      "price": "127.0",
-      "category": "SUIT",
-      "image": "assets/products/CTK05801101_BLACK.jpg"
-    },
-    {
-      "id": "CTK05801101_BROWN",
-      "code": "CTK05801101",
-      "color": "BROWN",
-      "title": "The Suit",
-      "size": "S, M, L, XL",
-      "price": "127.0",
-      "category": "SUIT",
-      "image": "assets/products/CTK05801101_BROWN.jpg"
-    },
-    {
-      "id": "CTK05801101_NAVYBLUE",
-      "code": "CTK05801101",
-      "color": "NAVYBLUE",
-      "title": "The Suit",
-      "size": "S, M, L, XL",
-      "price": "127.0",
-      "category": "SUIT",
-      "image": "assets/products/CTK05801101_NAVYBLUE.jpg"
-    },
-    {
-      "id": "CTK05808102_BLACK",
-      "code": "CTK05808102",
-      "color": "BLACK",
-      "title": "The Suit",
-      "size": "S, M, L, XL",
-      "price": "108.0",
-      "category": "SUIT",
-      "image": "assets/products/CTK05808102_BLACK.jpg"
-    },
-    {
-      "id": "CTK05808102_BROWN",
-      "code": "CTK05808102",
-      "color": "BROWN",
-      "title": "The Suit",
-      "size": "S, M, L, XL",
-      "price": "108.0",
-      "category": "SUIT",
-      "image": "assets/products/CTK05808102_BROWN.jpg"
-    },
-    {
-      "id": "CTK5809101_BLACK",
-      "code": "CTK5809101",
-      "color": "BLACK",
-      "title": "The Suit",
-      "size": "S, M, L, XL",
-      "price": "93.0",
-      "category": "SUIT",
-      "image": "assets/products/CTK5809101_BLACK.jpg"
-    },
-    {
-      "id": "CTK5809101_BROWN",
-      "code": "CTK5809101",
-      "color": "BROWN",
-      "title": "The Suit",
-      "size": "S, M, L, XL",
-      "price": "93.0",
-      "category": "SUIT",
-      "image": "assets/products/CTK5809101_BROWN.jpg"
-    },
-    {
-      "id": "CTK5809101_NAVYBLUE",
-      "code": "CTK5809101",
-      "color": "NAVYBLUE",
-      "title": "The Suit",
-      "size": "S, M, L, XL",
-      "price": "93.0",
-      "category": "SUIT",
-      "image": "assets/products/CTK5809101_NAVYBLUE.jpg"
     },
     {
       "id": "CD05_BLACK",

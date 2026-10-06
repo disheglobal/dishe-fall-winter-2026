@@ -73,14 +73,9 @@
     "assets/capsules/03_REDSHE/CTK00422101_RED.jpg"
   ],
   "BLUESHE": [
-    "assets/capsules/04_BLUESHE/C1191101_NAVYBLUE.jpg",
     "assets/capsules/04_BLUESHE/C1539102_NAVY_BLUE.jpg",
     "assets/capsules/04_BLUESHE/C1539102_WHITE.jpg",
     "assets/capsules/04_BLUESHE/C1540101_NAVYBLUE.jpg",
-    "assets/capsules/04_BLUESHE/C1545102_NAVYBLUE.jpg",
-    "assets/capsules/04_BLUESHE/C1548102_NAVY_BLUE.jpg",
-    "assets/capsules/04_BLUESHE/C1549102_NAVY_BLUE.jpg",
-    "assets/capsules/04_BLUESHE/C1551101_NAVYBLUE.jpg",
     "assets/capsules/04_BLUESHE/C3620101_BLUE.jpg",
     "assets/capsules/04_BLUESHE/C3629101_NAVY_BLUE.jpg",
     "assets/capsules/04_BLUESHE/C403101_BLUE.jpg",
@@ -105,24 +100,14 @@
     "assets/capsules/04_BLUESHE/C5804101_BLUE.jpg",
     "assets/capsules/04_BLUESHE/C5902101_NAVYBLUE.jpg",
     "assets/capsules/04_BLUESHE/C5911101_NAVYBLU.jpg",
-    "assets/capsules/04_BLUESHE/C7025102_NAVYBLUE.jpg",
-    "assets/capsules/04_BLUESHE/C7026102_NAVYBLUE.jpg",
     "assets/capsules/04_BLUESHE/CO00383101_NAVYBL.jpg",
     "assets/capsules/04_BLUESHE/CO00397101_NAVYBLUE.jpg",
     "assets/capsules/04_BLUESHE/CO00400101_NAVYBLUE.jpg",
     "assets/capsules/04_BLUESHE/CO00404101_NAVYBLUE.jpg",
-    "assets/capsules/04_BLUESHE/CTK00425101_NAVY_BLUE.jpg",
-    "assets/capsules/04_BLUESHE/CTK005808102_NAVYBLUE.jpg",
-    "assets/capsules/04_BLUESHE/CTK05801101_NAVYBLUE.jpg",
-    "assets/capsules/04_BLUESHE/CTK5809101_NAVYBLUE.jpg"
+    "assets/capsules/04_BLUESHE/CTK00425101_NAVY_BLUE.jpg"
   ],
   "BROWNSHE": [
     "assets/capsules/05_BROWNSHE/C1530101_WHITE.jpg",
-    "assets/capsules/05_BROWNSHE/C1545102_BROWN.jpg",
-    "assets/capsules/05_BROWNSHE/C1548102_BROWN.jpg",
-    "assets/capsules/05_BROWNSHE/C1549102_BROWN.jpg",
-    "assets/capsules/05_BROWNSHE/C1551101_BROWN.jpg",
-    "assets/capsules/05_BROWNSHE/C3629101_BROWN.jpg",
     "assets/capsules/05_BROWNSHE/C409101_BROWN.jpg",
     "assets/capsules/05_BROWNSHE/C433101_DARK_BROWN.jpg",
     "assets/capsules/05_BROWNSHE/C5790101_BROWN.jpg",
@@ -140,8 +125,6 @@
     "assets/capsules/05_BROWNSHE/C5912101_BROWN.jpg",
     "assets/capsules/05_BROWNSHE/C5913101_BROWN.jpg",
     "assets/capsules/05_BROWNSHE/C5916101_BROWN.jpg",
-    "assets/capsules/05_BROWNSHE/C7025102_BROWN.jpg",
-    "assets/capsules/05_BROWNSHE/C7026102_BROWN.jpg",
     "assets/capsules/05_BROWNSHE/CO00383101_BROWN.jpg",
     "assets/capsules/05_BROWNSHE/CO00384101_BROWN.jpg",
     "assets/capsules/05_BROWNSHE/CO00389101_BROWN.jpg",
@@ -164,10 +147,7 @@
     "assets/capsules/05_BROWNSHE/CTK00411101_BROWN.jpg",
     "assets/capsules/05_BROWNSHE/CTK00419101_BROWN.jpg",
     "assets/capsules/05_BROWNSHE/CTK00422101_BROWN.jpg",
-    "assets/capsules/05_BROWNSHE/CTK00423101_BROWN.jpg",
-    "assets/capsules/05_BROWNSHE/CTK05801101_BROWN.jpg",
-    "assets/capsules/05_BROWNSHE/CTK05808102_BROWN.jpg",
-    "assets/capsules/05_BROWNSHE/CTK5809101_BROWN.jpg"
+    "assets/capsules/05_BROWNSHE/CTK00423101_BROWN.jpg"
   ],
   "OLIVESHE": [
     "assets/capsules/06_OLIVESHE/C1529101_WHITE.jpg",
