@@ -3863,46 +3863,6 @@
       "image": "assets/products/C1541102_YELLOW.jpg"
     },
     {
-      "id": "C1545102_ANTHRACITE",
-      "code": "C1545102",
-      "color": "ANTHRACITE",
-      "title": "The Shirt",
-      "size": "S, M, L, XL",
-      "price": "63.0",
-      "category": "SHIRT",
-      "image": "assets/products/C1545102_ANTHRACITE.jpg"
-    },
-    {
-      "id": "C1548102_ANTHRACITE",
-      "code": "C1548102",
-      "color": "ANTHRACITE",
-      "title": "The Shirt",
-      "size": "S, M, L, XL",
-      "price": "63.0",
-      "category": "SHIRT",
-      "image": "assets/products/C1548102_ANTHRACITE.jpg"
-    },
-    {
-      "id": "C1549102_ANTHRACITE",
-      "code": "C1549102",
-      "color": "ANTHRACITE",
-      "title": "The Shirt",
-      "size": "S, M, L, XL",
-      "price": "59.0",
-      "category": "SHIRT",
-      "image": "assets/products/C1549102_ANTHRACITE.jpg"
-    },
-    {
-      "id": "C1551101_ANTHRACITE",
-      "code": "C1551101",
-      "color": "ANTHRACITE",
-      "title": "The Shirt",
-      "size": "S, M, L, XL",
-      "price": "43.0",
-      "category": "SHIRT",
-      "image": "assets/products/C1551101_ANTHRACITE.jpg"
-    },
-    {
       "id": "U1591101_BLACK",
       "code": "U1591101",
       "color": "BLACK",
