@@ -2,6 +2,17 @@
   "catalog_id": "OFF",
   "products": [
     {
+      "id": "A1951101_WHITE",
+      "code": "A1951101",
+      "color": "WHITE",
+      "title": "The Bigsize Oversize Shirt",
+      "size": "44, 46, 48, 50",
+      "price": "56",
+      "category": "BIG_SIZE",
+      "brand": "DISHE",
+      "image": "assets/products/A1951101_WHITE.jpg"
+    },
+    {
       "id": "A1951102_ECRU",
       "code": "A1951102",
       "color": "ECRU",
@@ -11,6 +22,39 @@
       "category": "BIG_SIZE",
       "brand": "DISHE",
       "image": "assets/products/A1951102_ECRU.jpg"
+    },
+    {
+      "id": "A9415101_BLACK",
+      "code": "A9415101",
+      "color": "BLACK",
+      "title": "The Bigsize Pant Lulu Style",
+      "size": "31, 32, 33, 34, 36",
+      "price": "59",
+      "category": "BIG_SIZE",
+      "brand": "DISHE",
+      "image": "assets/products/A9415101_BLACK.jpg"
+    },
+    {
+      "id": "A9415102_BLACK",
+      "code": "A9415102",
+      "color": "BLACK",
+      "title": "The Bigsize Pant Lulu Style",
+      "size": "31, 32, 33, 34, 36",
+      "price": "59",
+      "category": "BIG_SIZE",
+      "brand": "DISHE",
+      "image": "assets/products/A9415102_BLACK.jpg"
+    },
+    {
+      "id": "A9416101_BLACK",
+      "code": "A9416101",
+      "color": "BLACK",
+      "title": "The Bigsize Pant Flare Style",
+      "size": "31, 32, 33, 34, 36",
+      "price": "57",
+      "category": "BIG_SIZE",
+      "brand": "DISHE",
+      "image": "assets/products/A9416101_BLACK.jpg"
     },
     {
       "id": "B1076101_BLUE",
@@ -35,6 +79,17 @@
       "image": "assets/products/B1077101_BLUE.jpg"
     },
     {
+      "id": "B1964101_BLACK",
+      "code": "B1964101",
+      "color": "BLACK",
+      "title": "The Bigsize Oversize Shirt",
+      "size": "44, 46, 48, 50",
+      "price": "59",
+      "category": "BIG_SIZE",
+      "brand": "DISHE",
+      "image": "assets/products/B1964101_BLACK.jpg"
+    },
+    {
       "id": "B9271102_NIGHTBL",
       "code": "B9271102",
       "color": "NIGHTBL",
@@ -53,8 +108,19 @@
       "size": "44, 46, 48, 50",
       "price": "62",
       "category": "BIG_SIZE",
-      "image": "assets/products/C00706101_BLACK.jpg",
-      "brand": "DISHE"
+      "brand": "DISHE",
+      "image": "assets/products/C00706101_BLACK.jpg"
+    },
+    {
+      "id": "C00706101_RED",
+      "code": "C00706101",
+      "color": "RED",
+      "title": "The Bigsize Knit Wear",
+      "size": "44, 46, 48, 50",
+      "price": "62",
+      "category": "BIG_SIZE",
+      "brand": "DISHE",
+      "image": "assets/products/C00706101_RED.jpg"
     },
     {
       "id": "C1076101_BLUE",
@@ -75,8 +141,8 @@
       "size": "44, 46, 48, 50",
       "price": "65",
       "category": "BIG_SIZE",
-      "image": "assets/products/C1986101_BLACK.jpg",
-      "brand": "DISHE"
+      "brand": "DISHE",
+      "image": "assets/products/C1986101_BLACK.jpg"
     },
     {
       "id": "C1987101_WHITE",
@@ -86,8 +152,8 @@
       "size": "44, 46, 48, 50",
       "price": "65",
       "category": "BIG_SIZE",
-      "image": "assets/products/C1987101_WHITE.jpg",
-      "brand": "DISHE"
+      "brand": "DISHE",
+      "image": "assets/products/C1987101_WHITE.jpg"
     },
     {
       "id": "C1988101_WHITE",
@@ -97,8 +163,8 @@
       "size": "44, 46, 48, 50",
       "price": "65",
       "category": "BIG_SIZE",
-      "image": "assets/products/C1988101_WHITE.jpg",
-      "brand": "DISHE"
+      "brand": "DISHE",
+      "image": "assets/products/C1988101_WHITE.jpg"
     },
     {
       "id": "C1989101_WHITE",
@@ -108,8 +174,8 @@
       "size": "44, 46, 48, 50",
       "price": "65",
       "category": "BIG_SIZE",
-      "image": "assets/products/C1989101_WHITE.jpg",
-      "brand": "DISHE"
+      "brand": "DISHE",
+      "image": "assets/products/C1989101_WHITE.jpg"
     },
     {
       "id": "C1990101_BRICKRED",
@@ -130,8 +196,8 @@
       "size": "44, 46, 48, 50",
       "price": "65",
       "category": "BIG_SIZE",
-      "image": "assets/products/C1990101_BROWN.jpg",
-      "brand": "DISHE"
+      "brand": "DISHE",
+      "image": "assets/products/C1990101_BROWN.jpg"
     },
     {
       "id": "C1990101_NAVYBL",
@@ -174,8 +240,30 @@
       "size": "44, 46, 48, 50",
       "price": "55",
       "category": "BIG_SIZE",
-      "image": "assets/products/C1991101_BLACK.jpg",
-      "brand": "DISHE"
+      "brand": "DISHE",
+      "image": "assets/products/C1991101_BLACK.jpg"
+    },
+    {
+      "id": "C1991101_DARKBRO",
+      "code": "C1991101",
+      "color": "DARKBRO",
+      "title": "The Bigsize Oversize Shirt",
+      "size": "44, 46, 48, 50",
+      "price": "55",
+      "category": "BIG_SIZE",
+      "brand": "DISHE",
+      "image": "assets/products/C1991101_DARKBRO.jpg"
+    },
+    {
+      "id": "C1991101_DARK_BROWN",
+      "code": "C1991101",
+      "color": "DARK_BROWN",
+      "title": "The Bigsize Oversize Shirt",
+      "size": "44, 46, 48, 50",
+      "price": "55",
+      "category": "BIG_SIZE",
+      "brand": "DISHE",
+      "image": "assets/products/C1991101_DARK_BROWN.jpg"
     },
     {
       "id": "C1991101_KHAKI",
@@ -185,8 +273,8 @@
       "size": "44, 46, 48, 50",
       "price": "55",
       "category": "BIG_SIZE",
-      "image": "assets/products/C1991101_KHAKI.jpg",
-      "brand": "DISHE"
+      "brand": "DISHE",
+      "image": "assets/products/C1991101_KHAKI.jpg"
     },
     {
       "id": "C1991102_BURGUNDY",
@@ -196,8 +284,8 @@
       "size": "44, 46, 48, 50",
       "price": "65",
       "category": "BIG_SIZE",
-      "image": "assets/products/C1991102_BURGUNDY.jpg",
-      "brand": "DISHE"
+      "brand": "DISHE",
+      "image": "assets/products/C1991102_BURGUNDY.jpg"
     },
     {
       "id": "C1991102_GREEN",
@@ -218,8 +306,8 @@
       "size": "44, 46, 48, 50",
       "price": "65",
       "category": "BIG_SIZE",
-      "image": "assets/products/C1991102_YELLOW.jpg",
-      "brand": "DISHE"
+      "brand": "DISHE",
+      "image": "assets/products/C1991102_YELLOW.jpg"
     },
     {
       "id": "C3896101_BLACK",
@@ -229,8 +317,8 @@
       "size": "44, 46, 48, 50",
       "price": "54",
       "category": "BIG_SIZE",
-      "image": "assets/products/C3896101_BLACK.jpg",
-      "brand": "DISHE"
+      "brand": "DISHE",
+      "image": "assets/products/C3896101_BLACK.jpg"
     },
     {
       "id": "C9445101_BLACK",
@@ -240,8 +328,8 @@
       "size": "31, 32, 33, 34, 36",
       "price": "58",
       "category": "BIG_SIZE",
-      "image": "assets/products/C9445101_BLACK.jpg",
-      "brand": "DISHE"
+      "brand": "DISHE",
+      "image": "assets/products/C9445101_BLACK.jpg"
     },
     {
       "id": "C9446101_BLACK",
@@ -251,8 +339,8 @@
       "size": "31, 32, 33, 34, 36",
       "price": "62",
       "category": "BIG_SIZE",
-      "image": "assets/products/C9446101_BLACK.jpg",
-      "brand": "DISHE"
+      "brand": "DISHE",
+      "image": "assets/products/C9446101_BLACK.jpg"
     },
     {
       "id": "C9447101_BLACK",
@@ -262,8 +350,8 @@
       "size": "31, 32, 33, 34, 36",
       "price": "59",
       "category": "BIG_SIZE",
-      "image": "assets/products/C9447101_BLACK.jpg",
-      "brand": "DISHE"
+      "brand": "DISHE",
+      "image": "assets/products/C9447101_BLACK.jpg"
     },
     {
       "id": "C9448101_BLACK",
@@ -273,8 +361,8 @@
       "size": "31, 32, 33, 34, 36",
       "price": "58",
       "category": "BIG_SIZE",
-      "image": "assets/products/C9448101_BLACK.jpg",
-      "brand": "DISHE"
+      "brand": "DISHE",
+      "image": "assets/products/C9448101_BLACK.jpg"
     },
     {
       "id": "C9449101_BLACK",
@@ -284,8 +372,8 @@
       "size": "31, 32, 33, 34, 36",
       "price": "59",
       "category": "BIG_SIZE",
-      "image": "assets/products/C9449101_BLACK.jpg",
-      "brand": "DISHE"
+      "brand": "DISHE",
+      "image": "assets/products/C9449101_BLACK.jpg"
     },
     {
       "id": "C9450101_BLACK",
@@ -295,8 +383,8 @@
       "size": "31, 32, 33, 34, 36",
       "price": "59",
       "category": "BIG_SIZE",
-      "image": "assets/products/C9450101_BLACK.jpg",
-      "brand": "DISHE"
+      "brand": "DISHE",
+      "image": "assets/products/C9450101_BLACK.jpg"
     },
     {
       "id": "C9454101_BLUE",
@@ -321,6 +409,17 @@
       "image": "assets/products/C9455102_BLUE.jpg"
     },
     {
+      "id": "C9456101_BROWN",
+      "code": "C9456101",
+      "color": "BROWN",
+      "title": "The Bigsize Pant Wide Leg Style",
+      "size": "31, 32, 33, 34, 36",
+      "price": "59",
+      "category": "BIG_SIZE",
+      "brand": "DISHE",
+      "image": "assets/products/C9456101_BROWN.jpg"
+    },
+    {
       "id": "C9456101_GREEN",
       "code": "C9456101",
       "color": "GREEN",
@@ -328,8 +427,19 @@
       "size": "31, 32, 33, 34, 36",
       "price": "59",
       "category": "BIG_SIZE",
-      "image": "assets/products/C9456101_GREEN.jpg",
-      "brand": "DISHE"
+      "brand": "DISHE",
+      "image": "assets/products/C9456101_GREEN.jpg"
+    },
+    {
+      "id": "C9456101_WINE",
+      "code": "C9456101",
+      "color": "WINE",
+      "title": "The Bigsize Pant Wide Leg Style",
+      "size": "31, 32, 33, 34, 36",
+      "price": "59",
+      "category": "BIG_SIZE",
+      "brand": "DISHE",
+      "image": "assets/products/C9456101_WINE.jpg"
     },
     {
       "id": "C9457101_BLACK",
@@ -343,6 +453,17 @@
       "image": "assets/products/C9457101_BLACK.jpg"
     },
     {
+      "id": "C9457101_BROWN",
+      "code": "C9457101",
+      "color": "BROWN",
+      "title": "The Bigsize Pant Frida Style",
+      "size": "31, 32, 33, 34, 36",
+      "price": "59",
+      "category": "BIG_SIZE",
+      "brand": "DISHE",
+      "image": "assets/products/C9457101_BROWN.jpg"
+    },
+    {
       "id": "C9458101_BROWN",
       "code": "C9458101",
       "color": "BROWN",
@@ -350,8 +471,8 @@
       "size": "31, 32, 33, 34, 36",
       "price": "59",
       "category": "BIG_SIZE",
-      "image": "assets/products/C9458101_BROWN.jpg",
-      "brand": "DISHE"
+      "brand": "DISHE",
+      "image": "assets/products/C9458101_BROWN.jpg"
     },
     {
       "id": "C9458101_BURGUNDY",
@@ -361,8 +482,8 @@
       "size": "31, 32, 33, 34, 36",
       "price": "59",
       "category": "BIG_SIZE",
-      "image": "assets/products/C9458101_BURGUNDY.jpg",
-      "brand": "DISHE"
+      "brand": "DISHE",
+      "image": "assets/products/C9458101_BURGUNDY.jpg"
     },
     {
       "id": "C9458101_GREEN",
@@ -372,8 +493,8 @@
       "size": "31, 32, 33, 34, 36",
       "price": "59",
       "category": "BIG_SIZE",
-      "image": "assets/products/C9458101_GREEN.jpg",
-      "brand": "DISHE"
+      "brand": "DISHE",
+      "image": "assets/products/C9458101_GREEN.jpg"
     },
     {
       "id": "C9460101_GREEN",
@@ -383,8 +504,8 @@
       "size": "31, 32, 33, 34, 36",
       "price": "59",
       "category": "BIG_SIZE",
-      "image": "assets/products/C9460101_GREEN.jpg",
-      "brand": "DISHE"
+      "brand": "DISHE",
+      "image": "assets/products/C9460101_GREEN.jpg"
     },
     {
       "id": "C9464101_BLUE",
@@ -471,8 +592,8 @@
       "size": "31, 32, 33, 34, 36",
       "price": "57",
       "category": "BIG_SIZE",
-      "image": "assets/products/C9472101_BLACK.jpg",
-      "brand": "DISHE"
+      "brand": "DISHE",
+      "image": "assets/products/C9472101_BLACK.jpg"
     },
     {
       "id": "C9473101_BLACK",
@@ -482,8 +603,8 @@
       "size": "31, 32, 33, 34, 36",
       "price": "61",
       "category": "BIG_SIZE",
-      "image": "assets/products/C9473101_BLACK.jpg",
-      "brand": "DISHE"
+      "brand": "DISHE",
+      "image": "assets/products/C9473101_BLACK.jpg"
     },
     {
       "id": "C9474101_RED",
@@ -493,8 +614,8 @@
       "size": "31, 32, 33, 34, 36",
       "price": "59",
       "category": "BIG_SIZE",
-      "image": "assets/products/C9474101_RED.jpg",
-      "brand": "DISHE"
+      "brand": "DISHE",
+      "image": "assets/products/C9474101_RED.jpg"
     },
     {
       "id": "CO00387101_BABY_BLUE",
@@ -585,6 +706,17 @@
       "image": "assets/products/CO00710101_PINK.jpg"
     },
     {
+      "id": "CO00711101_BLACK",
+      "code": "CO00711101",
+      "color": "BLACK",
+      "title": "The Bigsize Knit Wear",
+      "size": "44, 46, 48, 50",
+      "price": "49",
+      "category": "BIG_SIZE",
+      "brand": "DISHE",
+      "image": "assets/products/CO00711101_BLACK.jpg"
+    },
+    {
       "id": "CO00711101_BROWN",
       "code": "CO00711101",
       "color": "BROWN",
@@ -592,8 +724,8 @@
       "size": "44, 46, 48, 50",
       "price": "49",
       "category": "BIG_SIZE",
-      "image": "assets/products/CO00711101_BROWN.jpg",
-      "brand": "DISHE"
+      "brand": "DISHE",
+      "image": "assets/products/CO00711101_BROWN.jpg"
     },
     {
       "id": "CO00711101_ECRU",
@@ -603,8 +735,8 @@
       "size": "44, 46, 48, 50",
       "price": "49",
       "category": "BIG_SIZE",
-      "image": "assets/products/CO00711101_ECRU.jpg",
-      "brand": "DISHE"
+      "brand": "DISHE",
+      "image": "assets/products/CO00711101_ECRU.jpg"
     },
     {
       "id": "CO00711101_GREEN",
@@ -614,8 +746,8 @@
       "size": "44, 46, 48, 50",
       "price": "49",
       "category": "BIG_SIZE",
-      "image": "assets/products/CO00711101_GREEN.jpg",
-      "brand": "DISHE"
+      "brand": "DISHE",
+      "image": "assets/products/CO00711101_GREEN.jpg"
     },
     {
       "id": "CO00711101_RED",
@@ -625,8 +757,8 @@
       "size": "44, 46, 48, 50",
       "price": "49",
       "category": "BIG_SIZE",
-      "image": "assets/products/CO00711101_RED.jpg",
-      "brand": "DISHE"
+      "brand": "DISHE",
+      "image": "assets/products/CO00711101_RED.jpg"
     },
     {
       "id": "CO00711101_WINE",
@@ -636,8 +768,8 @@
       "size": "44, 46, 48, 50",
       "price": "49",
       "category": "BIG_SIZE",
-      "image": "assets/products/CO00711101_WINE.jpg",
-      "brand": "DISHE"
+      "brand": "DISHE",
+      "image": "assets/products/CO00711101_WINE.jpg"
     },
     {
       "id": "CO00713101_BABY_BLUE",
@@ -735,8 +867,8 @@
       "size": "44, 46, 48, 50",
       "price": "39",
       "category": "BIG_SIZE",
-      "image": "assets/products/CT00714101_BLACK.jpg",
-      "brand": "DISHE"
+      "brand": "DISHE",
+      "image": "assets/products/CT00714101_BLACK.jpg"
     },
     {
       "id": "CT00714101_RED",
@@ -746,8 +878,8 @@
       "size": "44, 46, 48, 50",
       "price": "39",
       "category": "BIG_SIZE",
-      "image": "assets/products/CT00714101_RED.jpg",
-      "brand": "DISHE"
+      "brand": "DISHE",
+      "image": "assets/products/CT00714101_RED.jpg"
     },
     {
       "id": "CTK00728101_BLACK",
@@ -805,6 +937,17 @@
       "image": "assets/products/CTK00728101_NAVY_BLUE.jpg"
     },
     {
+      "id": "R1950102_WHITE",
+      "code": "R1950102",
+      "color": "WHITE",
+      "title": "The Bigsize Oversize Shirt",
+      "size": "44, 46, 48, 50",
+      "price": "54",
+      "category": "BIG_SIZE",
+      "brand": "DISHE",
+      "image": "assets/products/R1950102_WHITE.jpg"
+    },
+    {
       "id": "R3824101_BLUE",
       "code": "R3824101",
       "color": "BLUE",
@@ -814,6 +957,17 @@
       "category": "BIG_SIZE",
       "brand": "DISHE",
       "image": "assets/products/R3824101_BLUE.jpg"
+    },
+    {
+      "id": "S9300101_BLACK",
+      "code": "S9300101",
+      "color": "BLACK",
+      "title": "The Bigsize Pant",
+      "size": "31, 32, 33, 34, 36",
+      "price": "55",
+      "category": "BIG_SIZE",
+      "brand": "DISHE",
+      "image": "assets/products/S9300101_BLACK.jpg"
     },
     {
       "id": "S9308101_BLUE",
@@ -847,6 +1001,17 @@
       "category": "BIG_SIZE",
       "brand": "DISHE",
       "image": "assets/products/S9308103_BLUE.jpg"
+    },
+    {
+      "id": "S9400101_BLACK",
+      "code": "S9400101",
+      "color": "BLACK",
+      "title": "The Bigsize Pant",
+      "size": "31, 32, 33, 34, 36",
+      "price": "55",
+      "category": "BIG_SIZE",
+      "brand": "DISHE",
+      "image": "assets/products/S9400101_BLACK.jpg"
     },
     {
       "id": "A7020101_NAVYBLU",
