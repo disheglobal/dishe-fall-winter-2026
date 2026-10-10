@@ -55,7 +55,12 @@ const capsuleName=name=>name.replace('SHE',`${capsuleDiamond()}SHE`);
 const CAPSULE_ITEMS=[['WINE_SHE','WINE SHE','capsule-large capsule-wine'],['LEATHER_LINE','LEATHER LINE','capsule-leather'],['REDSHE','REDSHE','capsule-red'],['BLUESHE','BLUESHE','capsule-denim-blue'],['BROWNSHE','BROWNSHE','capsule-large capsule-brown'],['OLIVESHE','OLIVESHE','capsule-olive'],['TENCEL','TENCEL','capsule-tencel capsule-wide'],['CHECKSHE','CHECKSHE','capsule-check capsule-wide']];
 const capsuleTile=([key,name,klass])=>`<button type="button" class="capsule-tile ${klass}" data-capsule="${key}" aria-label="${name}"><span>CAPSULE</span><b class="capsule-title">${capsuleName(name)}${name==='TENCEL'?capsuleTencelLogo():''}${name==='LEATHER LINE'?capsuleLeatherIcon():''}</b><small>VIEW CAPSULE</small></button>`;
 const searchButton=()=>`<button class="catalog-search-button" type="button" aria-label="Search by product code"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.4"></circle><path d="m16 16 5 5"></path></svg><span>Search by code</span></button>`;
-const categoryMenuMarkup=(extraClass='')=>`<div class="category-home ${extraClass}"><section class="category-hero"><img src="assets/category-hero.webp?v=${ASSET_VERSION}" alt="D.SHE Fall Winter 2026"></section><section class="category-section"><header class="section-heading"><h2>Categories</h2><p>SHOP BY CATEGORY</p>${searchButton()}</header><div class="category-grid">${MENU_ITEMS.map(categoryTile).join('')}</div></section><section class="capsules-section"><header class="section-heading"><h2>Capsules</h2><p>CURATED EDITS</p></header><div class="capsule-grid">${CAPSULE_ITEMS.map(capsuleTile).join('')}</div></section></div>`;
+// catalog.json contains the current OFF publications; keep the fixed menu order.
+const visibleMenuItems=()=>{
+  const publishedCategories=new Set(db.products.filter(product=>product.image).map(product=>product.category));
+  return MENU_ITEMS.filter(([key])=>publishedCategories.has(key));
+};
+const categoryMenuMarkup=(extraClass='')=>`<div class="category-home ${extraClass}"><section class="category-hero"><img src="assets/category-hero.webp?v=${ASSET_VERSION}" alt="D.SHE Fall Winter 2026"></section><section class="category-section"><header class="section-heading"><h2>Categories</h2><p>SHOP BY CATEGORY</p>${searchButton()}</header><div class="category-grid">${visibleMenuItems().map(categoryTile).join('')}</div></section><section class="capsules-section"><header class="section-heading"><h2>Capsules</h2><p>CURATED EDITS</p></header><div class="capsule-grid">${CAPSULE_ITEMS.map(capsuleTile).join('')}</div></section></div>`;
 const openCategoryLink=cat=>{if(cat==='BAG'){window.location.href='https://t.me/DisheBag';return}openCategory(cat)};
 const bindCategoryTiles=(scope=document)=>scope.querySelectorAll('.category-tile').forEach(b=>b.addEventListener('click',e=>{e.preventDefault();openCategoryLink(b.dataset.c)}));
 const bindCapsuleTiles=(scope=document)=>scope.querySelectorAll('.capsule-tile').forEach(b=>b.addEventListener('click',e=>{e.preventDefault();openCapsule(b.dataset.capsule)}));
@@ -74,7 +79,7 @@ const exists=src=>new Promise(ok=>{
 async function legacyHome(){
   const has=await exists('assets/menu.jpg');
   if(!has){app.innerHTML='<div class="empty">MENU.JPG NOT FOUND</div>';return;}
-  const buttons=MENU_ITEMS.map(item=>menuButton(...item)).join('');
+  const buttons=visibleMenuItems().map(item=>menuButton(...item)).join('');
   app.innerHTML=`<section class="screen home"><div class="menu-stage"><img class="menu-image" src="assets/menu.jpg?v=${Date.now()}" alt="D.SHE categories"><header class="brand-hero"><img class="brand-logo" src="assets/dishe-logo.png?v=${Date.now()}" alt="D•she"><div class="season-kicker"><span></span><b>NEW SEASON</b><span></span></div><div class="season-title">FALL / WINTER 2026</div></header><div class="menu-buttons">${buttons}</div></div></section>`;
   document.querySelectorAll('.menu-category').forEach(b=>b.addEventListener('click',e=>{
     e.preventDefault();
@@ -133,9 +138,9 @@ function openSearchResults(code,products){
 }
 
 async function openCategory(cat){
-  const selectedItem=MENU_ITEMS.find(([key])=>key===cat);
+  const categorySequence=visibleMenuItems();
+  const selectedItem=categorySequence.find(([key])=>key===cat);
   if(!selectedItem){home();return;}
-  const categorySequence=MENU_ITEMS;
   const loaderSlide=(key,comingSoon=false)=>{
     const [,en,ru]=MENU_ITEMS.find(([itemKey])=>itemKey===key);
     return `<article class="slide category-loader-slide"><div class="category-loader"><img src="assets/category-loader.webp?v=${ASSET_VERSION}" alt="D.SHE ${en}"><span class="loader-diamond" aria-label="Loading"><svg viewBox="0 0 90 66" aria-hidden="true"><defs><linearGradient id="redGem" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff8084"/><stop offset=".42" stop-color="#e20d1c"/><stop offset="1" stop-color="#690008"/></linearGradient></defs><path class="gem-shadow" d="M19 17h52l13 17-39 29L6 34l13-17Z"/><path class="gem-crown" d="M19 17h52l13 17H6l13-17Z"/><path class="gem-left" d="M6 34h25l14 29L6 34Z"/><path class="gem-center" d="M31 34h28L45 63 31 34Z"/><path class="gem-right" d="M59 34h25L45 63l14-29Z"/><path class="gem-top-left" d="m19 17 12 17 14-17-26 0Z"/><path class="gem-top-center" d="m45 17 14 17 12-17H45Z"/><path class="gem-glint" d="m25 19 7 11 8-11H25Z"/><path class="gem-rim" d="M19 17h52l13 17-39 29L6 34l13-17ZM6 34h78M31 34l14 29 14-29M19 17l12 17 14-17 14 17 12-17"/></svg></span>${comingSoon?'<span class="loader-coming-soon">COMING SOON</span>':''}</div></article>`;
@@ -151,8 +156,8 @@ async function openCategory(cat){
     const products=db.products.filter(p=>p.category===key);
     if(key===cat) activeStartIndex=selectedSlides.length;
     if(key==='BAG'){
-      const previousItem=categorySequence[sequenceIndex-1];
-      const nextItem=categorySequence[(sequenceIndex+1)%categorySequence.length];
+      const previousItem=categorySequence[sequenceIndex-1]||['', 'Menu'];
+      const nextItem=categorySequence[sequenceIndex+1]||['', 'Contact us'];
       selectedSlides.push(`<article class="slide category-bag-slide"><div class="category-end"><img src="assets/category-loader.webp?v=${ASSET_VERSION}" alt="D.SHE Bags"><div class="bag-slide-title">Bags</div><div class="category-neighbour category-previous">${arrowIcon}<small>${previousItem[1]}</small></div><a class="category-return-button bag-telegram-button" href="https://t.me/DisheBag" target="_blank" rel="noopener"><span>Open Telegram</span>${telegramIcon()}</a><div class="category-neighbour category-next"><small>${nextItem[1]}</small>${arrowIcon}</div></div></article>`);
       return;
     }else if(!products.length){
