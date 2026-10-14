@@ -106,7 +106,7 @@
       "color": "BLACK",
       "title": "The Bigsize Knit Wear",
       "size": "44, 46, 48, 50",
-      "price": "62",
+      "price": "55.0",
       "category": "BIG_SIZE",
       "brand": "DISHE",
       "image": "assets/products/C00706101_BLACK.jpg"
@@ -117,7 +117,7 @@
       "color": "RED",
       "title": "The Bigsize Knit Wear",
       "size": "44, 46, 48, 50",
-      "price": "62",
+      "price": "55.0",
       "category": "BIG_SIZE",
       "brand": "DISHE",
       "image": "assets/products/C00706101_RED.jpg"
@@ -1279,7 +1279,7 @@
       "color": "BLACK",
       "title": "The Darla Jacket",
       "size": "S, M, L, XL",
-      "price": "69.0",
+      "price": "53.0",
       "category": "JACKET",
       "image": "assets/products/C5794101_BLACK.jpg"
     },
@@ -1456,7 +1456,7 @@
       "color": "BLACK",
       "title": "The Boyfriend Pant",
       "size": "26, 27, 28, 29, 30",
-      "price": "52",
+      "price": "32.0",
       "category": "PANTS",
       "image": "assets/products/C231101_BLACK.jpg",
       "brand": "DISHE"
@@ -1469,6 +1469,7 @@
       "size": "26, 27, 28, 29, 30",
       "price": "59.0",
       "category": "PANTS",
+      "brand": "DISHE",
       "image": "assets/products/C396101_BLACK.jpg"
     },
     {
@@ -1479,6 +1480,7 @@
       "size": "26, 27, 28, 29, 30",
       "price": "56.0",
       "category": "PANTS",
+      "brand": "DISHE",
       "image": "assets/products/C403101_BLUE.jpg"
     },
     {
@@ -1511,6 +1513,7 @@
       "size": "26, 27, 28, 29, 30",
       "price": "54.0",
       "category": "PANTS",
+      "brand": "DISHE",
       "image": "assets/products/C410101_BLACK.jpg"
     },
     {
@@ -1549,10 +1552,11 @@
       "id": "C416101_BLACK",
       "code": "C416101",
       "color": "BLACK",
-      "title": "The Pant Anna Style",
+      "title": "The Anna Style Pant",
       "size": "26, 27, 28, 29, 30",
       "price": "56.0",
       "category": "PANTS",
+      "brand": "DISHE",
       "image": "assets/products/C416101_BLACK.jpg"
     },
     {
@@ -2779,7 +2783,7 @@
       "color": "BLACK",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "52.0",
+      "price": "47.0",
       "category": "KNITWEAR",
       "image": "assets/products/CO00404101_BLACK.jpg"
     },
@@ -2789,7 +2793,7 @@
       "color": "NAVYBLUE",
       "title": "The Knit Wear",
       "size": "S, M, L, XL",
-      "price": "52.0",
+      "price": "47.0",
       "category": "KNITWEAR",
       "image": "assets/products/CO00404101_NAVYBLUE.jpg"
     },
@@ -3414,7 +3418,7 @@
       "color": "BLACK",
       "title": "The Knit Suit",
       "size": "S, M, L, XL",
-      "price": "88.0",
+      "price": "79.0",
       "category": "KNITWEAR",
       "image": "assets/products/CTK00419101_BLACK.jpg"
     },
@@ -3424,7 +3428,7 @@
       "color": "BROWN",
       "title": "The Knit Suit",
       "size": "S, M, L, XL",
-      "price": "88.0",
+      "price": "79.0",
       "category": "KNITWEAR",
       "image": "assets/products/CTK00419101_BROWN.jpg"
     },
@@ -3434,7 +3438,7 @@
       "color": "ECRU",
       "title": "The Knit Suit",
       "size": "S, M, L, XL",
-      "price": "88.0",
+      "price": "79.0",
       "category": "KNITWEAR",
       "image": "assets/products/CTK00419101_ECRU.jpg"
     },
@@ -3444,7 +3448,7 @@
       "color": "PLUM",
       "title": "The Knit Suit",
       "size": "S, M, L, XL",
-      "price": "88.0",
+      "price": "79.0",
       "category": "KNITWEAR",
       "image": "assets/products/CTK00419101_PLUM.jpg"
     },
@@ -3946,6 +3950,7 @@
       "size": "36, 38, 40, 42",
       "price": "51.0",
       "category": "SKIRT",
+      "brand": "DISHE",
       "image": "assets/products/C3621101_BLACK.jpg"
     },
     {
@@ -4134,7 +4139,7 @@
       "color": "CHOCOLATE",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "245.0",
+      "price": "315.0",
       "category": "LEATHER",
       "image": "assets/products/CZ147_CHOCOLATE.jpg"
     },
@@ -4144,7 +4149,7 @@
       "color": "HAZELNUT",
       "title": "The Leather Jacket",
       "size": "S, M, L, XL",
-      "price": "315.0",
+      "price": "245.0",
       "category": "LEATHER",
       "image": "assets/products/CZ1471_HAZELNUT.jpg"
     },
@@ -4776,7 +4781,7 @@
       "color": "BLACK",
       "title": "The Coat",
       "size": "S, M, L, XL",
-      "price": "138.0",
+      "price": "98.0",
       "category": "OUTFIT",
       "image": "assets/products/C5900101_BLACK.jpg"
     },
@@ -4786,7 +4791,7 @@
       "color": "BROWN",
       "title": "The Coat",
       "size": "S, M, L, XL",
-      "price": "138.0",
+      "price": "98.0",
       "category": "OUTFIT",
       "image": "assets/products/C5900101_BROWN.jpg"
     },
@@ -4796,7 +4801,7 @@
       "color": "ECRU",
       "title": "The Coat",
       "size": "S, M, L, XL",
-      "price": "138.0",
+      "price": "98.0",
       "category": "OUTFIT",
       "image": "assets/products/C5900101_ECRU.jpg"
     },
@@ -4806,7 +4811,7 @@
       "color": "GREEN",
       "title": "The Coat",
       "size": "S, M, L, XL",
-      "price": "138.0",
+      "price": "98.0",
       "category": "OUTFIT",
       "image": "assets/products/C5900101_GREEN.jpg"
     },
@@ -4816,7 +4821,7 @@
       "color": "RED",
       "title": "The Coat",
       "size": "S, M, L, XL",
-      "price": "138.0",
+      "price": "98.0",
       "category": "OUTFIT",
       "image": "assets/products/C5900101_RED.jpg"
     },
@@ -4946,7 +4951,7 @@
       "color": "BEIGE",
       "title": "The Short Coat",
       "size": "S, M, L, XL",
-      "price": "127.0",
+      "price": "99.0",
       "category": "OUTFIT",
       "image": "assets/products/C5904101_BEIGE.jpg"
     },
@@ -4956,7 +4961,7 @@
       "color": "BLACK",
       "title": "The Short Coat",
       "size": "S, M, L, XL",
-      "price": "127.0",
+      "price": "99.0",
       "category": "OUTFIT",
       "image": "assets/products/C5904101_BLACK.jpg"
     },
@@ -4966,7 +4971,7 @@
       "color": "BROWN",
       "title": "The Short Coat",
       "size": "S, M, L, XL",
-      "price": "127.0",
+      "price": "99.0",
       "category": "OUTFIT",
       "image": "assets/products/C5904101_BROWN.jpg"
     },
@@ -4976,7 +4981,7 @@
       "color": "CAMEL",
       "title": "The Short Coat",
       "size": "S, M, L, XL",
-      "price": "127.0",
+      "price": "99.0",
       "category": "OUTFIT",
       "image": "assets/products/C5904101_CAMEL.jpg"
     },
@@ -4986,7 +4991,7 @@
       "color": "GRAY",
       "title": "The Short Coat",
       "size": "S, M, L, XL",
-      "price": "127.0",
+      "price": "99.0",
       "category": "OUTFIT",
       "image": "assets/products/C5904101_GRAY.jpg"
     },
@@ -4996,7 +5001,7 @@
       "color": "BEIGE",
       "title": "The Coat",
       "size": "STD4",
-      "price": "125.0",
+      "price": "104.0",
       "category": "OUTFIT",
       "image": "assets/products/C5905101_BEIGE.jpg"
     },
@@ -5006,7 +5011,7 @@
       "color": "BLACK",
       "title": "The Coat",
       "size": "STD4",
-      "price": "125.0",
+      "price": "104.0",
       "category": "OUTFIT",
       "image": "assets/products/C5905101_BLACK.jpg"
     },
@@ -5016,7 +5021,7 @@
       "color": "BROWN",
       "title": "The Coat",
       "size": "STD4",
-      "price": "125.0",
+      "price": "104.0",
       "category": "OUTFIT",
       "image": "assets/products/C5905101_BROWN.jpg"
     },
@@ -5026,7 +5031,7 @@
       "color": "BLACK",
       "title": "The Coat",
       "size": "S, M, L, XL",
-      "price": "139.0",
+      "price": "119.0",
       "category": "OUTFIT",
       "image": "assets/products/C5906101_BLACK.jpg"
     },
@@ -5036,7 +5041,7 @@
       "color": "BROWN",
       "title": "The Coat",
       "size": "S, M, L, XL",
-      "price": "139.0",
+      "price": "119.0",
       "category": "OUTFIT",
       "image": "assets/products/C5906101_BROWN.jpg"
     },
@@ -5046,7 +5051,7 @@
       "color": "MINK",
       "title": "The Coat",
       "size": "S, M, L, XL",
-      "price": "139.0",
+      "price": "119.0",
       "category": "OUTFIT",
       "image": "assets/products/C5906101_MINK.jpg"
     },
@@ -5056,7 +5061,7 @@
       "color": "ANTHRACITE",
       "title": "The Coat",
       "size": "36, 38, 40, 42",
-      "price": "158.0",
+      "price": "132.0",
       "category": "OUTFIT",
       "image": "assets/products/C5907101_ANTHRACITE.jpg"
     },
@@ -5066,7 +5071,7 @@
       "color": "BLACK",
       "title": "The Coat",
       "size": "36, 38, 40, 42",
-      "price": "158.0",
+      "price": "132.0",
       "category": "OUTFIT",
       "image": "assets/products/C5907101_BLACK.jpg"
     },
@@ -5076,7 +5081,7 @@
       "color": "BROWN",
       "title": "The Coat",
       "size": "36, 38, 40, 42",
-      "price": "158.0",
+      "price": "132.0",
       "category": "OUTFIT",
       "image": "assets/products/C5907101_BROWN.jpg"
     },
@@ -5086,7 +5091,7 @@
       "color": "GREEN",
       "title": "The Coat",
       "size": "36, 38, 40, 42",
-      "price": "158.0",
+      "price": "132.0",
       "category": "OUTFIT",
       "image": "assets/products/C5907101_GREEN.jpg"
     },
@@ -5096,7 +5101,7 @@
       "color": "ANTRACITE",
       "title": "The Coat",
       "size": "36, 38, 40, 42",
-      "price": "144.0",
+      "price": "265.0",
       "category": "OUTFIT",
       "image": "assets/products/C5908101_ANTRACITE.jpg"
     },
@@ -5106,7 +5111,7 @@
       "color": "BLACK",
       "title": "The Coat",
       "size": "36, 38, 40, 42",
-      "price": "144.0",
+      "price": "265.0",
       "category": "OUTFIT",
       "image": "assets/products/C5908101_BLACK.jpg"
     },
@@ -5116,7 +5121,7 @@
       "color": "BROWN",
       "title": "The Coat",
       "size": "36, 38, 40, 42",
-      "price": "144.0",
+      "price": "265.0",
       "category": "OUTFIT",
       "image": "assets/products/C5908101_BROWN.jpg"
     },
@@ -5126,7 +5131,7 @@
       "color": "GREEN",
       "title": "The Coat",
       "size": "36, 38, 40, 42",
-      "price": "144.0",
+      "price": "265.0",
       "category": "OUTFIT",
       "image": "assets/products/C5908101_GREEN.jpg"
     },
@@ -5136,7 +5141,7 @@
       "color": "BLACK",
       "title": "The Coat",
       "size": "36, 38, 40, 42",
-      "price": "156.0",
+      "price": "128.0",
       "category": "OUTFIT",
       "image": "assets/products/C5909101_BLACK.jpg"
     },
@@ -5146,7 +5151,7 @@
       "color": "BROWN",
       "title": "The Coat",
       "size": "36, 38, 40, 42",
-      "price": "156.0",
+      "price": "128.0",
       "category": "OUTFIT",
       "image": "assets/products/C5909101_BROWN.jpg"
     },
@@ -5156,7 +5161,7 @@
       "color": "MINK",
       "title": "The Coat",
       "size": "36, 38, 40, 42",
-      "price": "156.0",
+      "price": "128.0",
       "category": "OUTFIT",
       "image": "assets/products/C5909101_MINK.jpg"
     },
@@ -5166,7 +5171,7 @@
       "color": "BLACK",
       "title": "The Coat",
       "size": "36, 38, 40, 42",
-      "price": "157.0",
+      "price": "129.0",
       "category": "OUTFIT",
       "image": "assets/products/C5910101_BLACK.jpg"
     },
@@ -5176,7 +5181,7 @@
       "color": "BROWN",
       "title": "The Coat",
       "size": "36, 38, 40, 42",
-      "price": "157.0",
+      "price": "129.0",
       "category": "OUTFIT",
       "image": "assets/products/C5910101_BROWN.jpg"
     },
@@ -5186,7 +5191,7 @@
       "color": "NAVY_BLUEjpg",
       "title": "The Coat",
       "size": "36, 38, 40, 42",
-      "price": "157.0",
+      "price": "129.0",
       "category": "OUTFIT",
       "image": "assets/products/C5910101_NAVY_BLUEjpg.jpg"
     },
@@ -5196,7 +5201,7 @@
       "color": "BLACK",
       "title": "The Coat",
       "size": "36, 38, 40",
-      "price": "157.0",
+      "price": "129.0",
       "category": "OUTFIT",
       "image": "assets/products/C5911101_BLACK.jpg"
     },
@@ -5206,7 +5211,7 @@
       "color": "BROWN",
       "title": "The Coat",
       "size": "36, 38, 40",
-      "price": "157.0",
+      "price": "129.0",
       "category": "OUTFIT",
       "image": "assets/products/C5911101_BROWN.jpg"
     },
@@ -5216,7 +5221,7 @@
       "color": "MINK",
       "title": "The Coat",
       "size": "36, 38, 40",
-      "price": "157.0",
+      "price": "129.0",
       "category": "OUTFIT",
       "image": "assets/products/C5911101_MINK.jpg"
     },
@@ -5226,7 +5231,7 @@
       "color": "NAVY_BLUE",
       "title": "The Coat",
       "size": "36, 38, 40",
-      "price": "157.0",
+      "price": "129.0",
       "category": "OUTFIT",
       "image": "assets/products/C5911101_NAVY_BLUE.jpg"
     },
@@ -5236,7 +5241,7 @@
       "color": "BLACK",
       "title": "The Coat",
       "size": "36, 38, 40, 42",
-      "price": "155.0",
+      "price": "128.0",
       "category": "OUTFIT",
       "image": "assets/products/C5912101_BLACK.jpg"
     },
@@ -5246,7 +5251,7 @@
       "color": "BROWN",
       "title": "The Coat",
       "size": "36, 38, 40, 42",
-      "price": "155.0",
+      "price": "128.0",
       "category": "OUTFIT",
       "image": "assets/products/C5912101_BROWN.jpg"
     },
@@ -5256,7 +5261,7 @@
       "color": "MINK",
       "title": "The Coat",
       "size": "36, 38, 40, 42",
-      "price": "155.0",
+      "price": "128.0",
       "category": "OUTFIT",
       "image": "assets/products/C5912101_MINK.jpg"
     },
@@ -5266,7 +5271,7 @@
       "color": "ANTHRACITE",
       "title": "The Coat",
       "size": "36, 38, 40, 42",
-      "price": "149.0",
+      "price": "132.0",
       "category": "OUTFIT",
       "image": "assets/products/C5913101_ANTHRACITE.jpg"
     },
@@ -5276,7 +5281,7 @@
       "color": "BLACK",
       "title": "The Coat",
       "size": "36, 38, 40, 42",
-      "price": "149.0",
+      "price": "132.0",
       "category": "OUTFIT",
       "image": "assets/products/C5913101_BLACK.jpg"
     },
@@ -5286,7 +5291,7 @@
       "color": "BROWN",
       "title": "The Coat",
       "size": "36, 38, 40, 42",
-      "price": "149.0",
+      "price": "132.0",
       "category": "OUTFIT",
       "image": "assets/products/C5913101_BROWN.jpg"
     },
@@ -5316,7 +5321,7 @@
       "color": "BLACK",
       "title": "The Coat",
       "size": "34",
-      "price": "157.0",
+      "price": "125.0",
       "category": "OUTFIT",
       "image": "assets/products/C5918101_BLACK.jpg"
     },
@@ -5326,7 +5331,7 @@
       "color": "BROWN",
       "title": "The Coat",
       "size": "34",
-      "price": "157.0",
+      "price": "125.0",
       "category": "OUTFIT",
       "image": "assets/products/C5918101_BROWN.jpg"
     },
@@ -5336,7 +5341,7 @@
       "color": "MINK",
       "title": "The Coat",
       "size": "34",
-      "price": "157.0",
+      "price": "125.0",
       "category": "OUTFIT",
       "image": "assets/products/C5918101_MINK.jpg"
     },
@@ -5346,7 +5351,7 @@
       "color": "NAVYBLUE",
       "title": "The Coat",
       "size": "34",
-      "price": "157.0",
+      "price": "125.0",
       "category": "OUTFIT",
       "image": "assets/products/C5918101_NAVYBLUE.jpg"
     },
