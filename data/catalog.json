@@ -2053,76 +2053,6 @@
       "image": "assets/products/CO00382101_PINK.jpg"
     },
     {
-      "id": "CO00383101_BEIGE",
-      "code": "CO00383101",
-      "color": "BEIGE",
-      "title": "The Knitwear Suit",
-      "size": "S, M, L, XL",
-      "price": "72.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/CO00383101_BEIGE.jpg"
-    },
-    {
-      "id": "CO00383101_BLACK",
-      "code": "CO00383101",
-      "color": "BLACK",
-      "title": "The Knitwear Suit",
-      "size": "S, M, L, XL",
-      "price": "72.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/CO00383101_BLACK.jpg"
-    },
-    {
-      "id": "CO00383101_BROWN",
-      "code": "CO00383101",
-      "color": "BROWN",
-      "title": "The Knitwear Suit",
-      "size": "S, M, L, XL",
-      "price": "72.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/CO00383101_BROWN.jpg"
-    },
-    {
-      "id": "CO00383101_ECRU",
-      "code": "CO00383101",
-      "color": "ECRU",
-      "title": "The Knitwear Suit",
-      "size": "S, M, L, XL",
-      "price": "72.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/CO00383101_ECRU.jpg"
-    },
-    {
-      "id": "CO00383101_MINK",
-      "code": "CO00383101",
-      "color": "MINK",
-      "title": "The Knitwear Suit",
-      "size": "S, M, L, XL",
-      "price": "72.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/CO00383101_MINK.jpg"
-    },
-    {
-      "id": "CO00383101_NAVY_BLUE",
-      "code": "CO00383101",
-      "color": "NAVY_BLUE",
-      "title": "The Knitwear Suit",
-      "size": "S, M, L, XL",
-      "price": "72.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/CO00383101_NAVY_BLUE.jpg"
-    },
-    {
-      "id": "CO00383101_PINK",
-      "code": "CO00383101",
-      "color": "PINK",
-      "title": "The Knitwear Suit",
-      "size": "S, M, L, XL",
-      "price": "72.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/CO00383101_PINK.jpg"
-    },
-    {
       "id": "CO00386101_BLACK",
       "code": "CO00386101",
       "color": "BLACK",
@@ -2214,16 +2144,6 @@
       "image": "assets/products/CO00390101_BLACK.jpg"
     },
     {
-      "id": "CO00393101_BLUE",
-      "code": "CO00393101",
-      "color": "BLUE",
-      "title": "The Knit Wear",
-      "size": "S, M, L",
-      "price": "49.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/CO00393101_BLUE.jpg"
-    },
-    {
       "id": "CO00393101_BURGUNDY_GRAY",
       "code": "CO00393101",
       "color": "BURGUNDY_GRAY",
@@ -2232,26 +2152,6 @@
       "price": "49.0",
       "category": "KNITWEAR",
       "image": "assets/products/CO00393101_BURGUNDY_GRAY.jpg"
-    },
-    {
-      "id": "CO00393101_NAVY_BLUE",
-      "code": "CO00393101",
-      "color": "NAVY_BLUE",
-      "title": "The Knit Wear",
-      "size": "S, M, L",
-      "price": "49.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/CO00393101_NAVY_BLUE.jpg"
-    },
-    {
-      "id": "CO00393101_RED",
-      "code": "CO00393101",
-      "color": "RED",
-      "title": "The Knit Wear",
-      "size": "S, M, L",
-      "price": "49.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/CO00393101_RED.jpg"
     },
     {
       "id": "CO00396101_BLACK",
@@ -2314,16 +2214,6 @@
       "image": "assets/products/CO00403101_BLACK.jpg"
     },
     {
-      "id": "CO00403101_BROWN",
-      "code": "CO00403101",
-      "color": "BROWN",
-      "title": "The Knit Wear",
-      "size": "S, M, L, XL",
-      "price": "52.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/CO00403101_BROWN.jpg"
-    },
-    {
       "id": "CO00403101_ECRU",
       "code": "CO00403101",
       "color": "ECRU",
@@ -2372,36 +2262,6 @@
       "price": "47.0",
       "category": "KNITWEAR",
       "image": "assets/products/CO00404101_NAVYBLUE.jpg"
-    },
-    {
-      "id": "CO00405101_BROWN",
-      "code": "CO00405101",
-      "color": "BROWN",
-      "title": "The Knit Wear",
-      "size": "S, M, L, XL",
-      "price": "79.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/CO00405101_BROWN.jpg"
-    },
-    {
-      "id": "CO00405101_ECRU",
-      "code": "CO00405101",
-      "color": "ECRU",
-      "title": "The Knit Wear",
-      "size": "S, M, L, XL",
-      "price": "79.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/CO00405101_ECRU.jpg"
-    },
-    {
-      "id": "CO00405101_PINK",
-      "code": "CO00405101",
-      "color": "PINK",
-      "title": "The Knit Wear",
-      "size": "S, M, L, XL",
-      "price": "79.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/CO00405101_PINK.jpg"
     },
     {
       "id": "CO00406101_BLACK",
@@ -2524,16 +2384,6 @@
       "image": "assets/products/CO00414101_PINK.jpg"
     },
     {
-      "id": "CO00416101_BBLUE",
-      "code": "CO00416101",
-      "color": "BBLUE",
-      "title": "The Knit Wear",
-      "size": "S, M, L, XL",
-      "price": "39.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/CO00416101_BBLUE.jpg"
-    },
-    {
       "id": "CO00416101_BLACK",
       "code": "CO00416101",
       "color": "BLACK",
@@ -2542,16 +2392,6 @@
       "price": "39.0",
       "category": "KNITWEAR",
       "image": "assets/products/CO00416101_BLACK.jpg"
-    },
-    {
-      "id": "CO00416101_BROWN",
-      "code": "CO00416101",
-      "color": "BROWN",
-      "title": "The Knit Wear",
-      "size": "S, M, L, XL",
-      "price": "39.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/CO00416101_BROWN.jpg"
     },
     {
       "id": "CO00416101_ECRU",
@@ -2572,26 +2412,6 @@
       "price": "39.0",
       "category": "KNITWEAR",
       "image": "assets/products/CO00416101_PINK.jpg"
-    },
-    {
-      "id": "CO00416101_RED",
-      "code": "CO00416101",
-      "color": "RED",
-      "title": "The Knit Wear",
-      "size": "S, M, L, XL",
-      "price": "39.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/CO00416101_RED.jpg"
-    },
-    {
-      "id": "CO00417101_BROWN",
-      "code": "CO00417101",
-      "color": "BROWN",
-      "title": "The Knit Wear",
-      "size": "S, M, L, XL",
-      "price": "68.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/CO00417101_BROWN.jpg"
     },
     {
       "id": "CO00421101_BLACK",
@@ -2816,16 +2636,6 @@
       "price": "77",
       "category": "KNITWEAR",
       "image": "assets/products/CTK00425101_NAVY_BLUE.jpg"
-    },
-    {
-      "id": "DO00659101_BLACK",
-      "code": "DO00659101",
-      "color": "BLACK",
-      "title": "The Knit Wear",
-      "size": "S, M, L, XL",
-      "price": "48.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/DO00659101_BLACK.jpg"
     },
     {
       "id": "A1531101_WHITE",
