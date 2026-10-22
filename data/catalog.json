@@ -2144,16 +2144,6 @@
       "image": "assets/products/CO00390101_BLACK.jpg"
     },
     {
-      "id": "CO00393101_BURGUNDY_GRAY",
-      "code": "CO00393101",
-      "color": "BURGUNDY_GRAY",
-      "title": "The Knit Wear",
-      "size": "S, M, L",
-      "price": "49.0",
-      "category": "KNITWEAR",
-      "image": "assets/products/CO00393101_BURGUNDY_GRAY.jpg"
-    },
-    {
       "id": "CO00396101_BLACK",
       "code": "CO00396101",
       "color": "BLACK",
