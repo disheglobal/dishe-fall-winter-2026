@@ -2,6 +2,12 @@
 html,body,#app{margin:0;width:100%;height:100%;background:#050505;color:#fff;font-family:'Times New Roman',serif;overflow:hidden;-webkit-text-size-adjust:100%;text-size-adjust:100%}
 button{font-family:inherit}
 .loading,.empty{height:100%;display:grid;place-items:center;letter-spacing:.25em}
+.reversible-button{position:absolute;left:1.05%;top:4.12%;z-index:8;width:max(7.1%,44px);border:0;border-radius:8px;background:rgba(255,255,255,.96);padding:3px;cursor:pointer;display:flex;flex-direction:column;align-items:center;line-height:1.2;color:#292929;font:600 clamp(9px,2vw,14px) Arial,sans-serif;touch-action:manipulation}
+.product-stage .reversible-button img{width:100%;height:auto;aspect-ratio:1;object-fit:contain;animation:reversible-turn 4s ease-in-out infinite}
+.reversible-button:focus-visible{outline:2px solid #c8102e;outline-offset:3px}
+.reversible-button:disabled{opacity:.7;cursor:wait}
+@keyframes reversible-turn{0%,25%{transform:rotate(0)}75%,100%{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){.product-stage .reversible-button img{animation:none}}
 .screen{width:100%;height:100%;position:relative}
 .home{display:grid;place-items:center;background:#050505}
 .menu-stage,.product-stage{position:relative;display:block;height:min(100dvh,177.7778vw);aspect-ratio:9/16;line-height:0;overflow:hidden}

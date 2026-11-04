@@ -14,7 +14,7 @@ let MENU_ITEMS=[
   ['SHIRT','SHIRT','РУБАШКИ'],
   ['SKIRT','SKIRT','ЮБКИ'],
   ['SUIT','SUIT','КОМПЛЕКТЫ'],
-  ['LEATHER','LEATHER','КОЖА'],
+  ['LEATHER','LEATHER & FUR','КОЖА И МЕХ'],
   ['OUTFIT','OUTFIT','ВЕРХНЯЯ ОДЕЖДА'],
   ['BAG','BAG','СУМКИ/АКСЕССУАРЫ']
 ];
@@ -22,7 +22,7 @@ let MENU_ITEMS=[
 MENU_ITEMS=[
   ['SUIT','Suits','Костюмы'],['VEST','Vests','Жилетки'],['SHIRT','Shirts','Рубашки'],
   ['PANTS','Jeans','Джинсы'],['JACKET','Jackets','Жакеты'],['SKIRT','Skirts','Юбки'],
-  ['OUTFIT','Outerwear','Верхняя одежда'],['LEATHER','Leather','Кожа'],['KNITWEAR','Knitwear','Трикотаж'],
+  ['OUTFIT','Outerwear','Верхняя одежда'],['LEATHER','Leather & Fur','Кожа и мех'],['KNITWEAR','Knitwear','Трикотаж'],
   ['BAG','Bags','Сумки и аксессуары'],['BIG_SIZE','Plus Size','Большие размеры'],['DRESS','Dresses','Платья']
 ];
 
@@ -66,7 +66,15 @@ const bindCategoryTiles=(scope=document)=>scope.querySelectorAll('.category-tile
 const bindCapsuleTiles=(scope=document)=>scope.querySelectorAll('.capsule-tile').forEach(b=>b.addEventListener('click',e=>{e.preventDefault();openCapsule(b.dataset.capsule)}));
 
 Promise.all([fetch('data/catalog.json',{cache:'no-store'}).then(r=>r.json()),fetch('data/capsules.json',{cache:'no-store'}).then(r=>r.json())])
-  .then(([catalog,capsules])=>{db=catalog;capsuleDb=capsules;home()})
+  .then(([catalog,capsules])=>{
+    db=catalog;capsuleDb=capsules;
+    if(location.pathname.endsWith('/leather-fur.html')){
+      db={...catalog,products:catalog.products.filter(p=>p.category==='LEATHER')};
+      capsuleDb={};MENU_ITEMS=MENU_ITEMS.filter(([key])=>key==='LEATHER');
+      document.title='D.SHE — Leather & Fur / Кожа и мех';
+    }
+    home();
+  })
   .catch(()=>app.innerHTML='<div class="empty">CATALOG ERROR</div>');
 
 const exists=src=>new Promise(ok=>{
@@ -88,6 +96,10 @@ async function legacyHome(){
 }
 
 async function home(){
+  if(location.pathname.endsWith('/leather-fur.html')){
+    if(db.products.length){await openCategory('LEATHER');return;}
+    app.innerHTML='<div class="empty">Leather &amp; Fur / Кожа и мех<br>Скоро новые модели</div>';return;
+  }
   app.innerHTML=`<section class="screen home">${categoryMenuMarkup()}</section>`;
   bindCategoryTiles();
   bindCapsuleTiles();
