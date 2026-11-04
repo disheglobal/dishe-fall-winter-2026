@@ -31,6 +31,11 @@ const telegramIcon=()=>`<span class="telegram-icon" aria-hidden="true"><svg view
 
 const menuButton=(key,en,ru)=>`<button class="lux-button menu-category" data-c="${key}" aria-label="${en}"><span class="lux-copy"><span class="lux-en">${en}</span><span class="lux-ru">${ru}</span></span>${clickIcon()}</button>`;
 const categoriesButton=()=>`<button class="lux-button categories-button" aria-label="Categories"><span class="lux-copy"><span class="lux-en">Categories</span></span>${clickIcon()}</button>`;
+// Two views of one stock item, without duplicating its identity in catalog.json.
+const productSlides=(products,lazy=true)=>products.flatMap(product=>{
+  const sides=product.reversible&&product.reverse_image?[product.image,product.reverse_image]:[product.image];
+  return sides.map((image,side)=>`<article class="slide product-slide"><div class="product-stage" data-model="${product.id}" data-initial-side="${side}"><img ${lazy?'data-src':'src'}="${image}?v=${ASSET_VERSION}" alt="${product.title||product.code}" ${lazy?'loading="lazy" ':''}decoding="async">${categoriesButton()}</div></article>`);
+});
 
 const CATEGORY_ICONS={
   BIG_SIZE:'<path d="M28 17h24l11 17-10 11-4-7v46H31V38l-4 7-10-11 11-17ZM40 17v67"/>',
@@ -144,7 +149,7 @@ function openProductSearch(){
 }
 
 function openSearchResults(code,products){
-  app.innerHTML=`<section class="screen viewer search-viewer"><div class="search-results-label"><button type="button" aria-label="Back to categories">←</button><span>${code} · ${products.length} ${products.length===1?'colour':'colours'}</span></div><div class="slides">${products.map(product=>`<article class="slide product-slide"><div class="product-stage"><img src="${product.image}?v=${ASSET_VERSION}" alt="${product.title||product.code}" decoding="async">${categoriesButton()}</div></article>`).join('')}</div></section>`;
+  app.innerHTML=`<section class="screen viewer search-viewer"><div class="search-results-label"><button type="button" aria-label="Back to categories">←</button><span>${code} · ${products.length} ${products.length===1?'colour':'colours'}</span></div><div class="slides">${productSlides(products,false).join('')}</div></section>`;
   document.querySelector('.search-results-label button').addEventListener('click',home);
   document.querySelectorAll('.categories-button').forEach(button=>button.addEventListener('click',event=>{event.preventDefault();event.stopPropagation();home()}));
 }
@@ -175,7 +180,7 @@ async function openCategory(cat){
     }else if(!products.length){
       return;
     }else{
-      selectedSlides.push(...products.map(p=>`<article class="slide product-slide"><div class="product-stage"><img data-src="${p.image}?v=${ASSET_VERSION}" alt="${p.title||p.code}" loading="lazy" decoding="async">${categoriesButton()}</div></article>`));
+      selectedSlides.push(...productSlides(products));
     }
     const nextItem=categorySequence[sequenceIndex+1];
     const nextLabel=nextItem?nextItem[1]:'Contact us';

@@ -6,14 +6,15 @@
       const photo=stage.querySelector('img');
       if(!photo)return;
       const source=(photo.getAttribute('src')||photo.dataset.src||'').split('?')[0];
-      const product=db.products.find(p=>p.reversible&&p.reverse_image&&p.image===source);
+      const product=db.products.find(p=>p.reversible&&p.reverse_image&&
+        (stage.dataset.model?p.id===stage.dataset.model:(p.image===source||p.reverse_image===source)));
       if(!product)return;
       const button=document.createElement('button');
       button.type='button';button.className='reversible-button';
-      button.setAttribute('aria-label','Показать другую сторону');
-      button.setAttribute('aria-pressed','false');
-      button.innerHTML='<img src="assets/reversible-arrows.png" alt=""><span>Нажми</span>';
-      let reverse=false;
+      let reverse=stage.dataset.initialSide==='1'||source===product.reverse_image;
+      button.setAttribute('aria-label','Переверни / Flip');
+      button.setAttribute('aria-pressed',String(reverse));
+      button.innerHTML='<img src="assets/reversible-arrows.png" alt=""><span>Переверни</span><span>Flip</span>';
       button.addEventListener('click',event=>{
         event.preventDefault();event.stopPropagation();
         if(button.disabled)return;
@@ -26,7 +27,7 @@
           if(photo.decode)await photo.decode().catch(()=>{});
           reverse=next;button.disabled=false;
           button.setAttribute('aria-pressed',String(reverse));
-          button.setAttribute('aria-label',reverse?'Показать первую сторону':'Показать другую сторону');
+          button.setAttribute('aria-label','Переверни / Flip');
         };
         preload.onerror=()=>{button.disabled=false;button.setAttribute('aria-label','Не удалось загрузить. Нажмите ещё раз');};
         preload.src=target;
